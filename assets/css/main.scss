@@ -1,0 +1,217 @@
+---
+---
+/*
+ * Bronystate 3.0 - Main Styles
+ * Shizuka Kamishima - 2015-11-14
+ */
+ 
+@import 'globalstyles';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+body {
+  color: $color-text;
+  font-family: $font-body;
+  font-size: small;
+  background-color: $color-bk-body;
+  background-image: url("/assets/img/100-75-5-monochrome.png");
+}
+
+#wrapper {
+  //sets the master gutter width
+  width: 1280px;
+  margin: 16px auto;
+  background-color: $color-bk-content;
+}
+
+header {
+  background-color: $color-bk-header;
+  padding: 16px;
+  text-align: center;
+  
+  h1 {
+    font-family: $font-title;
+    font-size: $size-title;
+    color: $color-title;
+    line-height: $lineheight-hx;
+    margin-bottom: 0.25em;
+  }
+  
+  nav {
+    line-height: $lineheight-text-nav;
+    font-weight: bold;
+    color: $color-text;
+    font-size: $size-text-nav;
+    
+    ul {
+      padding-bottom: 0;
+      display: inline-block;
+    }
+    
+    li {
+      margin: 0;
+      padding: 0 0.25em 0.25em 0;
+      list-style-type: none;
+      list-style-position: outside;
+      float: left;
+      &:after {
+        content: " - ";
+      }
+      &:last-child:after {
+        content: "";
+      }
+      
+      a {
+        color: $color-text; //TODO
+        &:visited {
+          color: $color-text; //TODO
+        }
+        &.youarehere {
+          &:before {
+            content: "[";
+          }
+          &:after {
+            content: "]";
+          }
+        }
+      }
+    }
+  }
+}
+
+#contentwrapper {
+  padding: 2em;
+  
+  a > img {
+    border-color: $color-link;
+    &:hover {
+      border-style: dotted;
+    }
+  }
+}
+
+section {
+  margin-bottom: 1.5em;
+  &:before {
+    clear: both;
+  }
+}
+
+@import 'embedsection';
+
+hr {
+  border: 0;
+  border-bottom: $color-border solid 2px;
+  margin-bottom: 1em;
+}
+
+p {
+  line-height: $lineheight-text;
+  padding-bottom: 1em;
+}
+
+a {
+  display: inline-block;
+  color: $color-link;
+  text-decoration: none;
+  &:visited {
+    color: $color-link;
+  }
+  &:hover, &:active {
+    text-decoration: underline;
+  }
+  
+  //external links
+  &[href^="http://"], &[href^="https://"] {
+    &:after {
+      content: url('/assets/img/extlink.png');
+      margin: 0 0 0 3px;
+    }
+  }
+  //exempt our domain and specifically marked links
+  &[href*="//www.bronystate.net/"], &.noext {
+    &:after {
+      content: "";
+      margin: 0;
+    }
+  }
+}
+
+strong {
+  font-weight: bold;
+}
+
+ul,ol {
+  line-height: 1.75em;
+  padding-bottom: 1.5em;
+  padding-left: 1em;
+}
+
+h1 {
+  font-size: $size-h1;
+}
+
+h2 {
+  font-size: $size-h2;
+}
+
+h3 {
+  font-size: $size-h3;
+}
+
+h1,h2,h3 {
+  font-family: $font-headers;
+  line-height: $lineheight-hx;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+img {
+  padding: 1px;
+  border: 2px solid $color-border;
+  border-radius: 10px;
+  
+  &.noborder {
+    padding: 3px; //to keep spacing with bordered imgs
+    border: none;
+    border-radius: 0;
+  }
+}
+
+.floatleft {
+  float: left;
+  margin-right: 1em;
+}
+
+.floatright {
+  float: right;
+  margin-left: 1em;
+}
+
+.center {
+  text-align: center;
+}
+
+blockquote {
+  background-color: $color-bk-blockquote;
+  padding: 1em 1.25em 0;
+  margin-bottom: 1em;
+  font-size: 0.85em;
+  overflow-x: hidden; //hide background if this is floated with something
+}
+
+footer {
+  clear: both;
+  margin-top: -1em;
+  padding-top: 0.5em;
+  border-top: $color-border 2px solid;
+  font-size: smaller;
+  text-align: center;
+}

@@ -1,0 +1,33 @@
+# Bronystate 3.0
+# Shizuka Kamishima - 2015-11-14
+
+title: Bronystate
+url: ""
+baseurl: ""
+markdown: kramdown
+highlighter: pygments
+timezone: "America/New_York"
+
+exclude: ["*.bat","*.ini","Gemfile","Gemfile.lock","README.md"]
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+  smart_quotes: ["apos", "apos", "quot", "quot"]
+
+sass:
+  sass_dir: _sass
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "page"
+
+# -
+#   scope:
+#     path: "path/to/folder or file.html"
+#   values:
+#     layout: "name.html" of template
+#     var: "value"

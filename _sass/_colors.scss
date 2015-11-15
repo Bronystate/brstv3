@@ -1,0 +1,14 @@
+// Bronystate 3.0 - Color Scheme
+// Shizuka Kamishima - 2015-11-14
+
+/* BLOCKS */
+$color-bk-body: #612086;
+$color-bk-content: #dcaeee;
+$color-bk-header: darken($color-bk-content, 30%); //TODO
+$color-bk-blockquote: darken($color-bk-content, 80%); //TODO
+$color-border: $color-bk-body;
+
+/* WORDS */
+$color-text: #2b2922;
+$color-link: #09f;
+$color-title: $color-text; //TODO

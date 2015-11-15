@@ -1,0 +1,42 @@
+// Bronystate 3.0 - Global Styles
+// Shizuka Kamishima - 2015-11-14
+
+$font-default: Verdana, sans-serif; //more fallbacks!
+
+/*
+// from TVC5
+// dict of friendlyname: 'google fonts name'
+// fonts will be imported all at once at end of this partial
+$fonts: (
+  title: 'Iceland',
+  header: 'Economica',
+  code: 'Source Code Pro',
+);
+*/
+
+/* FONTS - TODO */
+$font-body: $font-default;
+$font-title: $font-default;
+$font-headers: $font-default;
+/*
+// from TVC5
+$title-font:  map-get($fonts, title),  $font-default;
+$header-font: map-get($fonts, header), $font-default;
+$code-font:   map-get($fonts, code),   monospace;
+*/
+
+/* TEXT SIZES - TODO */
+$size-title:          3em;
+$size-h1:             2em;
+$size-h2:             1.75em;
+$size-h3:             1.25em;
+$lineheight-hx:       1em;
+$size-text:           1em;
+$size-text-nav:       1.25em;
+$lineheight-text:     1.75em;
+$lineheight-text-nav: 1.5em;
+
+/* IMPORTS */
+@import 'colors';
+@import 'web-fonts';
+//@include web-fonts(map-values($fonts));
