@@ -27,6 +27,7 @@ body {
 #wrapper {
   //sets the master gutter width
   width: 1280px;
+  min-width: 1280px;
   margin: 16px auto;
   background-color: $color-bk-content;
 }
