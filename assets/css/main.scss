@@ -39,7 +39,7 @@ header {
   h1 {
     font-family: $font-title;
     font-size: $size-title;
-    color: $color-title;
+    color: $color-text-title;
     line-height: $lineheight-hx;
     margin-bottom: 0.25em;
   }
@@ -47,11 +47,11 @@ header {
   nav {
     line-height: $lineheight-text-nav;
     font-weight: bold;
-    color: $color-text;
+    color: $color-link-nav;
     font-size: $size-text-nav;
     
     ul {
-      padding-bottom: 0;
+      padding: 0;
       display: inline-block;
     }
     
@@ -69,9 +69,9 @@ header {
       }
       
       a {
-        color: $color-text; //TODO
+        color: $color-link-nav; //TODO
         &:visited {
-          color: $color-text; //TODO
+          color: $color-link-nav; //TODO
         }
         &.youarehere {
           &:before {
@@ -84,6 +84,21 @@ header {
       }
     }
   }
+}
+
+#timerbar {
+    background-color: $color-bk-timerbar;
+    padding: 1em;
+    margin: 0;
+    text-align: center;
+}
+
+#timertitle {
+  font-size: $size-h3;
+}
+
+#timerclock {
+  font-size: $size-h2;
 }
 
 #contentwrapper {
