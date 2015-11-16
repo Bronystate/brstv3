@@ -8,7 +8,7 @@ markdown: kramdown
 highlighter: pygments
 timezone: "America/New_York"
 
-exclude: ["*.bat","*.ini","Gemfile","Gemfile.lock","README.md"]
+exclude: ["vendor","*.bat","*.ini","Gemfile","Gemfile.lock","README.md"]
 
 kramdown:
   input: GFM

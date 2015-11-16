@@ -1,0 +1,16 @@
+language: ruby
+rvm:
+  -2.1
+
+branches:
+  only:
+  - master
+
+script: bundle exec jekyll build
+
+notifications:
+  irc:
+    channels:
+      - "irc.ponychat.net#cathedral"
+    template:
+      - "%{repository}#%{build_number} (%{branch} - %{commit} : %{author}): %{message}"
