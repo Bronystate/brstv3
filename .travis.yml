@@ -1,6 +1,6 @@
 language: ruby
 rvm:
-  - 2.1
+- 2.1
 
 branches:
   only:
@@ -11,6 +11,15 @@ script: bundle exec jekyll build
 notifications:
   irc:
     channels:
-      - "irc.ponychat.net#cathedral"
+    - irc.ponychat.net#cathedral
     template:
-      - "%{repository}#%{build_number} (%{branch} - %{commit} : %{author}): %{message}"
+    - '%{repository}#%{build_number} (%{commit} : %{author} : %{commit_subject}): %{message}'
+
+before_install:
+- openssl aes-256-cbc -K $encrypted_9a78d482b28c_key -iv $encrypted_9a78d482b28c_iv
+  -in .deploy-key.enc -out deploy-key -d
+
+after_success:
+- chmod 600 deploy-key
+- mv deploy-key ~/.ssh/id_rsa
+- rsync -avhi --delete _site/ bronystate@192.81.222.77:/var/www/bronystate.net/www/
