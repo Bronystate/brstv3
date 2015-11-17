@@ -15,6 +15,8 @@ notifications:
     template:
     - '%{repository}#%{build_number} (%{commit} : %{author} : %{commit_subject}): %{message}'
 
+before_script: echo -e "Host 192.81.222.77\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
+
 before_install:
 - openssl aes-256-cbc -K $encrypted_2c1f41e073c8_key -iv $encrypted_2c1f41e073c8_iv
   -in deploy-key.enc -out deploy-key -d
