@@ -120,10 +120,9 @@ section {
   }
 }
 
-//todo: import only if front page
 @import 'zone_embeds';
 @import 'zone_news';
-//todo: import alternate sidebar if not front page
+@import 'tooltips';
 
 hr {
   clear: both;

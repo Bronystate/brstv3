@@ -1,7 +1,7 @@
 // Bronystate 3.0 - Embed Boxes
 // Shizuka Kamishima - 2015-11-15
 
-$btn-padding: 8px 16px;
+$btn-padding: 8px;// 16px;
 
 #embedsection {
   margin: -1.75em -2em 1em -2em;
@@ -13,7 +13,7 @@ $btn-padding: 8px 16px;
   float: left;
 }
 
-#embedui {
+.embedui {
   text-align: left;
   padding: 1em;
 }
@@ -29,14 +29,19 @@ iframe {
 }
 
 .btn {
+  
+  font-size: normal;
+  
   position: relative;
-
+  
   display: inline-block;
   margin-right: 0.75em;
-  padding: 0;
-
+  padding: $btn-padding;
+  max-width: 38px;
+  
   overflow: hidden;
-
+  white-space: nowrap;
+  
   border-width: 0;
   outline: none;
   border-radius: 2px;
@@ -44,16 +49,33 @@ iframe {
   
   background-color: $color-btn-blue;
   color: $color-btn-text;
-  
-  transition: background-color .3s;
+  transition: background-color .2s ease-out 0s;
+  transition: color .2s ease-out 0s;
+  transition: max-width 2s ease-out 0s;
   
   &:hover, &:focus {
     background-color: lighten($color-btn-blue, 10%);
+    max-width: 100%;
+    
+    span.caption {
+      opacity: 1;
+    }
   }
   
-  span {
+  i {
+    padding: 0.5em;
     display: block;
-    padding: $btn-padding;
+    float: left;
+  }
+  
+  span.caption {
+    padding-top: 0.25em;
+    display: inline-block;
+    white-space: nowrap;
+    opacity: 0;
+    transition: background-color .2s ease-out 0s;
+    transition: color .2s ease-out 0s;
+    //transition: opacity .2s ease-out 0s;
   }
   
   & > * {
