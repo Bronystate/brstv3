@@ -1,5 +1,11 @@
-// Bronystate 3.0 - Global Styles
-// Shizuka Kamishima - 2015-11-14
+/*
+ * Bronystate 3.0 - Global Styles
+ * Shizuka Kamishima - 2015-11-14
+ */
+
+/* IMPORTS */
+@import 'colors';
+@import 'web-fonts';
 
 $font-default: Verdana, sans-serif; //more fallbacks!
 
@@ -36,7 +42,9 @@ $size-text-nav:       1.25em;
 $lineheight-text:     1.75em;
 $lineheight-text-nav: 1.5em;
 
-/* IMPORTS */
-@import 'colors';
-@import 'web-fonts';
+/* BORDERS */
+//color defined in _colors.scss
+$border: 2px solid $color-border;
+
+/* WEB FONT IMPORTS */
 //@include web-fonts(map-values($fonts));

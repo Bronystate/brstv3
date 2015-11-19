@@ -120,11 +120,14 @@ section {
   }
 }
 
-@import 'embedsection';
+//todo: import only if front page
+@import 'zone_embeds';
+@import 'zone_news';
+//todo: import alternate sidebar if not front page
 
 hr {
   border: 0;
-  border-bottom: $color-border solid 2px;
+  border-bottom: $border;
   margin-bottom: 1em;
 }
 
@@ -191,7 +194,7 @@ h1,h2,h3 {
 
 img {
   padding: 1px;
-  border: 2px solid $color-border;
+  border: $border;
   border-radius: 10px;
   
   &.noborder {
@@ -227,7 +230,7 @@ footer {
   clear: both;
   margin-top: -1em;
   padding-top: 0.5em;
-  border-top: $color-border 2px solid;
+  border-top: $border;
   font-size: smaller;
   text-align: center;
 }

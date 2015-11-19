@@ -1,0 +1,22 @@
+$width-sidebar: 320px;
+$bignum: 2048px;
+
+$boxcolor: royalblue;
+
+#zone_news {
+  width: 100%;
+}
+
+.article-wrap {
+  float: left;
+  width: 800px;
+  margin-bottom: 1.5em;
+}
+
+.sidebar {
+  width: $width-sidebar;
+  margin-top: 2em;
+  padding: 1em;
+  border-left: $border;
+  float: right;
+}
