@@ -4,15 +4,19 @@
 @import 'ponyschemes';
 
 /* BLOCKS */
-$color-bk-body: $color-luna-coat-dark;
-$color-bk-content: $color-luna-coat-main;
+$color-bk-body: $color-luna-coat-nmm;
+$color-bk-content: $color-luna-coat;
 $color-bk-header: $color-luna-magic;
 $color-bk-blockquote: darken($color-bk-content, 80%); //TODO
 $color-border: $color-bk-body;
-$color-bk-timerbar: mix($color-luna-coat-dark, $color-luna-magic);
+$color-bk-timerbar: mix($color-luna-coat-nmm, $color-luna-magic);
 
 /* WORDS */
 $color-text: #eeeeee;
-$color-text-title: $color-luna-coat-dark;
+$color-text-title: $color-luna-coat-nmm;
 $color-link: #09f;
 $color-link-nav: $color-text-title;
+
+/* BUTTONS */
+$color-btn-text: $color-text;
+$color-btn-blue: $color-luna-outline;

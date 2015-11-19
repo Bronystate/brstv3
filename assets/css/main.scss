@@ -126,9 +126,15 @@ section {
 //todo: import alternate sidebar if not front page
 
 hr {
+  clear: both;
   border: 0;
   border-bottom: $border;
   margin-bottom: 1em;
+}
+
+.vr {
+  border-left: $border;
+  padding-right: 1em;
 }
 
 p {

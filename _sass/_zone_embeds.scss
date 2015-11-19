@@ -1,13 +1,122 @@
 // Bronystate 3.0 - Embed Boxes
 // Shizuka Kamishima - 2015-11-15
 
+$btn-padding: 8px 16px;
+
 #embedsection {
   margin: -1.75em -2em 1em -2em;
   padding: 3px;
   text-align: center;
 }
 
+#streambox {
+  float: left;
+}
+
+#embedui {
+  text-align: left;
+  padding: 1em;
+}
+
+#chatbox {
+  float: right;
+  padding-bottom: 1em;
+}
+
 iframe {
   background-color: #999;
   margin: auto;
+}
+
+.btn {
+  position: relative;
+
+  display: inline-block;
+  margin-right: 0.75em;
+  padding: 0;
+
+  overflow: hidden;
+
+  border-width: 0;
+  outline: none;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+  
+  background-color: $color-btn-blue;
+  color: $color-btn-text;
+  
+  transition: background-color .3s;
+  
+  &:hover, &:focus {
+    background-color: lighten($color-btn-blue, 10%);
+  }
+  
+  span {
+    display: block;
+    padding: $btn-padding;
+  }
+  
+  & > * {
+    position: relative;
+  }
+  
+  &:before {
+    content: "";
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    display: block;
+    width: 0;
+    padding-top: 0;
+      
+    border-radius: 100%;
+    
+    background-color: rgba(236, 240, 241, .3);
+    
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  
+  &:active:before {
+    width: 120%;
+    padding-top: 120%;
+    
+    transition: width .2s ease-out, padding-top .2s ease-out;
+  }
+  
+  /* COLORS */
+  &.twi:hover, &.twi:focus {
+    background-color: $color-twi-coat;
+    color: $color-twi-outline;
+  }
+  
+  &.pinkie:hover, &.pinkie:focus {
+    background-color: $color-pinkie-coat;
+    color: $color-pinkie-outline;
+  }
+  
+  &.rarity:hover, &.rarity:focus {
+    background-color: $color-rarity-coat;
+    color: $color-rarity-outline;
+  }
+  
+  &.dash:hover, &.dash:focus {
+    background-color: $color-dash-coat;
+    color: $color-dash-outline;
+  }
+  
+  &.aj:hover, &.aj:focus {
+    background-color: $color-aj-coat;
+    color: $color-aj-outline;
+  }
+  
+  &.flutt:hover, &.flutt:focus {
+    background-color: $color-flutt-coat;
+    color: $color-flutt-outline;
+  }
 }
