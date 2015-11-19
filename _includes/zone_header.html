@@ -2,10 +2,10 @@
   <a href="/"><h1>[bronystate]</h1></a>
   <nav>
     <ul>
-      <li><a href='/about/'>about</a></li>
-      <li><a href='/news/'>news</a></li>
-      <li><a href='/help/'>help</a></li>
-      <li><a href='/rules/'>rules</a></li>
+      <li><a href='/about/'{% if page.yahAbt %}class='youarehere'{% endif %}>about</a></li>
+      <li><a href='/news/'{% if page.yahNews %}class='youarehere'{% endif %}>news</a></li>
+      <li><a href='/help/'{% if page.yahHelp %}class='youarehere'{% endif %}>help</a></li>
+      <li><a href='/rules/'{% if page.yahRules %}class='youarehere'{% endif %}>rules</a></li>
     </ul>
   </nav>
 </header>

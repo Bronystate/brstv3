@@ -1,8 +1,7 @@
 ---
 title: about
-layout: page
-yahAbt: true
 date: 2015-11-18
+yahAbt: true
 permalink: /about/
 ---
 
