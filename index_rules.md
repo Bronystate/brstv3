@@ -7,4 +7,6 @@ permalink: /rules/
 
 # Rules
 
-todo
+Bronystate enforces [PonyChat Network Rules](https://ponychat.net/network-rules/)
+
+
