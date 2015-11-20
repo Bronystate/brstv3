@@ -1,9 +1,9 @@
 // Bronystate 3.0 - Color Scheme
-// Shizuka Kamishima - 2015-11-14
+// Shizuka Kamishima - 2015-11-19
 
 @import 'ponyschemes';
 
-/* BLOCKS */
+// BLOCKS
 $color-bk-body: $color-luna-coat-nmm;
 $color-bk-content: $color-luna-coat;
 $color-bk-header: $color-luna-magic;
@@ -11,12 +11,12 @@ $color-bk-blockquote: darken($color-bk-content, 80%); //TODO
 $color-border: $color-bk-body;
 $color-bk-timerbar: mix($color-luna-coat-nmm, $color-luna-magic);
 
-/* WORDS */
+// WORDS
 $color-text: #eeeeee;
 $color-text-title: $color-luna-coat-nmm;
 $color-link: #09f;
 $color-link-nav: $color-text-title;
 
-/* BUTTONS */
+// BUTTONS
 $color-btn-text: $color-text;
 $color-btn-blue: $color-luna-outline;
