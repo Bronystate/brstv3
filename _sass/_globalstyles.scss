@@ -43,3 +43,11 @@ $border: 2px solid $color-border;
 
 // WEB FONT IMPORTS
 //@include web-fonts(map-values($fonts));
+
+// HELPER FUNCTIONS
+@mixin transition($transition...) {
+    -moz-transition:    $transition;
+    -o-transition:      $transition;
+    -webkit-transition: $transition;
+    transition:         $transition;
+}

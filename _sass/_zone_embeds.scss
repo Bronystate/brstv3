@@ -41,7 +41,7 @@ iframe {
   
   display: inline-block;
   margin-right: 0.75em;
-  max-width: 32px;
+  max-width: 0;
   height: 32px;
   padding-left: 32px;
   
@@ -53,31 +53,31 @@ iframe {
   border-radius: 2px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
   
-  transition: all .2s ease-out 0s;
-  transition: max-width 2s ease-out 0s;
+  background-color: $color-btn-blue;
+  color: $color-btn-text;
   
-  i {
-    padding: 0.5em;
-    display: block;
-    float: left;
-  }
+  @include transition(max-width 2s ease-out 0s, background-image 1s ease-out 0.5s, background-color 1s ease-out 0.5s, color 1s ease-out 0.5s);
   
-  img {
-    border: none;
-    margin: 0;
-    padding: 0 0.5em 0 0;
+  &:hover, &:focus {
+    background-color: lighten($color-btn-blue, 10%);
+    max-width: 100%;
+    @include transition(max-width 2s ease-out 0s, background-image .2s ease-out 0s, background-color .2s ease-out 0s, color .2s ease-out 0s);
+    
+    span.caption {
+      opacity: 1;
+      @include transition(opacity .5s ease-out 0s);
+    }
   }
   
   span.caption {
-    padding-right: 0.25em;
+    margin-top: 0.5em;
+    padding: 0 8px;
     display: inline-block;
     white-space: nowrap;
     font-size: 12px;
     font-weight: bold;
     opacity: 0;
-    transition: background-color .2s ease-out 0s;
-    transition: color .2s ease-out 0s;
-    transition: opacity .2s ease-out 0s;
+    @include transition(opacity .5s ease-out 0.5s);
   }
   
   & > * {
@@ -115,81 +115,72 @@ iframe {
   
   // ICON BUTTONS WITH DEFAULT STYLE
   &.refresh {
-    background: url('/assets/img/refresh.png') 0 0 no-repeat;
+    background: $color-btn-blue url('/assets/img/refresh.png') 0 0 no-repeat;
+    color: $color-text;
+    &:hover, &:focus {
+      background: lighten($color-btn-blue, 10%) url('/assets/img/refresh.png') 0 0 no-repeat;
+    }
   }
   
   &.popout {
-    background: url('/assets/img/popout.png') 0 0 no-repeat;
+    background: $color-btn-blue url('/assets/img/popout.png') 0 0 no-repeat;
+    &:hover, &:focus {
+      background: lighten($color-btn-blue, 10%) url('/assets/img/refresh.png') 0 0 no-repeat;
+    }
   }
   
   &.chatbox {
-    background: url('/assets/img/chatbox.png') 0 0 no-repeat;
-  }
-  
-  // DEFAULT BUTTON STYLE
-  background-color: $color-btn-blue;
-  color: $color-btn-text;
-  
-  &:hover, &:focus {
-    background-color: lighten($color-btn-blue, 10%);
-    max-width: 100%;
-    
-    span.caption {
-      opacity: 1;
+    background: $color-btn-blue url('/assets/img/chatbox.png') 0 0 no-repeat;
+    &:hover, &:focus {
+      background: lighten($color-btn-blue, 10%) url('/assets/img/refresh.png') 0 0 no-repeat;
     }
   }
   
   // ICON BUTTONS WITH COLOR OVERRIDE
   &.twi {
-    background: url('/assets/img/twilight.png') 0 0 no-repeat;
+    background: $color-btn-blue url('/assets/img/twilight.png') 0 0 no-repeat;
     &:hover, &:focus {
-      background: url('/assets/img/twilight-hover.png') 0 0 no-repeat;
-      background-color: $color-twi-coat;
+      background: $color-twi-coat url('/assets/img/twilight-hover.png') 0 0 no-repeat;
       color: darken($color-twi-outline, 10%);
     }
   }
   
   &.pinkie {
-    background: url('/assets/img/pinkie.png') 0 0 no-repeat;
+    background: $color-btn-blue url('/assets/img/pinkie.png') 0 0 no-repeat;
     &:hover, &:focus {
-      background: url('/assets/img/pinkie-hover.png') 0 0 no-repeat;
-      background-color: $color-pinkie-coat;
+      background: $color-pinkie-coat url('/assets/img/pinkie-hover.png') 0 0 no-repeat;
       color: darken($color-pinkie-outline, 20%);
     }
   }
   
   &.rarity {
-    background: url('/assets/img/rarity.png') 0 0 no-repeat;
+    background: $color-btn-blue url('/assets/img/rarity.png') 0 0 no-repeat;
     &:hover, &:focus {
-      background: url('/assets/img/rarity-hover.png') 0 0 no-repeat;
-      background-color: $color-rarity-coat;
+      background: $color-rarity-coat url('/assets/img/rarity-hover.png') 0 0 no-repeat;
       color: darken($color-rarity-outline, 10%);
     }
   }
   
   &.dash {
-    background: url('/assets/img/dash.png') 0 0 no-repeat;
+    background: $color-btn-blue url('/assets/img/dash.png') 0 0 no-repeat;
     &:hover, &:focus {
-      background: url('/assets/img/dash-hover.png') 0 0 no-repeat;
-      background-color: $color-dash-coat;
+      background: $color-dash-coat url('/assets/img/dash-hover.png') 0 0 no-repeat;
       color: darken($color-dash-outline, 10%);
     }
   }
   
   &.aj {
-    background: url('/assets/img/applejack.png') 0 0 no-repeat;
+    background: $color-btn-blue url('/assets/img/applejack.png') 0 0 no-repeat;
     &:hover, &:focus {
-      background: url('/assets/img/applejack-hover.png') 0 0 no-repeat;
-      background-color: $color-aj-coat;
+      background: $color-aj-coat url('/assets/img/applejack-hover.png') 0 0 no-repeat;
       color: darken($color-aj-outline, 10%);
     }
   }
   
   &.flutt {
-    background: url('/assets/img/fluttershy.png') 0 0 no-repeat;
+    background: $color-btn-blue url('/assets/img/fluttershy.png') 0 0 no-repeat;
     &:hover, &:focus {
-      background: url('/assets/img/fluttershy-hover.png') 0 0 no-repeat;
-      background-color: $color-flutt-coat;
+      background: $color-flutt-coat url('/assets/img/fluttershy-hover.png') 0 0 no-repeat;
       color: darken($color-flutt-outline, 25%);
     }
   }

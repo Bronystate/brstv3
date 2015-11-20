@@ -1,21 +1,21 @@
 <section id='embedsection'>
   <div id="streambox">
-    <iframe id="if_stream" width="640" height="392" frameborder="0" style="border:0;outline:0" scrolling="no" src="http://www.ustream.tv/embed/16227134?html5ui"></iframe>
+    <iframe id="if_stream" name="if_stream" width="640" height="392" frameborder="0" style="border:0;outline:0" scrolling="no" src="http://www.ustream.tv/embed/16227134?html5ui"></iframe>
     <div class="embedui">
-      <button class="btn refresh" type="button" onclick="refresh()"><span class="caption">Refresh Stream</span></button>
-      <button class="btn popout" type="button" onclick="popoutStream()"><span class="caption">Popout Stream</span></button>
-      <button class="btn chatbox" type="button"><span class="caption">Show/Hide Chat</span></button>
+      <a class="btn refresh noext" href="http://www.ustream.tv/embed/16227134?html5ui" target="if_stream"><span class="caption">Refresh Stream</span></a>
+      <a class="btn popout" onclick="javascript:popoutStream()"><span class="caption">Popout Stream</span></a>
+      <a class="btn chatbox" type="button"><span class="caption">Show/Hide Chat</span></a>
     </div>
   </div>
   <div id="chatbox">
-    <iframe id="if_chat" width="620" height="392" frameborder="0" style="border:0;outline:0" scrolling="no" src="/onboard.html"></iframe>
+    <iframe id="if_chat" name="if_chat" width="620" height="392" frameborder="0" style="border:0;outline:0" scrolling="no" src="/onboard.html"></iframe>
     <div class="embedui" style="text-align: right">
-      <button class="btn twi" type="button" onclick='setChatBox("twilight-sparkle")'><span class="caption">#twilight-sparkle</span></button>
-      <button class="btn pinkie" type="button" onclick='setChatBox("pinkie-pie")'><span class="caption">#pinkie-pie</span></button>
-      <button class="btn dash" type="button" onclick='setChatBox("rainbow-dash")'><span class="caption">#rainbow-dash</span></button>
-      <button class="btn flutt" type="button" onclick='setChatBox("fluttershy")'><span class="caption">#fluttershy</span></button>
-      <button class="btn aj" type="button" onclick='setChatBox("applejack")'><span class="caption">#applejack</span></button>
-      <button class="btn rarity" type="button" onclick='setChatBox("rarity")'><span class="caption">#rarity</span></button>
+      <a class="btn twi" href="/iris/?channels=bronystate,twilight-sparkle" target="if_chat"><span class="caption">#twilight-sparkle</span></a>
+      <a class="btn pinkie" href="/iris/?channels=bronystate,pinkie-pie" target="if_chat"><span class="caption">#pinkie-pie</span></a>
+      <a class="btn dash" href="/iris/?channels=bronystate,rainbow-dash" target="if_chat"><span class="caption">#rainbow-dash</span></a>
+      <a class="btn flutt" href="/iris/?channels=bronystate,fluttershy" target="if_chat"><span class="caption">#fluttershy</span></a>
+      <a class="btn aj" href="/iris/?channels=bronystate,applejack" target="if_chat"><span class="caption">#applejack</span></a>
+      <a class="btn rarity" href="/iris/?channels=bronystate,rarity" target="if_chat"><span class="caption">#rarity</span></a>
     </div>
   </div>
 </section>
@@ -24,19 +24,9 @@
   var chatbox = document.getElementById('chatbox');
   var if_stream = document.getElementById('if_stream');
   var if_chat = document.getElementById('if_chat');
-  var popped = false;
-  function refresh() {
-    if_stream.src = if_stream.src; //TODO replace this with direct reference from preprocessor
-    if_stream.contentWindow.location.reload(true);
-  }
-  
+  if_chat.src = "/onboard.html";  
   function popoutStream() {
     window.open(if_stream.src, "streamout", "location=0,resizable=1,status=0,toolbar=0,menubar=0,directories=0,scrollbars=0,width=720,height=480");
     if_stream.src = "";
-  }
-  
-  function setChatBox(channel) {
-    if_chat.src = "/iris/?channels=bronystate," + channel;
-    if_chat.contentWindow.location.reload(true);
   }
 </script>
