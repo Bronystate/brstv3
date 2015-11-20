@@ -1,0 +1,58 @@
+---
+---
+/*
+ * Bronystate 3.0 - Onboarding Page
+ * Shizuka Kamishima - 2015-11-20
+ */
+
+@import 'globalstyles';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow: hidden;
+  //border: 1px red solid;
+  color: $color-text;
+  background-color: $color-luna-coat-nmm;
+  font-family: $font-default;
+  font-size: normal;
+  
+  width: 618;
+  height: 390;
+  //margin-bottom: 50px;
+}
+
+.finger {
+  animation: bounce 3s infinite cubic-bezier(.46,.03,.52,.96);
+}
+
+@keyframes bounce {
+ 0%, 100% {transform: translateY(2px);}
+ 50% {transform: translateY(-8px);}
+}
+
+.foot {
+  //width: 480px;
+  //height: 50px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: darken($color-luna-coat-nmm, 2%);
+  padding: 1em 2em;
+}
+
+.onboardwrap {
+  padding: 2em;
+}
+
+h1 {
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+strong {
+  font-weight: bold;
+}
