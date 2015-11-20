@@ -14,7 +14,9 @@ $color-bk-timerbar: mix($color-luna-coat-nmm, $color-luna-magic);
 // WORDS
 $color-text: #eeeeee;
 $color-text-title: $color-luna-coat-nmm;
-$color-link: #09f;
+$color-link: $color-celestia-mane-green;
+$color-link-hover: $color-celestia-mane-pink;
+$color-link-active: $color-link;
 $color-link-nav: $color-text-title;
 
 // BUTTONS

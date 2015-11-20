@@ -15,7 +15,7 @@
 body {
   overflow: hidden;
   //border: 1px red solid;
-  color: $color-text;
+  color: $color-celestia-mane-paleblue;
   background-color: $color-luna-coat-nmm;
   font-family: $font-default;
   font-size: normal;
@@ -27,6 +27,7 @@ body {
 
 .finger {
   animation: bounce 3s infinite cubic-bezier(.46,.03,.52,.96);
+  color: $color-celestia-mane-pink;
 }
 
 @keyframes bounce {
@@ -35,12 +36,10 @@ body {
 }
 
 .foot {
-  //width: 480px;
-  //height: 50px;
   position: absolute;
   right: 0;
   bottom: 0;
-  background-color: darken($color-luna-coat-nmm, 2%);
+  color: $color-celestia-outline;
   padding: 1em 2em;
 }
 
@@ -55,4 +54,28 @@ h1 {
 
 strong {
   font-weight: bold;
+}
+
+a {
+  color: $color-link;
+  transition: color 0.2s cubic-bezier(.25,.46,.45,.94);
+  font-weight: bold;
+  text-decoration: none;
+  
+  &:visited {
+    color: $color-link;
+  }
+  
+  &:hover {
+    color: $color-link-hover;
+  }
+  
+  &:active {
+    color: $color-link-active;
+  }
+}
+
+p {
+  line-height: $lineheight-text;
+  margin-bottom: 1em;
 }
