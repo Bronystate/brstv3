@@ -37,8 +37,10 @@ iframe {
   
   display: inline-block;
   margin-right: 0.75em;
-  padding: $btn-padding;
-  max-width: 38px;
+  //padding: $btn-padding;
+  max-width: 32px;
+  height: 32px;
+  padding-left: 32px;
   
   overflow: hidden;
   white-space: nowrap;
@@ -48,25 +50,19 @@ iframe {
   border-radius: 2px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
   
-  background-color: $color-btn-blue;
-  color: $color-btn-text;
-  transition: background-color .2s ease-out 0s;
-  transition: color .2s ease-out 0s;
+  transition: all .2s ease-out 0s;
   transition: max-width 2s ease-out 0s;
-  
-  &:hover, &:focus {
-    background-color: lighten($color-btn-blue, 10%);
-    max-width: 100%;
-    
-    span.caption {
-      opacity: 1;
-    }
-  }
   
   i {
     padding: 0.5em;
     display: block;
     float: left;
+  }
+  
+  img {
+    border: none;
+    margin: 0;
+    padding: 0 0.5em 0 0;
   }
   
   span.caption {
@@ -76,7 +72,6 @@ iframe {
     opacity: 0;
     transition: background-color .2s ease-out 0s;
     transition: color .2s ease-out 0s;
-    //transition: opacity .2s ease-out 0s;
   }
   
   & > * {
@@ -112,34 +107,84 @@ iframe {
     transition: width .2s ease-out, padding-top .2s ease-out;
   }
   
-  // COLORS
-  &.twi:hover, &.twi:focus {
-    background-color: $color-twi-coat;
-    color: $color-twi-outline;
+  // ICON BUTTONS WITH DEFAULT STYLE
+  &.refresh {
+    background: url('/assets/img/refresh.png') 0 0 no-repeat;
   }
   
-  &.pinkie:hover, &.pinkie:focus {
-    background-color: $color-pinkie-coat;
-    color: $color-pinkie-outline;
+  &.popout {
+    background: url('/assets/img/popout.png') 0 0 no-repeat;
   }
   
-  &.rarity:hover, &.rarity:focus {
-    background-color: $color-rarity-coat;
-    color: $color-rarity-outline;
+  &.chatbox {
+    background: url('/assets/img/chatbox.png') 0 0 no-repeat;
   }
   
-  &.dash:hover, &.dash:focus {
-    background-color: $color-dash-coat;
-    color: $color-dash-outline;
+  // DEFAULT BUTTON STYLE
+  background-color: $color-btn-blue;
+  color: $color-btn-text;
+  
+  &:hover, &:focus {
+    background-color: lighten($color-btn-blue, 10%);
+    max-width: 100%;
+    
+    span.caption {
+      opacity: 1;
+    }
   }
   
-  &.aj:hover, &.aj:focus {
-    background-color: $color-aj-coat;
-    color: $color-aj-outline;
+  // ICON BUTTONS WITH COLOR OVERRIDE
+  &.twi {
+    background: url('/assets/img/twilight.png') 0 0 no-repeat;
+    &:hover, &:focus {
+      background: url('/assets/img/twilight-hover.png') 0 0 no-repeat;
+      background-color: $color-twi-coat;
+      color: $color-twi-outline;
+    }
   }
   
-  &.flutt:hover, &.flutt:focus {
-    background-color: $color-flutt-coat;
-    color: $color-flutt-outline;
+  &.pinkie {
+    background: url('/assets/img/pinkie.png') 0 0 no-repeat;
+    &:hover, &:focus {
+      background: url('/assets/img/pinkie-hover.png') 0 0 no-repeat;
+      background-color: $color-pinkie-coat;
+      color: $color-pinkie-outline;
+    }
+  }
+  
+  &.rarity {
+    background: url('/assets/img/rarity.png') 0 0 no-repeat;
+    &:hover, &:focus {
+      background: url('/assets/img/rarity-hover.png') 0 0 no-repeat;
+      background-color: $color-rarity-coat;
+      color: $color-rarity-outline;
+    }
+  }
+  
+  &.dash {
+    background: url('/assets/img/dash.png') 0 0 no-repeat;
+    &:hover, &:focus {
+      background: url('/assets/img/dash-hover.png') 0 0 no-repeat;
+      background-color: $color-dash-coat;
+      color: $color-dash-outline;
+    }
+  }
+  
+  &.aj {
+    background: url('/assets/img/applejack.png') 0 0 no-repeat;
+    &:hover, &:focus {
+      background: url('/assets/img/applejack-hover.png') 0 0 no-repeat;
+      background-color: $color-aj-coat;
+      color: $color-aj-outline;
+    }
+  }
+  
+  &.flutt {
+    background: url('/assets/img/fluttershy.png') 0 0 no-repeat;
+    &:hover, &:focus {
+      background: url('/assets/img/fluttershy-hover.png') 0 0 no-repeat;
+      background-color: $color-flutt-coat;
+      color: $color-flutt-outline;
+    }
   }
 }
