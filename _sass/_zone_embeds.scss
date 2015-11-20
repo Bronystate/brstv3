@@ -11,6 +11,7 @@ $btn-padding: 8px;// 16px;
 
 #streambox {
   float: left;
+  overflow: hidden;
 }
 
 .embedui {
@@ -21,6 +22,9 @@ $btn-padding: 8px;// 16px;
 #chatbox {
   float: right;
   padding-bottom: 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 620px;
 }
 
 iframe {
@@ -68,6 +72,7 @@ iframe {
     padding-right: 0.25em;
     display: inline-block;
     white-space: nowrap;
+    font-size: 12px;
     font-weight: bold;
     opacity: 0;
     transition: background-color .2s ease-out 0s;
