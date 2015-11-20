@@ -12,6 +12,25 @@ $btn-padding: 8px;// 16px;
 #streambox {
   float: left;
   overflow: hidden;
+  width: 640px;
+  @include transition(width 2s ease-out 0s);
+  
+  &.expand {
+    width: 1275px;
+    @include transition(width 2s ease-out 2s);
+  }
+}
+
+#if_stream {
+  width: 640px;
+  height: 392px;
+  @include transition(width 2s ease-out 0s, height 2s ease-out 0s);
+  
+  &.expand {
+    width: 1270px;
+    height: 747px;
+    @include transition(width 2s ease-out 2s, height 2s ease-out 2s);
+  }
 }
 
 .embedui {
@@ -25,6 +44,17 @@ $btn-padding: 8px;// 16px;
   overflow: hidden;
   white-space: nowrap;
   width: 620px;
+  height: 466px;
+  opacity: 1;
+  visibility: visible;
+  @include transition(height 0.5s 2s, visibility 1s ease-out 3s, opacity 1s ease-out 3s);
+  
+  &.fade {
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+    @include transition(height 0.5s 1s, visibility 1s ease-out 0s, opacity 1s ease-out 0s);
+  }
 }
 
 iframe {

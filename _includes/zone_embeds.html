@@ -3,8 +3,8 @@
     <iframe id="if_stream" name="if_stream" width="640" height="392" frameborder="0" style="border:0;outline:0" scrolling="no" src="http://www.ustream.tv/embed/16227134?html5ui"></iframe>
     <div class="embedui">
       <a class="btn refresh noext" href="http://www.ustream.tv/embed/16227134?html5ui" target="if_stream"><span class="caption">Refresh Stream</span></a>
-      <a class="btn popout" onclick="javascript:popoutStream()"><span class="caption">Popout Stream</span></a>
-      <a class="btn chatbox" type="button"><span class="caption">Show/Hide Chat</span></a>
+      <a class="btn popout" href="javascript:popoutStream()"><span class="caption">Popout Stream</span></a>
+      <a class="btn chatbox" href="javascript:toggleChatbox()"><span class="caption">Show/Hide Chat</span></a>
     </div>
   </div>
   <div id="chatbox">
@@ -28,5 +28,11 @@
   function popoutStream() {
     window.open(if_stream.src, "streamout", "location=0,resizable=1,status=0,toolbar=0,menubar=0,directories=0,scrollbars=0,width=720,height=480");
     if_stream.src = "";
+  }
+  function toggleChatbox() {
+    if_chat.src = "/onboard.html";
+    chatbox.classList.toggle('fade');
+    streambox.classList.toggle('expand');
+    if_stream.classList.toggle('expand');
   }
 </script>
