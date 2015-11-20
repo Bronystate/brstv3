@@ -3,7 +3,7 @@
     <iframe id="if_stream" width="640" height="392" frameborder="0" style="border:0;outline:0" scrolling="no" src="http://www.ustream.tv/embed/16227134?html5ui"></iframe>
     <div class="embedui">
       <button class="btn" type="button" onclick="refresh()"><i class="fa fa-refresh"></i><span class="caption">Refresh</span></button>
-      <button class="btn" type="button"><i class="fa fa-external-link"></i><span class="caption">Popout</span></button>
+      <button class="btn" type="button" onclick="popoutStream()"><i class="fa fa-external-link"></i><span class="caption">Popout</span></button>
       <span class="vr"></span>
       <button class="btn" type="button"><i class="fa fa-comment"></i><span class="caption">Show/Hide Chat</span></button>
     </div>
@@ -21,9 +21,14 @@
   </div>
 </section>
 <script type="text/javascript">
-  function refresh(){
-    var iframe = document.getElementById('if_stream');
-    iframe.src = iframe.src;
-    document.getElementById("if_stream").contentWindow.location.reload(true);
+  var streambox = document.getElementById('if_stream');
+  function refresh() {
+    streambox.src = streambox.src; //TODO replace this with direct reference from preprocessor
+    streambox.contentWindow.location.reload(true);
+  }
+  
+  function popoutStream() {
+    window.open(streambox.src, "streamout", "location=0,resizable=1,status=0,toolbar=0,menubar=0,directories=0,scrollbars=0,width=720,height=480");
+    streambox.src = "";
   }
 </script>
