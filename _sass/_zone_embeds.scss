@@ -37,7 +37,6 @@ iframe {
   
   display: inline-block;
   margin-right: 0.75em;
-  //padding: $btn-padding;
   max-width: 32px;
   height: 32px;
   padding-left: 32px;
@@ -73,6 +72,7 @@ iframe {
     opacity: 0;
     transition: background-color .2s ease-out 0s;
     transition: color .2s ease-out 0s;
+    transition: opacity .2s ease-out 0s;
   }
   
   & > * {
@@ -140,7 +140,7 @@ iframe {
     &:hover, &:focus {
       background: url('/assets/img/twilight-hover.png') 0 0 no-repeat;
       background-color: $color-twi-coat;
-      color: $color-twi-outline;
+      color: darken($color-twi-outline, 10%);
     }
   }
   
@@ -149,7 +149,7 @@ iframe {
     &:hover, &:focus {
       background: url('/assets/img/pinkie-hover.png') 0 0 no-repeat;
       background-color: $color-pinkie-coat;
-      color: $color-pinkie-outline;
+      color: darken($color-pinkie-outline, 20%);
     }
   }
   
@@ -158,7 +158,7 @@ iframe {
     &:hover, &:focus {
       background: url('/assets/img/rarity-hover.png') 0 0 no-repeat;
       background-color: $color-rarity-coat;
-      color: $color-rarity-outline;
+      color: darken($color-rarity-outline, 10%);
     }
   }
   
@@ -167,7 +167,7 @@ iframe {
     &:hover, &:focus {
       background: url('/assets/img/dash-hover.png') 0 0 no-repeat;
       background-color: $color-dash-coat;
-      color: $color-dash-outline;
+      color: darken($color-dash-outline, 10%);
     }
   }
   
@@ -176,7 +176,7 @@ iframe {
     &:hover, &:focus {
       background: url('/assets/img/applejack-hover.png') 0 0 no-repeat;
       background-color: $color-aj-coat;
-      color: $color-aj-outline;
+      color: darken($color-aj-outline, 10%);
     }
   }
   
@@ -185,7 +185,7 @@ iframe {
     &:hover, &:focus {
       background: url('/assets/img/fluttershy-hover.png') 0 0 no-repeat;
       background-color: $color-flutt-coat;
-      color: $color-flutt-outline;
+      color: darken($color-flutt-outline, 25%);
     }
   }
 }
