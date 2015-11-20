@@ -125,14 +125,14 @@ iframe {
   &.popout {
     background: $color-btn-blue url('/assets/img/popout.png') 0 0 no-repeat;
     &:hover, &:focus {
-      background: lighten($color-btn-blue, 10%) url('/assets/img/refresh.png') 0 0 no-repeat;
+      background: lighten($color-btn-blue, 10%) url('/assets/img/popout.png') 0 0 no-repeat;
     }
   }
   
   &.chatbox {
     background: $color-btn-blue url('/assets/img/chatbox.png') 0 0 no-repeat;
     &:hover, &:focus {
-      background: lighten($color-btn-blue, 10%) url('/assets/img/refresh.png') 0 0 no-repeat;
+      background: lighten($color-btn-blue, 10%) url('/assets/img/chatbox.png') 0 0 no-repeat;
     }
   }
   
