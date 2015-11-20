@@ -1,8 +1,3 @@
-/*
- * Bronystate 3.0 - Global Styles
- * Shizuka Kamishima - 2015-11-14
- */
-
 /* IMPORTS */
 @import 'colors';
 @import 'web-fonts';
@@ -32,12 +27,13 @@ $code-font:   map-get($fonts, code),   monospace;
 */
 
 /* TEXT SIZES - TODO */
+$size-text:           12px;
+$size-text-small:     0.7em;
 $size-title:          3em;
 $size-h1:             2em;
 $size-h2:             1.75em;
 $size-h3:             1.25em;
 $lineheight-hx:       1em;
-$size-text:           1em;
 $size-text-nav:       1.25em;
 $lineheight-text:     1.75em;
 $lineheight-text-nav: 1.5em;

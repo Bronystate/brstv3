@@ -19,7 +19,7 @@ html {
 body {
   color: $color-text;
   font-family: $font-body;
-  font-size: small;
+  font-size: $size-text;
   background-color: $color-bk-body;
   background-image: url("/assets/img/100-75-5-monochrome.png");
 }
