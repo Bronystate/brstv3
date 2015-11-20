@@ -1,42 +1,53 @@
-// Bronystate 3.0 - Global Styles
-// Shizuka Kamishima - 2015-11-14
+// Bronystate 3.0 - Style Constants
+// Shizuka Kamishima - 2015-11-19
+
+// IMPORTS
+@import 'colors';
+@import 'web-fonts';
 
 $font-default: Verdana, sans-serif; //more fallbacks!
 
-/*
 // from TVC5
 // dict of friendlyname: 'google fonts name'
 // fonts will be imported all at once at end of this partial
-$fonts: (
-  title: 'Iceland',
-  header: 'Economica',
-  code: 'Source Code Pro',
-);
-*/
+// $fonts: (
+//   title: 'Iceland',
+//   header: 'Economica',
+//   code: 'Source Code Pro',
+// );
 
-/* FONTS - TODO */
+// FONTS
 $font-body: $font-default;
 $font-title: $font-default;
 $font-headers: $font-default;
-/*
 // from TVC5
-$title-font:  map-get($fonts, title),  $font-default;
-$header-font: map-get($fonts, header), $font-default;
-$code-font:   map-get($fonts, code),   monospace;
-*/
+//$title-font:  map-get($fonts, title),  $font-default;
+//$header-font: map-get($fonts, header), $font-default;
+//$code-font:   map-get($fonts, code),   monospace;
 
-/* TEXT SIZES - TODO */
+// TEXT SIZES
+$size-text:           12px;
+$size-text-small:     0.7em;
 $size-title:          3em;
 $size-h1:             2em;
 $size-h2:             1.75em;
 $size-h3:             1.25em;
 $lineheight-hx:       1em;
-$size-text:           1em;
 $size-text-nav:       1.25em;
 $lineheight-text:     1.75em;
 $lineheight-text-nav: 1.5em;
 
-/* IMPORTS */
-@import 'colors';
-@import 'web-fonts';
+// BORDERS
+//color defined in _colors.scss
+$border: 2px solid $color-border;
+
+// WEB FONT IMPORTS
 //@include web-fonts(map-values($fonts));
+
+// HELPER FUNCTIONS
+@mixin transition($transition...) {
+    -moz-transition:    $transition;
+    -o-transition:      $transition;
+    -webkit-transition: $transition;
+    transition:         $transition;
+}

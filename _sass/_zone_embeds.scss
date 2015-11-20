@@ -1,0 +1,217 @@
+// Bronystate 3.0 - Embed Boxes
+// Shizuka Kamishima - 2015-11-15
+
+$btn-padding: 8px;// 16px;
+
+#embedsection {
+  margin: -1.75em -2em 1em -2em;
+  padding: 3px;
+  text-align: center;
+}
+
+#streambox {
+  float: left;
+  overflow: hidden;
+  width: 640px;
+  @include transition(width 2s ease-out 0s);
+  
+  &.expand {
+    width: 1275px;
+    @include transition(width 2s ease-out 2s);
+  }
+}
+
+#if_stream {
+  width: 640px;
+  height: 392px;
+  @include transition(width 2s ease-out 0s, height 2s ease-out 0s);
+  
+  &.expand {
+    width: 1270px;
+    height: 747px;
+    @include transition(width 2s ease-out 2s, height 2s ease-out 2s);
+  }
+}
+
+.embedui {
+  text-align: left;
+  padding: 1em;
+}
+
+#chatbox {
+  float: right;
+  padding-bottom: 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 620px;
+  height: 440px;
+  opacity: 1;
+  visibility: visible;
+  @include transition(height 0.5s 2s, visibility 1s ease-out 3s, opacity 1s ease-out 3s);
+  
+  &.fade {
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+    @include transition(height 0.5s 1s, visibility 1s ease-out 0s, opacity 1s ease-out 0s);
+  }
+}
+
+iframe {
+  background-color: $color-luna-coat-nmm;
+  margin: auto;
+  box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.8);
+}
+
+.btn {
+  
+  font-size: normal;
+  
+  position: relative;
+  
+  display: inline-block;
+  margin-right: 0.75em;
+  max-width: 0;
+  height: 32px;
+  padding-left: 32px;
+  
+  overflow: hidden;
+  white-space: nowrap;
+  
+  border-width: 0;
+  outline: none;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+  
+  background-color: $color-btn-blue;
+  color: $color-btn-text;
+  
+  @include transition(max-width 2s ease-out 0s, background-image 1s ease-out 0.5s, background-color 1s ease-out 0.5s, color 1s ease-out 0.5s);
+  
+  &:hover, &:focus {
+    background-color: lighten($color-btn-blue, 10%);
+    max-width: 100%;
+    @include transition(max-width 2s ease-out 0s, background-image .2s ease-out 0s, background-color .2s ease-out 0s, color .2s ease-out 0s);
+    
+    span.caption {
+      opacity: 1;
+      @include transition(opacity .5s ease-out 0s);
+    }
+  }
+  
+  span.caption {
+    margin-top: 0.5em;
+    padding: 0 8px;
+    display: inline-block;
+    white-space: nowrap;
+    font-size: 12px;
+    font-weight: bold;
+    opacity: 0;
+    @include transition(opacity .5s ease-out 0.5s);
+  }
+  
+  & > * {
+    position: relative;
+  }
+  
+  &:before {
+    content: "";
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    display: block;
+    width: 0;
+    padding-top: 0;
+      
+    border-radius: 100%;
+    
+    background-color: rgba(236, 240, 241, .3);
+    
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  
+  &:active:before {
+    width: 120%;
+    padding-top: 120%;
+    
+    transition: width .2s ease-out, padding-top .2s ease-out;
+  }
+  
+  // ICON BUTTONS WITH DEFAULT STYLE
+  &.refresh {
+    background: $color-btn-blue url('/assets/img/refresh.png') 0 0 no-repeat;
+    color: $color-text;
+    &:hover, &:focus {
+      background: lighten($color-btn-blue, 10%) url('/assets/img/refresh.png') 0 0 no-repeat;
+    }
+  }
+  
+  &.popout {
+    background: $color-btn-blue url('/assets/img/popout.png') 0 0 no-repeat;
+    &:hover, &:focus {
+      background: lighten($color-btn-blue, 10%) url('/assets/img/popout.png') 0 0 no-repeat;
+    }
+  }
+  
+  &.chatbox {
+    background: $color-btn-blue url('/assets/img/chatbox.png') 0 0 no-repeat;
+    &:hover, &:focus {
+      background: lighten($color-btn-blue, 10%) url('/assets/img/chatbox.png') 0 0 no-repeat;
+    }
+  }
+  
+  // ICON BUTTONS WITH COLOR OVERRIDE
+  &.twi {
+    background: $color-btn-blue url('/assets/img/twilight.png') 0 0 no-repeat;
+    &:hover, &:focus {
+      background: $color-twi-coat url('/assets/img/twilight-hover.png') 0 0 no-repeat;
+      color: darken($color-twi-outline, 10%);
+    }
+  }
+  
+  &.pinkie {
+    background: $color-btn-blue url('/assets/img/pinkie.png') 0 0 no-repeat;
+    &:hover, &:focus {
+      background: $color-pinkie-coat url('/assets/img/pinkie-hover.png') 0 0 no-repeat;
+      color: darken($color-pinkie-outline, 20%);
+    }
+  }
+  
+  &.rarity {
+    background: $color-btn-blue url('/assets/img/rarity.png') 0 0 no-repeat;
+    &:hover, &:focus {
+      background: $color-rarity-coat url('/assets/img/rarity-hover.png') 0 0 no-repeat;
+      color: darken($color-rarity-outline, 10%);
+    }
+  }
+  
+  &.dash {
+    background: $color-btn-blue url('/assets/img/dash.png') 0 0 no-repeat;
+    &:hover, &:focus {
+      background: $color-dash-coat url('/assets/img/dash-hover.png') 0 0 no-repeat;
+      color: darken($color-dash-outline, 10%);
+    }
+  }
+  
+  &.aj {
+    background: $color-btn-blue url('/assets/img/applejack.png') 0 0 no-repeat;
+    &:hover, &:focus {
+      background: $color-aj-coat url('/assets/img/applejack-hover.png') 0 0 no-repeat;
+      color: darken($color-aj-outline, 10%);
+    }
+  }
+  
+  &.flutt {
+    background: $color-btn-blue url('/assets/img/fluttershy.png') 0 0 no-repeat;
+    &:hover, &:focus {
+      background: $color-flutt-coat url('/assets/img/fluttershy-hover.png') 0 0 no-repeat;
+      color: darken($color-flutt-outline, 25%);
+    }
+  }
+}
