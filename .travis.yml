@@ -9,6 +9,7 @@ branches:
 script: bundle exec jekyll build
 
 notifications:
+  email: false
   irc:
     channels:
     - irc.ponychat.net#cathedral
