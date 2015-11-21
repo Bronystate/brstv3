@@ -26,13 +26,25 @@ defaults:
       layout: "page"
   -
     scope:
+      path: "about"
+    values:
+      titlecat: "about"
+      yahAbt: true
+  -
+    scope:
       path: "news"
     values:
+      titlecat: "news"
       yahNews: true
-
-# -
-#   scope:
-#     path: "path/to/folder or file.html"
-#   values:
-#     layout: "name.html" of template
-#     var: "value"
+  -
+    scope:
+      path: "help"
+    values:
+      titlecat: "help"
+      yahHelp: true
+  -
+    scope:
+      path: "rules"
+    values:
+      titlecat: "rules"
+      yahRules: true

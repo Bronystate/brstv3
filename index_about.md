@@ -1,5 +1,5 @@
 ---
-title: about
+titlecat: about
 date: 2015-11-18
 yahAbt: true
 permalink: /about/

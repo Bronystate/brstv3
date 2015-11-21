@@ -1,5 +1,5 @@
 ---
-title: news archive
+titlecat: news
 date: 2015-11-19
 yahNews: true
 permalink: /news/
