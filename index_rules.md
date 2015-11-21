@@ -38,7 +38,7 @@ By using Bronystate chat you agree to these guidelines:
  7. Keep the chat roughly PG-13  
     Topics banned from discussion include, but are not limited to:
     - Explicit content, including pornography, gore, shock images, screamers
-    - Grimdark, gory, or otherwise generally-offensive fan works
+    - Grimdark, gory, or otherwise generally offensive fan works
  8. Do not advertise
  9. Do not post non-image links during a stream  
     The streamer may give permission *during their stream* to post links  
@@ -82,3 +82,35 @@ Appeals will be **posted publicly** on the site.
 Bronystate Staff will evaluate your appeal and make a decision whether or not the ban will be lifted.
 
 You may continue to appeal a ban if your first attempt is rejected.
+
+* * * * *
+
+## Brony Movie Night and the Lottery
+
+*[Eastern Time]: UTC-5, -4 during US Daylight Saving Time
+
+Movie Nights are held every Friday at 7pm Eastern Time and Saturday at 1pm Eastern Time, and consist of two
+movies and two episodes of *My Little Pony*, chosen by our users.
+
+Each week, we send out a lottery form you can use to cast your vote. The form consists of your:
+
+ - IRC nickname (so we can tell who won!)
+ - One vote for a movie (make it a good one!)
+ - A link to find the movie (if it's particularly obscure)
+ - One vote for a pony episode (find your favorite!)
+
+Then, alternating each week's Friday and Saturday, we randomly choose from the list of votes what will be shown
+on the following week's Movie Night. However, before we do so, the staff looks over the list to disqualify
+certain entries, by the following criteria:
+
+ - Movies must wait **six months** before being eligible for Movie Night again
+ - Users must wait **two weeks** before they may win another movie or episode, whichever they won previously
+ - Movies shown **three times** are entered into the Bronystate Vault, ineligible for airing except on special occasion
+ - Movies earning extraordinarily terrible chat reception may be classified **Worst Movie Clause**, ineligible to air ever again
+ - Movies that do not meet the community's standards may be disqualified at staff discretion
+
+!!NEED A LINE ABOUT GENERALLY ACCEPTABLE MOVIES HERE!!
+
+**NOTE:** In the event your movie is not able to be found, or after deliberation your movie is disqualified by staff,
+we will make an attempt to contact you via IRC for an alternate, within a reasonable period of time. If you cannot
+be reached, we will choose another winner, or potentially pick a movie ourselves.
