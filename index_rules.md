@@ -19,16 +19,44 @@ These rules are subject to change at staff discretion with or without prior noti
 
 By using Bronystate chat you agree to these guidelines:
 
-1. Use common sense -- don't behave the way you wouldn't want someone else to
-2. Speak English
-3. You will treat other users with respect
-4. You will not post spoilers of any kind
-5. You will not spam
-6. You will not advertise
-7. You will not post non-image links during a stream
-8. You will not troll
-9. You may not use bots or scripts of any kind
-10. You will not attempt to evade any ban given to you
+ 1. Use common sense -- don't act the way you wouldn't want someone else to
+ 2. Speak English
+ 3. You must be 14 years of age or older to chat.
+ 4. Treat other users with respect. If a mod tells you to stop, **stop**.
+ 5. You will not post spoilers of any kind  
+    Subjects not to be spoiled include, but are not limited to:
+    - Future *My Little Pony* media: episodes, movies, comics, etc.
+    - Plot of the movies of Movie Night for those who haven't seen it
+    - Plot of shows on stream during the week
+ 6. You will not spam  
+    This includes, but is not limited to:
+    - Sending every emote at once
+    - Pinging multiple people at once
+    - Sending the same message over and over
+    - Begging for attention
+ 7. You will keep the chat roughly PG-13  
+    Topics banned from discussion include, but are not limited to:
+    - Cupcakes
+    - PONY.MOV series
+    - Grimdark, gory, or otherwise distasteful fanfiction
+    - Explicit content, including pornography, gore, shock images, screamers
+ 8. You will not advertise
+ 9. You will not post non-image links during a stream  
+    The streamer may give permission *during their stream* to post links  
+    This includes, but is not limited to:
+    - Youtube videos
+    - News articles
+    - Audio hosting sites
+    - Pages not focused on pictures
+10. You will not troll
+11. Bots or scripts of any kind not officially sanctioned by Bronystate are **not** permitted  
+    Officially sanctioned bots and scripts consist of:
+    - Kestrel IRC Bot by Shizuka
+    - BerryPunch by Phase
+    - Staff client scripts
+12. You will not attempt to evade any ban given to you
+
+By breaking a rule you accept that you will be warned, kicked and/or banned from chat.
 
 * * * * *
 
@@ -36,8 +64,8 @@ By using Bronystate chat you agree to these guidelines:
 
 **Know the difference between a kick and a ban**
 
-When you are kicked, your client will print a message stating you were kicked, with a reason in (parentheses).
-When you are banned, the kick message will say so, and you will be unable to chat until the ban is lifted.
+When you are kicked, your client will print a message stating you were kicked, with a reason (in parentheses).  
+When you are banned, the kick message will say so, and you will be unable to join chat until the ban is lifted.
 
 You must appeal a ban in order for it to be lifted.
 
