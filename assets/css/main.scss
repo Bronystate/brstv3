@@ -139,7 +139,8 @@ hr {
   clear: both;
   border: 0;
   border-bottom: $border;
-  margin-bottom: 1em;
+  margin-top: 0.5em;
+  margin-bottom: 1.5em;
 }
 
 .vr {
@@ -191,6 +192,34 @@ ul,ol {
   line-height: 1.75em;
   padding-bottom: 1.5em;
   padding-left: 1em;
+  margin-left: 1em;
+  text-indent: 0;
+  
+  ul, ol { //make nested lists not make empty space
+    padding-bottom: 0;
+  }
+}
+
+ol {
+  margin-left: 0;
+  counter-reset: item;
+  
+  & > li {
+    margin: 0;
+    padding: 0 0 0 2em;
+    text-indent: -2em;
+    list-style-type: none;
+    counter-increment: item;
+    
+    &:before {
+      display: inline-block;
+      width: 1em;
+      padding-right: 0.5em;
+      font-weight: bold;
+      text-align: right;
+      content: counter(item) ".";
+    }
+  }
 }
 
 h1 {
@@ -207,6 +236,7 @@ h3 {
 
 h1,h2,h3 {
   font-family: $font-headers;
+  color: $color-text-headers;
   line-height: $lineheight-hx;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
