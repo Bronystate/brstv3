@@ -104,13 +104,10 @@ on the following week's Movie Night. However, before we do so, the staff looks o
 certain entries, by the following criteria:
 
  - Movies must wait **six months** before being eligible for Movie Night again
- - Users must wait **two weeks** before they may win another movie or episode, whichever they won previously
+ - Users must wait **four weeks** before they may win another movie or episode, whichever they won previously
  - Movies shown **three times** are entered into the Bronystate Vault, ineligible for airing except on special occasion
  - Movies earning extraordinarily terrible chat reception may be classified **Worst Movie Clause**, ineligible to air ever again
  - Movies that do not meet the community's standards may be disqualified at staff discretion
 
-!!NEED A LINE ABOUT GENERALLY ACCEPTABLE MOVIES HERE!!
-
-**NOTE:** In the event your movie is not able to be found, or after deliberation your movie is disqualified by staff,
-we will make an attempt to contact you via IRC for an alternate, within a reasonable period of time. If you cannot
-be reached, we will choose another winner, or potentially pick a movie ourselves.
+**NOTE:** In the event your movie is disqualified by staff, we will make an attempt to contact you via IRC for an alternate,
+within a reasonable period of time. If you cannot be reached, we will choose another winner, or potentially pick a movie ourselves.
