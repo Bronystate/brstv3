@@ -8,16 +8,19 @@ $color-bk-body: $color-luna-coat-nmm;
 $color-bk-content: $color-luna-coat;
 $color-bk-header: $color-luna-magic;
 $color-bk-blockquote: darken($color-bk-content, 80%); //TODO
-$color-border: $color-bk-body;
-$color-bk-timerbar: mix($color-luna-coat-nmm, $color-luna-magic);
+$color-border: $color-luna-coat-nmm;
+$color-bk-timerbar: mix($color-bk-body, $color-bk-header);
 
 // WORDS
-$color-text: #eeeeee;
+$color-text: #dddddd;
 $color-text-title: $color-luna-coat-nmm;
+$color-text-headers: $color-celestia-mane-blue;
 $color-link: $color-celestia-mane-green;
 $color-link-hover: $color-celestia-mane-pink;
 $color-link-active: $color-link;
 $color-link-nav: $color-text-title;
+$color-link-nav-hover: $color-link-hover;
+$color-link-nav-active: $color-link-hover;
 
 // BUTTONS
 $color-btn-text: $color-text;
