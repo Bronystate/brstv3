@@ -7,7 +7,7 @@ Generated on {{ site.time | date: "%F" }}
 <head>
   <meta charset='utf-8'>
   <link rel='icon' type='x-image/icon' href='favicon.ico'>
-  <link rel='stylesheet' type='text/css' href='/assets/css/main.css?{{ site.time }}'>
+  <link rel='stylesheet' type='text/css' href='/assets/css/main.css?build={{ site.time | date: "%F" }}'>
   <link rel='stylesheet' type='text/css' href='http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css'>
   <title>{% if page.title %}{{ page.title }} / {% endif %}{% if page.titlecat %}{{ page.titlecat }} // {% endif %}[bronystate]</title>
 </head>
