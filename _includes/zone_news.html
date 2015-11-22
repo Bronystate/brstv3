@@ -1,28 +1,36 @@
-{% capture cutoffDate %}{{ 'now' | date: '%s' | minus: 1209600 }}{% endcapture %}
-{% for lotto in site.tags.lottery limit:1 %}
-  {% capture lottoDate %}{{ lotto.date | date: '%s' }}{% endcapture %}
-  {% if lottoDate > cutoffDate %}
-    {% assign latestlotto = lotto %}
-  {% endif %}
-{% endfor %}
-{% for post in site.posts %}
-  {% unless post.tags contains "lottery" %}
-    {% assign latestnews = post %}
-    {% break %}
-  {% endunless %}
-{% endfor %}
+{% capture codeBlock %}
+  
+  {% capture cutoffDate %}{{ 'now' | date: '%s' | minus: 1209600 }}{% endcapture %}
+  
+  {% for lotto in site.tags.lottery limit:1 %} <!-- get most recent lottery -->
+    {% capture lottoDate %}{{ lotto.date | date: '%s' }}{% endcapture %}
+    {% unless lottoDate < cutoffDate %} <!-- unless lottery is older than two week cutoff... -->
+      {% assign latestlotto = lotto %} <!-- get most recent lottery post -->
+    {% endunless %}
+  {% endfor %}
+  
+  {% for post in site.posts %}
+    {% unless post.tags contains "lottery" %}
+      {% assign latestnews = post %} <!-- get the most recent non-lottery post -->
+      {% break %}
+    {% endunless %}
+  {% endfor %}
+  
+{% endcapture %}{% assign codeBlock = nil %}
 <section id="zone_news">
-  Cut: {{ cutoffDate }} // Lotto: {{ lottoDate }}
-  <div class="article-wrap">
-    {% if latestlotto %}
-    <article class="recentlottery">
-      {{ latestlotto.content }}
-    </article>
-    <hr>
-    {% endif %}
-    <article class="recentnews">
-      {{ latestnews.content }}
-    </article>
-  </div>
-  <!-- % include zone_sidebar.html % -->
+<div class="article-wrap">
+{% if latestlotto %}
+<article class="recentlottery">
+{{ latestlotto.content }}
+</article>
+
+<hr>
+{% endif %}
+<article class="recentnews">
+{{ latestnews.content }}
+</article>
+</div>
+
+<!-- % include zone_sidebar.html % -->
+
 </section>
