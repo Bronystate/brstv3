@@ -1,6 +1,6 @@
 {% assign post = include.post %}
-<nav>
+<div class="threecol">
   <div class="left">{% if page.previous %} <a href="{{ page.previous.url }}"><i class="fa fa-angle-left"></i> {{ page.previous.title }}</a> {% endif %}</div>
   <div class="center"><a href="/news/">archive</a></div>
   <div class="right">{% if page.next %} <a href="{{ page.next.url }}">{{ page.next.title }} <i class="fa fa-angle-right"></i></a> {% endif %}</div>
-</nav>
+</div>
