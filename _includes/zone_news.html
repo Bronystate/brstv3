@@ -21,12 +21,14 @@
 <div class="article-wrap">
 {% if latestlotto %}
 <article class="recentlottery">
+{% include meta_postinfo.html post=latestlotto skiptags=true %}
 {{ latestlotto.content }}
 </article>
 
 <hr>
 {% endif %}
 <article class="recentnews">
+{% include meta_postinfo.html post=latestnews %}
 {{ latestnews.content }}
 </article>
 </div>
