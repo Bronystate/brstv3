@@ -2,6 +2,7 @@
 title: Bronystate 3.0 is coming
 author: Shizuka
 date: 2015-11-18
+tags: [brst3.0]
 ---
 
 A site redesign is long overdue, and we're sick and tired of looking over our shoulders at the pile
