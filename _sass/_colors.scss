@@ -14,7 +14,7 @@ $color-bk-timerbar: mix($color-bk-body, $color-bk-header);
 // WORDS
 $color-text: #dddddd;
 $color-text-title: $color-luna-coat-nmm;
-$color-text-headers: desaturate(darken($color-celestia-mane-blue, 10%), 40%);
+$color-text-headers: desaturate(darken($color-celestia-outline, 10%), 0%);
 $color-link: $color-celestia-mane-green;
 $color-link-hover: $color-celestia-mane-pink;
 $color-link-active: $color-link;
