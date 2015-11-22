@@ -1,5 +1,6 @@
 {% assign post = include.post %}
-<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+{% if include.skiplink %} <h1>{{ post.title }}</h1>
+{% else %}<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>{% endif %}
 <div class="postinfo">
   //
   <span class="date">{{ post.date | date: '%F' }}</span>
