@@ -4,8 +4,10 @@
 <div id="contentwrapper">
 <section class="article-wrap">
 <article>
-{{ content }}
+{% include meta_postinfo.html post=page skiplink=true %}
+{{ content | replace: '<!-- more -->', '<a id="read-more"></a>' }}
 </article>
+{% include meta_newsnav.html post=page %}
 </section>
 <!-- % include zone_sidebar.html % -->
 {% include zone_footer.html %}

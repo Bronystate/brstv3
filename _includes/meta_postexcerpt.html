@@ -1,0 +1,5 @@
+{% assign post = include.post %}
+{{ post.excerpt }}
+{% capture content_words %}{{ post.content | number_of_words }}{% endcapture %}
+{% capture excerpt_words %}{{ post.excerpt | number_of_words }}{% endcapture %}
+{% if excerpt_words != content_words %} <a href="{{ post.url }}/#read-more" class="readmore">Read more <i class="fa fa-arrow-circle-right"></i></a>{% endif %}

@@ -20,3 +20,98 @@ $boxcolor: royalblue;
   border-left: $border;
   float: right;
 }
+
+.postinfo {
+  font-size: $size-text-small;
+  margin-top: -0.5em;
+  margin-bottom: 1em;
+  .date {
+    &:before {
+      font-family: FontAwesome;
+      padding-right: 0.5ex;
+      content: "\f017"; //fa-clock-o
+    }
+  }
+  .author {
+    padding-left: 0.5em;
+    &:before {
+      font-family: FontAwesome;
+      padding-right: 0.5ex;
+      content: "\f007"; //fa-user
+    }
+  }
+  .tags {
+    display: inline;
+    padding-left: 0.5em;
+    margin-left: 0;
+    
+    &:before {
+      font-family: FontAwesome;
+      content: "\f02b"; //fa-tag
+    }
+    
+    li {
+      list-style-type: none;
+      display: inline;
+      
+      &:not(:last-child):after {
+        content: ",";
+      }
+    }
+  }
+}
+
+.threecol {
+  border-top: $border;
+  padding-top: 1em;
+  margin-bottom: -0.5em;
+  
+  div {
+    display: inline-block;
+    width: 33%;
+  }
+}
+
+.pagination {
+  width: 50%;
+  font-weight: bold;
+  
+  div {
+    display: inline-block;
+  }
+  
+  .left {
+    padding-right: 1em;
+  }
+  .center {
+    font-size: $size-text-big;
+    
+    a {
+      margin: auto 0.1em;
+    }
+  }
+  .right{
+    padding-left: 1em;
+  }
+  em {
+    font-style: normal;
+    
+    &:before {
+      content: "[";
+    }
+    &:after {
+      content: "]";
+    }
+  }
+}
+
+.postlist {
+  margin-bottom: 0;
+  .post {
+    border-top: $border;
+    margin-bottom: 1em;
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+}

@@ -171,7 +171,8 @@ a {
   //external links
   &[href^="http://"], &[href^="https://"] {
     &:after {
-      content: url('/assets/img/extlink.png');
+      font-family: FontAwesome;
+      content: '\f08e'; // fa-external-link
       margin: 0 0 0 3px;
     }
   }
@@ -268,6 +269,10 @@ img {
   text-align: center;
 }
 
+.right {
+  text-align: right;
+}
+
 blockquote {
   background-color: $color-bk-blockquote;
   padding: 1em 1.25em 0;
@@ -281,6 +286,6 @@ footer {
   margin-top: -1em;
   padding-top: 0.5em;
   border-top: $border;
-  font-size: smaller;
+  font-size: $size-text-small;
   text-align: center;
 }

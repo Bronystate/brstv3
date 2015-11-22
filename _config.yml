@@ -18,12 +18,24 @@ kramdown:
 sass:
   sass_dir: _sass
 
+permalink: /news/:year-:month-:day-:title.html
+paginate: 10
+paginate_path: /news/page:num
+excerpt_separator: "<!-- more -->"
+
 defaults:
   -
     scope:
       path: ""
     values:
       layout: "page"
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      layout: "post"
+      yahNews: true
   -
     scope:
       path: "about"
