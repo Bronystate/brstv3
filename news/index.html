@@ -1,0 +1,20 @@
+---
+titlecat: news
+yahNews: true
+layout: page
+---
+
+<h1>News Archive</h1>
+
+<section class="pagination">
+  
+</section>
+
+<section class="postlist">
+{% for post in paginator.posts %}
+<div class="post">
+{% include meta_postinfo.html post=post %}
+{% include meta_postexcerpt.html post=post %}
+</div>
+{% endfor %}
+</section>

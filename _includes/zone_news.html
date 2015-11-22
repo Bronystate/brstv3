@@ -29,7 +29,7 @@
 {% endif %}
 <article class="recentnews">
 {% include meta_postinfo.html post=latestnews %}
-{{ latestnews.content }}
+{% include meta_postexcerpt.html post=latestnews %}
 </article>
 </div>
 
