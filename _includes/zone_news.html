@@ -1,23 +1,28 @@
+{% capture cutoffDate %}{{ 'now' | date: '%s' | minus: 1209600 }}{% endcapture %}
+{% for lotto in site.tags.lottery limit:1 %}
+  {% capture lottoDate %}{{ lotto.date | date: '%s' }}{% endcapture %}
+  {% if lottoDate > cutoffDate %}
+    {% assign latestlotto = lotto %}
+  {% endif %}
+{% endfor %}
+{% for post in site.posts %}
+  {% unless post.tags contains "lottery" %}
+    {% assign latestnews = post %}
+    {% break %}
+  {% endunless %}
+{% endfor %}
 <section id="zone_news">
+  Cut: {{ cutoffDate }} // Lotto: {{ lottoDate }}
   <div class="article-wrap">
-    <article>
-      <h1>Bronystate 3.0 is almost here</h1>
-      <p>A site redesign is long overdue, and we're sick and tired of looking over our shoulders at the pile of hacks that was Bronystate
-      2.0, so we're doing it! Shizuka has been hard at work all week putting the new designs together, and we hope you like it!</p>
-      <p>This page may change drastically between the time you look now and when it's "finished", but look forward to these features we
-      still have coming for you!</p>
-      <ul>
-        <li>The front page <strong>is</strong> the theater page, no more separate pages, no more confusion!</li>
-        <li>New About Us, Rules, News, and Help pages</li>
-        <li>Clear Rules that are easier for everyone to understand and follow</li>
-        <li>Much easier update scheme for the staff, bringing bigger updates to you sooner than never!</li>
-      </ul>
-      <p><strong>PLEASE NOTE:</strong> All the old theater URLs are henceforth <strong>BROKEN</strong>, as we are using this single page
-      setup for the stream and chat. We're going to see how the Saturday episode crowd handles the new system before exploring the
-      possibility of special links to load theaters directly.</p>
-      <p><strong>PLEASE</strong> update your bookmarks to point to this front page, and tell everyone you know that we've changed!</p>
-      <p>Stay tuned to Bronystate 3.0, where the fun only stops so long as Shizu has no caffeine.</p>
+    {% if latestlotto %}
+    <article class="recentlottery">
+      {{ latestlotto.content }}
+    </article>
+    <hr>
+    {% endif %}
+    <article class="recentnews">
+      {{ latestnews.content }}
     </article>
   </div>
-  
+  <!-- % include zone_sidebar.html % -->
 </section>
