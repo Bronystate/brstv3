@@ -171,7 +171,8 @@ a {
   //external links
   &[href^="http://"], &[href^="https://"] {
     &:after {
-      content: url('/assets/img/extlink.png');
+      font-family: FontAwesome;
+      content: '\f08e'; // fa-external-link
       margin: 0 0 0 3px;
     }
   }
