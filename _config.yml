@@ -19,7 +19,7 @@ sass:
   sass_dir: _sass
 
 permalink: /news/:year-:month-:day-:title.html
-paginate: 1
+paginate: 2
 paginate_path: /news/page:num
 excerpt_separator: "<!-- more -->"
 

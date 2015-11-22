@@ -104,3 +104,14 @@ $boxcolor: royalblue;
     }
   }
 }
+
+.postlist {
+  margin-bottom: 0;
+  .post {
+    border-top: $border;
+    margin-bottom: 1em;
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+}
