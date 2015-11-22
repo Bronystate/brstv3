@@ -11,6 +11,27 @@ $boxcolor: royalblue;
   float: left;
   width: 800px;
   margin-bottom: 1.5em;
+  
+  nav {
+    border-top: $border;
+    padding-top: 1em;
+    margin-bottom: -0.5em;
+    
+    .left {
+      display: inline-block;
+      width: 33%;
+    }
+    .center {
+      display: inline-block;
+      width: 33%;
+      text-align: center;
+    }
+    .right {
+      display: inline-block;
+      text-align: right;
+      width: 33%;
+    }
+  }
 }
 
 .sidebar {
@@ -19,4 +40,47 @@ $boxcolor: royalblue;
   padding: 1em;
   border-left: $border;
   float: right;
+}
+
+.postinfo {
+  font-size: $size-text-small;
+  margin-top: -0.5em;
+  margin-bottom: 1em;
+  
+  .date {
+    &:before {
+      font-family: FontAwesome;
+      padding-right: 0.5ex;
+      content: "\f017"; //fa-clock-o
+    }
+  }
+  
+  .author {
+    padding-left: 0.5em;
+    &:before {
+      font-family: FontAwesome;
+      padding-right: 0.5ex;
+      content: "\f007"; //fa-user
+    }
+  }
+  
+  .tags {
+    display: inline;
+    padding-left: 0.5em;
+    margin-left: 0;
+    
+    &:before {
+      font-family: FontAwesome;
+      content: "\f02b"; //fa-tag
+    }
+    
+    li {
+      list-style-type: none;
+      display: inline;
+      
+      &:not(:last-child):after {
+        content: ",";
+      }
+    }
+  }
 }

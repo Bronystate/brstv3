@@ -185,50 +185,6 @@ a {
   }
 }
 
-.postinfo {
-  font-size: $size-text-small;
-  margin-top: -0.5em;
-  margin-bottom: 1em;
-  
-  .date {
-    &:before {
-      font-family: FontAwesome;
-      padding-right: 0.5ex;
-      content: "\f017"; //fa-clock-o
-    }
-  }
-  
-  .author {
-    padding-left: 0.5em;
-    &:before {
-      font-family: FontAwesome;
-      padding-right: 0.5ex;
-      content: "\f007"; //fa-user
-    }
-  }
-  
-  .tags {
-    display: inline;
-    padding-left: 0.5em;
-    margin-left: 0;
-    
-    &:before {
-      font-family: FontAwesome;
-      content: "\f02b"; //fa-tag
-    }
-    
-    li {
-      list-style-type: none;
-      display: inline;
-      
-      &:not(:last-child):after {
-        content: ",";
-      }
-    }
-  }
-  
-}
-
 strong {
   font-weight: bold;
 }
