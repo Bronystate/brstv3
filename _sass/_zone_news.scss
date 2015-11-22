@@ -66,24 +66,41 @@ $boxcolor: royalblue;
   padding-top: 1em;
   margin-bottom: -0.5em;
   
-  .left {
+  div {
     display: inline-block;
-    width: 33%;
-  }
-  .center {
-    display: inline-block;
-    width: 33%;
-    text-align: center;
-  }
-  .right {
-    display: inline-block;
-    text-align: right;
     width: 33%;
   }
 }
 
 .pagination {
-  .threecol {
-    border-top: none;
+  width: 50%;
+  font-weight: bold;
+  
+  div {
+    display: inline-block;
+  }
+  
+  .left {
+    padding-right: 1em;
+  }
+  .center {
+    font-size: $size-text-big;
+    
+    a {
+      margin: auto 0.1em;
+    }
+  }
+  .right{
+    padding-left: 1em;
+  }
+  em {
+    font-style: normal;
+    
+    &:before {
+      content: "[";
+    }
+    &:after {
+      content: "]";
+    }
   }
 }
