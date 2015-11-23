@@ -49,7 +49,6 @@ function update() {
       var time = calcRemaining(timer.moment);
       timertitle.innerHTML = timer.title;
       timerclock.innerHTML = time;
-      timerbar.classList.toggle("hide");
       titledone = true;
     }
   }
