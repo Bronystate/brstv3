@@ -1,0 +1,50 @@
+#===========================================================
+#
+# Bronystate 3.0 - Embed Switcher
+# Shizuka Kamishima - 2015-11-23
+#
+#
+# #########################################################
+# !!! DO NOT UNDER ANY CIRCUMSTANCES COMMIT STREAM KEYS !!!
+# #########################################################
+#
+#
+# USAGE:
+# 'live' is the name of the embed currently live on site
+# 'embeds' is a list of embed srcs to put on page
+#   (add comments for detail)
+#
+# NEW STREAMS:
+# preferably create stream name as "BRST <name>" so it's
+#   easier for people to search (i.e. "BRST Amethyst")
+#   rather than the date naming method we used before
+#
+#===========================================================
+
+# Name of the embed to put on page - don't misspell it!
+# Ex. "diamond", "emerald", "ponies-in-boxes"
+live: "diamond"
+
+embeds:
+  # MAIN STREAMS
+  amethyst:   ""
+  beryl:      ""
+  cookie:     "http://www.ustream.tv/embed/16198304?html5ui=1" # BRST20131018
+  diamond:    "http://www.ustream.tv/embed/16227134?html5ui=1" # BRST20131023
+  emerald:    "http://www.ustream.tv/embed/16296194?html5ui=1" # BRST20131106
+  feldspar:   ""
+  garnet:     ""
+  hematite:   ""
+  iolite:     ""
+  jade:       ""
+  lapis:      ""
+  malachite:  ""
+  opal:       ""
+  pearl:      ""
+  quartz:     ""
+  ruby:       ""
+  sapphire:   ""
+  topaz:      ""
+  # YOUTUBE LOOPS
+  fireplace: "http://www.youtube.com/embed/e_BL5EKwSqE?&autoplay=1&rel=0&loop=1&showinfo=0&hd=1&autohide=1&playlist=e_BL5EKwSqE"
+  ponies-in-boxes: "http://www.youtube.com/embed/tJnWo5Jx7W8?&autoplay=1&rel=0&loop=1&showinfo=0&modestbranding=1&controls=0&hd=1&autohide=1&playlist=tJnWo5Jx7W8"
