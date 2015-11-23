@@ -1,30 +1,15 @@
-#===========================================================
-#
 # Bronystate 3.0 - Embed Switcher
 # Shizuka Kamishima - 2015-11-23
-#
-#
-# #########################################################
-# !!! DO NOT UNDER ANY CIRCUMSTANCES COMMIT STREAM KEYS !!!
-# #########################################################
-#
-#
-# USAGE:
-# 'live' is the name of the embed currently live on site
-# 'embeds' is a list of embed srcs to put on page
-#   (add comments for detail)
-#
-# NEW STREAMS:
-# preferably create stream name as "BRST <name>" so it's
-#   easier for people to search (i.e. "BRST Amethyst")
-#   rather than the date naming method we used before
-#
-#===========================================================
+
+###########################################################
+#!!! DO NOT UNDER ANY CIRCUMSTANCES COMMIT STREAM KEYS !!!#
+###########################################################
 
 # Name of the embed to put on page - don't misspell it!
 # Ex. "diamond", "emerald", "ponies-in-boxes"
 live: "diamond"
 
+# List of embed src, what goes in the "" will go into iframe
 embeds:
   # MAIN STREAMS
   amethyst:   ""
