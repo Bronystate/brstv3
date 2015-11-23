@@ -47,8 +47,14 @@ show-in-sidebar: 3
 
 # List of timers
 timers:
-  - title: Friday Movie Night
-    time: 2015-11-27 18:00 -0600
-  
+  - title: Something in the past
+    time: 2015-11-22 02:23 -0600
+    
+  - title: Thanksgiving noon
+    time: 2015-11-26 12:00 -0600
+    
   - title: Season Finale
     time: 2015-11-28 08:00 -0800
+    
+  - title: A thing Happens
+    time: 2015-12-25 00:00 -0600
