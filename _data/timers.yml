@@ -3,12 +3,12 @@
 # Shizuka Kamishima - 2015-11-23
 #
 # timers:
-#   - title: "Friday Movie Night"
-#     time: "2015-11-27 19:00 -0500"
+#   - title: Friday Movie Night
+#     time: 2015-11-27 19:00 -0500
 #     url: "/news/2015-11-20-lottery.html"
 #
-#   - title: 'Pony Episode'
-#     time: "2015-11-28 10:30 -0600"
+#   - title: Pony Episode
+#     time: 2015-11-28 10:30 -0600
 # 
 # Spaces matter! Line up the - and values, blank lines okay
 # "url" field is optional, "title" and "time" are not
@@ -47,8 +47,8 @@ show-in-sidebar: 3
 
 # List of timers
 timers:
-  - title: "Friday Movie Night"
+  - title: Friday Movie Night
     time: 2015-11-27 18:00 -0600
   
-  - title: "Season Finale"
+  - title: Season Finale
     time: 2015-11-28 08:00 -0800
