@@ -1,8 +1,12 @@
+{% capture codeBlock %}
+  {% assign embed = site.data.embed-switcher.embeds[site.data.embed-switcher.live] %}
+  {% if embed == "" or embed == nil %}{% assign embed = site.data.embed-switcher.failsafe %}{% endif %}
+{% endcapture %}{% assign codeBlock = nil %}
 <section id='embedsection'>
   <div id="streambox">
-    <iframe id="if_stream" name="if_stream" width="640" height="392" frameborder="0" style="border:0;outline:0" scrolling="no" src="{{ site.data.embed-switcher.embeds[site.data.embed-switcher.live] }}"></iframe>
+    <iframe id="if_stream" name="if_stream" width="640" height="392" frameborder="0" style="border:0;outline:0" scrolling="no" src="{{ embed }}"></iframe>
     <div class="embedui">
-      <a class="btn refresh noext" href="{{ site.data.embed-switcher.embeds[site.data.embed-switcher.live] }}" target="if_stream"><span class="caption">Refresh Stream</span></a>
+      <a class="btn refresh noext" href="{{ embed }}" target="if_stream"><span class="caption">Refresh Stream</span></a>
       <a class="btn popout" href="javascript:popoutStream()"><span class="caption">Popout Stream</span></a>
       <a class="btn chatbox" href="javascript:toggleChatbox()"><span class="caption">Show/Hide Chat</span></a>
     </div>
