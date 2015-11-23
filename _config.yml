@@ -38,6 +38,11 @@ defaults:
       yahNews: true
   -
     scope:
+      path: "assets"
+    values:
+      layout: "raw"
+  -
+    scope:
       path: "about"
     values:
       titlecat: "about"
