@@ -44,14 +44,22 @@ function update() {
     if (now.isAfter(timer.moment)) {
       continue;
     }
+    if (shown > showInSidebar) {
+      break;
+    }
     shown++;
     if (!titledone) {
-      var time = calcRemaining(timer.moment);
       timertitle.innerHTML = timerTitle(timer) + " in";
-      timerclock.innerHTML = time;
+      timerclock.innerHTML = calcRemaining(timer.moment);
       titledone = true;
     }
   }
+}
+
+function sideTimeText(timer) {
+  var title = timerTitle(timer);
+  var time = calcRemaining(timer.moment);
+  return "<p>" + title + "<br>" + time + "</p>";
 }
 
 function timerTitle(timer) {
