@@ -39,12 +39,14 @@ function update() {
   var shown = 0;
   var titledone = false;
   
+  sidetimers.innerHTML = "";
+  
   for (var i = 0; i < brst_timers.length; i++) {
     var timer = brst_timers[i];
     if (now.isAfter(timer.moment)) {
       continue;
     }
-    if (shown > showInSidebar) {
+    if (shown == showInSidebar) {
       break;
     }
     shown++;
@@ -53,6 +55,7 @@ function update() {
       timerclock.innerHTML = calcRemaining(timer.moment);
       titledone = true;
     }
+    sidetimers.innerHTML += "<li>" + sideTimeText(timer) + "</li>";
   }
 }
 
