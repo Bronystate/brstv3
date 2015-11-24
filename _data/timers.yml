@@ -3,13 +3,13 @@
 # Shizuka Kamishima - 2015-11-23
 #
 # timers:
-#   - title: Friday Movie Night
-#     time: 2015-11-27 19:00 -0500
-#     url: "/news/2015-11-20-lottery.html"
-#
 #   - title: Pony Episode
 #     time: 2015-11-28 10:30 -0600
-# 
+#
+#   - title: Some special event
+#     time: 2015-12-25 00:00 +0000
+#     url: /news/2015-12-25-christmas.html
+#
 # Spaces matter! Line up the - and values, blank lines okay
 # "url" field is optional, "title" and "time" are not
 # "title" will be lowercased when inserted into header bar
@@ -37,24 +37,16 @@
 # If all timers are in the past, timerbar hides
 #
 # TODO: Override a specific timer for timerbar
-# TODO: Automatically calculate movie night times
-#       so we don't need to enter them here
 #
 #==========================================================
 
 # How many upcoming timers should be in sidebar
 show-in-sidebar: 3
 
+# How many weeks of movie nights in advance to generate
+weeks-in-advance: 2
+
 # List of timers
 timers:
-  - title: Something in the past
-    time: 2015-11-22 02:23 -0600
-    
-  - title: Thanksgiving noon
-    time: 2015-11-26 12:00 -0600
-    
-  - title: A thing Happens
-    time: 2015-12-25 00:00 -0600
-    
-  - title: Season Finale
+  - title: MLP:FIM Season Finale
     time: 2015-11-28 08:00 -0800

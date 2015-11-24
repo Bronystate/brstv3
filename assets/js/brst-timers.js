@@ -8,6 +8,8 @@
 
 var showInSidebar = {{ site.data.timers.show-in-sidebar }};
 
+var weeksInAdvance = {{ site.data.timers.weeks-in-advance }};
+
 var brst_timers = [
 {% for timer in site.data.timers.timers %}{
   "title": "{{timer.title}}", 
