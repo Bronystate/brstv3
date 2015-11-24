@@ -1,0 +1,52 @@
+#==========================================================
+# Bronystate 3.0 - Countdown Timers
+# Shizuka Kamishima - 2015-11-23
+#
+# timers:
+#   - title: Pony Episode
+#     time: 2015-11-28 10:30 -0600
+#
+#   - title: Some special event
+#     time: 2015-12-25 00:00 +0000
+#     url: /news/2015-12-25-christmas.html
+#
+# Spaces matter! Line up the - and values, blank lines okay
+# "url" field is optional, "title" and "time" are not
+# "title" will be lowercased when inserted into header bar
+# Remember most recent lottery appears below stream
+#
+# TIME FORMAT: YYYY-MM-DD HH:MM -TTTT (or +TTTT)
+#   YYYY: year
+#   MM: month
+#   DD: day
+#   HH: hour
+#   MM: minute
+#   TTTT: timezone offset from UTC
+#
+# Enter times in *your* timezone
+#   unless you know the time's EST/EDT time
+#   or +0000 for UTC
+# For Daylight Savings, input the time it *will* be
+# Safest to always specify timezone, will assume UTC without it
+#
+# NOTE: EXPIRED TIMERS WILL NOT SELF-DELETE
+# You'll have to periodically clean out old times
+#
+# Next pending timer goes into bar under header
+# Next "show-in-sidebar" timers go into sidebar
+# If all timers are in the past, timerbar hides
+#
+# TODO: Override a specific timer for timerbar
+#
+#==========================================================
+
+# How many upcoming timers should be in sidebar
+show-in-sidebar: 3
+
+# How many weeks of movie nights in advance to generate (includes this week)
+weeks-in-advance: 2
+
+# List of timers
+timers:
+  - title: MLP:FIM Season Finale
+    time: 2015-11-28 08:00 -0800

@@ -86,7 +86,7 @@ You may continue to appeal a ban if your first attempt is rejected.
 
 *[Eastern Time]: UTC-5, -4 during US Daylight Saving Time
 
-Movie Nights are held every Friday at 7pm Eastern Time and Saturday at 1pm Eastern Time, and consist of two
+Movie Nights are held every Friday at 7pm Eastern Time and Saturday at 2pm Eastern Time, and consist of two
 movies and two episodes of *My Little Pony*, chosen by our users.
 
 Each week, we send out a lottery form you can use to cast your vote. The form consists of your:

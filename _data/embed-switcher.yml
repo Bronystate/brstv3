@@ -1,0 +1,40 @@
+# Bronystate 3.0 - Embed Switcher
+# Shizuka Kamishima - 2015-11-23
+
+###########################################################
+#!!! DO NOT UNDER ANY CIRCUMSTANCES COMMIT STREAM KEYS !!!#
+###########################################################
+
+# Name of the embed to put on page - don't misspell it!
+# Ex. "diamond", "emerald", "ponies-in-boxes"
+live: "diamond"
+
+# List of embed src, what goes in the "" will go into iframe
+embeds:
+  # MAIN STREAMS
+  amethyst:   ""
+  beryl:      ""
+  cookie:     "http://www.ustream.tv/embed/16198304?html5ui=1" # BRST20131018
+  diamond:    "http://www.ustream.tv/embed/16227134?html5ui=1" # BRST20131023
+  emerald:    "http://www.ustream.tv/embed/16296194?html5ui=1" # BRST20131106
+  feldspar:   ""
+  garnet:     ""
+  hematite:   ""
+  iolite:     ""
+  jade:       ""
+  lapis:      ""
+  malachite:  ""
+  opal:       ""
+  pearl:      ""
+  quartz:     ""
+  ruby:       ""
+  sapphire:   ""
+  topaz:      ""
+  # YOUTUBE LOOPS
+  # /embed/VIDEO_ID?copyeverythingelse
+  fireplace: "http://www.youtube.com/embed/e_BL5EKwSqE?&autoplay=1&rel=0&loop=1&modestbranding=1&showinfo=0&iv_load_policy=3"
+  ponies-in-boxes: "http://www.youtube.com/embed/tJnWo5Jx7W8?&autoplay=1&rel=0&loop=1&modestbranding=1&showinfo=0&iv_load_policy=3"
+
+# If you flub the live name, or there's otherwise no url, load Technical Derpiculties instead
+# To force this to load, leave "live" blank
+failsafe: "http://www.youtube.com/embed/9YF4uMesUHw?&autoplay=1&rel=0&loop=1&modestbranding=1&showinfo=0&iv_load_policy=3"
