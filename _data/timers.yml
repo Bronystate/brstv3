@@ -43,7 +43,7 @@
 # How many upcoming timers should be in sidebar
 show-in-sidebar: 3
 
-# How many weeks of movie nights in advance to generate
+# How many weeks of movie nights in advance to generate (includes this week)
 weeks-in-advance: 2
 
 # List of timers
