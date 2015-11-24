@@ -47,15 +47,19 @@ function update() {
     shown++;
     if (!titledone) {
       var time = calcRemaining(timer.moment);
-      var title = timer.title;
-      if (timer.url !== "undefined" && timer.url != "") {
-        title = '<a href="' + timer.url + '">' + title + '</a>';
-      }
-      timertitle.innerHTML = title + " in";
+      timertitle.innerHTML = timerTitle(timer) + " in";
       timerclock.innerHTML = time;
       titledone = true;
     }
   }
+}
+
+function timerTitle(timer) {
+  var title = timer.title;
+  if (timer.url !== "undefined" && timer.url != "") {
+    title = '<a href="' + timer.url + '">' + title + '</a>';
+  }
+  return title;
 }
 
 function calcRemaining(mo) {
