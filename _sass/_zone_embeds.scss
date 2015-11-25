@@ -88,7 +88,7 @@ iframe {
   
   @include transition(max-width 2s ease-out 0s, background-image 1s ease-out 0.5s, background-color 1s ease-out 0.5s, color 1s ease-out 0.5s);
   
-  &:hover, &:focus {
+  &:hover {
     background-color: lighten($color-btn-blue, 10%);
     max-width: 100%;
     @include transition(max-width 2s ease-out 0s, background-image .2s ease-out 0s, background-color .2s ease-out 0s, color .2s ease-out 0s);
@@ -147,21 +147,21 @@ iframe {
   &.refresh {
     background: $color-btn-blue url('/assets/img/refresh.png') 0 0 no-repeat;
     color: $color-text;
-    &:hover, &:focus {
+    &:hover {
       background: lighten($color-btn-blue, 10%) url('/assets/img/refresh.png') 0 0 no-repeat;
     }
   }
   
   &.popout {
     background: $color-btn-blue url('/assets/img/popout.png') 0 0 no-repeat;
-    &:hover, &:focus {
+    &:hover {
       background: lighten($color-btn-blue, 10%) url('/assets/img/popout.png') 0 0 no-repeat;
     }
   }
   
   &.chatbox {
     background: $color-btn-blue url('/assets/img/chatbox.png') 0 0 no-repeat;
-    &:hover, &:focus {
+    &:hover {
       background: lighten($color-btn-blue, 10%) url('/assets/img/chatbox.png') 0 0 no-repeat;
     }
   }
@@ -169,7 +169,7 @@ iframe {
   // ICON BUTTONS WITH COLOR OVERRIDE
   &.twi {
     background: $color-btn-blue url('/assets/img/twilight.png') 0 0 no-repeat;
-    &:hover, &:focus {
+    &:hover {
       background: $color-twi-coat url('/assets/img/twilight-hover.png') 0 0 no-repeat;
       color: darken($color-twi-outline, 10%);
     }
@@ -177,7 +177,7 @@ iframe {
   
   &.pinkie {
     background: $color-btn-blue url('/assets/img/pinkie.png') 0 0 no-repeat;
-    &:hover, &:focus {
+    &:hover {
       background: $color-pinkie-coat url('/assets/img/pinkie-hover.png') 0 0 no-repeat;
       color: darken($color-pinkie-outline, 20%);
     }
@@ -185,7 +185,7 @@ iframe {
   
   &.rarity {
     background: $color-btn-blue url('/assets/img/rarity.png') 0 0 no-repeat;
-    &:hover, &:focus {
+    &:hover {
       background: $color-rarity-coat url('/assets/img/rarity-hover.png') 0 0 no-repeat;
       color: darken($color-rarity-outline, 10%);
     }
@@ -193,7 +193,7 @@ iframe {
   
   &.dash {
     background: $color-btn-blue url('/assets/img/dash.png') 0 0 no-repeat;
-    &:hover, &:focus {
+    &:hover {
       background: $color-dash-coat url('/assets/img/dash-hover.png') 0 0 no-repeat;
       color: darken($color-dash-outline, 10%);
     }
@@ -201,7 +201,7 @@ iframe {
   
   &.aj {
     background: $color-btn-blue url('/assets/img/applejack.png') 0 0 no-repeat;
-    &:hover, &:focus {
+    &:hover {
       background: $color-aj-coat url('/assets/img/applejack-hover.png') 0 0 no-repeat;
       color: darken($color-aj-outline, 10%);
     }
@@ -209,7 +209,7 @@ iframe {
   
   &.flutt {
     background: $color-btn-blue url('/assets/img/fluttershy.png') 0 0 no-repeat;
-    &:hover, &:focus {
+    &:hover {
       background: $color-flutt-coat url('/assets/img/fluttershy-hover.png') 0 0 no-repeat;
       color: darken($color-flutt-outline, 25%);
     }
