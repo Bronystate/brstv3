@@ -13,10 +13,15 @@ staff:
 #   favpone: [obvious]
 #   favmovie: [also obvious]
 #
-  - nick: NewDCD
-    forecolor: 00ff00
-    location: Panama City, Panama
-    favpone: Twilight Sparkle
+  - nick: Buytoast
+    forecolor: 000000
+    backcolor: 333333
+    
+  - nick: Eulshy
+    
+  - nick: Fengor
+    forecolor: 000000
+    backcolor: 00ff00
     
   - nick: fluttercry
     forecolor: 990000
@@ -25,17 +30,43 @@ staff:
     favpone: Fluttershy
     favmovie: Back to the Future, Raiders of the Lost Ark
     
+  - nick: GabeMoist
+    forecolor: 000000
+    backcolor: ffff00
+    
   - nick: Ghosties
     forecolor: ff0000
     location: NC, USA
     favpone: Vinyl Scratch
     favmovie: Jacob's Ladder
     
+  - nick: konsoln
+    forecolor: 333333
+    
+  - nick: Krazy
+    forecolor:
+    backcolor:
+    
   - nick: Luna
     forecolor: ff9900
     title: Original Bronystate Mare
     location: Europe Maneland
     favpone: Princess Luna
+    
+  - nick: MirrorImage
+    forecolor: 000000
+    backcolor: 999900
+    
+  - nick: NewDCD
+    forecolor: 00ff00
+    location: Panama City, Panama
+    favpone: Twilight Sparkle
+    
+  - nick: Phase
+    
+  - nick: Saturn
+    forecolor: ffff00
+    title: Hostmaster
     
   - nick: Shizuka
     forecolor: 990099
@@ -52,6 +83,10 @@ staff:
     favpone: Applejack
     favmovie: Spaceballs
     
+  - nick: TheGreatAndPowerfulT
+    forecolor: 000099
+    backcolor: 00ffff
+    
   - nick: ValtheJean
     forecolor: 0099ff
     backcolor: 333333
@@ -65,6 +100,9 @@ staff:
     location: Unknown
     favpone: Derpy Hooves
     favmovie: Midnight in Paris
+    
+  - nick: Vuxul
+    forecolor: 00ff00
     
   - nick: Wrek
     forecolor: 990000
