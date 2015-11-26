@@ -1,0 +1,85 @@
+#==================================================================
+# Bronystate 3.0 - Staff List
+#
+# Leave a parameter out of your block if you like
+#==================================================================
+
+staff:
+# - nick: [nick, will assume existence of /assets/img/staff/nick.png]
+#   forecolor: [hex color without the #]
+#   backcolor: [same]
+#   title: [come up with one]
+#   location: [where you is]
+#   favpone: [obvious]
+#   favmovie: [also obvious]
+#
+  - nick: NewDCD
+    forecolor: 00ff00
+    location: Panama City, Panama
+    favpone: Twilight Sparkle
+    
+  - nick: fluttercry
+    forecolor: 990000
+    backcolor: cccccc
+    location: Virginia, US
+    favpone: Fluttershy
+    favmovie: Back to the Future, Raiders of the Lost Ark
+    
+  - nick: Ghosties
+    forecolor: ff0000
+    location: NC, USA
+    favpone: Vinyl Scratch
+    favmovie: Jacob's Ladder
+    
+  - nick: Luna
+    forecolor: ff9900
+    title: Original Bronystate Mare
+    location: Europe Maneland
+    favpone: Princess Luna
+    
+  - nick: Shizuka
+    forecolor: 990099
+    title: Resident Miracle Worker
+    location: Twin Cities, MN
+    favpone: VioletVanilla
+    favmovie: Twister
+    
+  - nick: Sumica
+    forecolor: ffffff
+    backcolor: 00ffff
+    title: Streaming Guru
+    location: Las Vegas, NV
+    favpone: Applejack
+    favmovie: Spaceballs
+    
+  - nick: ValtheJean
+    forecolor: 0099ff
+    backcolor: 333333
+    location: Utah, USA
+    favpone: Caramel
+    favmovie: To Live
+    
+  - nick: VioletVanilla
+    forecolor: 990099 
+    title: Queen of Wub
+    location: Unknown
+    favpone: Derpy Hooves
+    favmovie: Midnight in Paris
+    
+  - nick: Wrek
+    forecolor: 990000
+    location: Umea, Sweden
+    favpone: Twilight Sparkle
+    favmovie: Sunshine
+
+former-staff:
+# - [nick]
+  - Diftraku
+  - Elsie
+  - kirzstryfe
+  - Nittany_Discord
+  - SaxyPretender
+  - Scoot-Scootaloo
+  - Silverscreen
+  - SlurryMoon
+  - SuperBrony64
