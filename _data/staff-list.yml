@@ -42,6 +42,8 @@ staff:
     
   - nick: konsoln
     forecolor: 333333
+    location: Europe
+    favpone: Rarity
     
   - nick: Krazy
     forecolor:
@@ -114,8 +116,11 @@ former-staff:
 # - [nick]
   - Diftraku
   - Elsie
+  - fluttershy
+  - Hipster-Pony
   - kirzstryfe
   - Nittany_Discord
+  - Prince-Dari
   - SaxyPretender
   - Scoot-Scootaloo
   - Silverscreen
