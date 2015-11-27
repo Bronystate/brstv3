@@ -57,7 +57,10 @@ staff:
     
   - nick: MirrorImage
     forecolor: 000000
-    backcolor: 999900
+    backcolor: 009393
+    title: Changeling in Training
+    location: Pennsylvania, USA
+    favpone: Applejack
     
   - nick: NewDCD
     forecolor: 00ff00
