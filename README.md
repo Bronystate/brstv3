@@ -2,6 +2,8 @@
 
 > Code to power the new generation of states of bronies
 
+[![Build Status](https://travis-ci.org/Bronystate/brstv3.svg)](https://travis-ci.org/Bronystate/brstv3)
+
 * * * * *
 
 ## Usage
