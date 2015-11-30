@@ -15,8 +15,7 @@ notifications:
     channels:
     - irc.ponychat.net#cathedral
     template:
-    - '%{repository}#%{build_number} @%{commit} : %{author} : %{commit_message} : %{compare_url}'
-    - 'Build details: %{result} : %{build_url}'
+    - '%{repository_slug}#%{build_number} %{result} - @%{commit} by %{author} (%{commit_message}) : %{compare_url}'
 
 before_script: echo -e "Host 192.81.222.77\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 
