@@ -4,7 +4,7 @@
 
 Output path: `bronystate.net/news/yyyy-mm-dd-title.html`
 
-- Create file `yyyy-mm-dd-title.html` of today's date and a slug
+- Create file `yyyy-mm-dd-title.md` (NOT `html`!) of today's date and a slug
   (doesn't have to be same as page title)
 - Add following to top of file. Can optionally add time (optionally timezone in +/-0500
   format too) after date, it assumes America/New_York time by default
