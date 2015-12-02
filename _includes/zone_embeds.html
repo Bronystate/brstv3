@@ -39,4 +39,10 @@
     streambox.classList.toggle('expand');
     if_stream.classList.toggle('expand');
   }
+  window.addEventListener('load', function() {
+    var stream = UstreamEmbed(if_stream);
+    stream.addListener('live', function() {
+      stream.callMethod('play');
+    })
+  });
 </script>
