@@ -25,3 +25,23 @@ $color-link-nav-active: $color-link-hover;
 // BUTTONS
 $color-btn-text: $color-text;
 $color-btn-blue: $color-luna-outline;
+
+//IRC COLORS
+$irc: (
+   0: #fff, //white
+   1: #000, //black
+   2: #008, //blue
+   3: #080, //green
+   4: #f00, //bright red
+   5: #800, //red
+   6: #808, //purple
+   7: #f80, //orange (dark yellow)
+   8: #ff0, //yellow
+   9: #0f0, //bright green
+  10: #088, //cyan (teal)
+  11: #0ff, //bright cyan
+  12: #00f, //bright blue
+  13: #f0f, //bright purple (pink)
+  14: #888, //grey
+  15: #ccc  //light grey
+)

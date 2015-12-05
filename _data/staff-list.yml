@@ -2,89 +2,109 @@
 # Bronystate 3.0 - Staff List
 #
 # Leave a parameter out of your block if you like
+#
+# MIRC COLORS
+#    0: white
+#    1: black
+#    2: blue
+#    3: green
+#    4: bright red
+#    5: dark red / brown
+#    6: purple
+#    7: orange / dark yellow
+#    8: yellow
+#    9: bright green
+#   10: dark cyan (teal)
+#   11: light cyan
+#   12: bright blue
+#   13: pink / bright purple
+#   14: grey
+#   15: light grey
+#
 #==================================================================
 
 staff:
 # - nick: [nick, will assume existence of /assets/img/staff/nick.png]
-#   forecolor: [hex color without the #]
-#   backcolor: [same]
+#   forecolor: [MIRC COLOR]
+#   backcolor: [MIRC COLOR]
 #   title: [come up with one]
 #   location: [where you is]
 #   favpone: [obvious]
 #   favmovie: [also obvious]
 #
   - nick: Buytoast
-    forecolor: 000000
-    backcolor: 333333
+    forecolor: 1
+    backcolor: 14
     
   - nick: Eulshy
     
   - nick: Fengor
-    forecolor: 000000
-    backcolor: 00ff00
+    forecolor: 1
+    backcolor: 9
     
   - nick: fluttercry
-    forecolor: 990000
-    backcolor: cccccc
+    forecolor: 5
+    backcolor: 15
     location: Virginia, US
     favpone: Fluttershy
     favmovie: Back to the Future, Raiders of the Lost Ark
     
   - nick: GabeMoist
-    forecolor: 000000
-    backcolor: ffff00
+    forecolor: 1
+    backcolor: 8
     location: Jerseyland
     favpone: Colgate
     
   - nick: Ghosties
-    forecolor: ff0000
+    forecolor: 4
     location: NC, USA
     favpone: Vinyl Scratch
     favmovie: Jacob's Ladder
     
   - nick: konsoln
-    forecolor: 333333
+    forecolor: 14
     location: Europe
     favpone: Rarity
     
   - nick: Krazy
-    forecolor:
-    backcolor:
+    forecolor: 4
+    backcolor: 2
     
   - nick: Luna
-    forecolor: ff9900
+    forecolor: 7
     title: Original Bronystate Mare
     location: Europe Maneland
     favpone: Princess Luna
     
   - nick: MirrorImage
-    forecolor: 000000
-    backcolor: 009393
+    forecolor: 1
+    backcolor: 10
     title: Changeling in Training
     location: Pennsylvania, USA
     favpone: Applejack
     
   - nick: NewDCD
-    forecolor: 00ff00
+    forecolor: 9
+    backcolor: 1
     location: Panama City, Panama
     favpone: Twilight Sparkle
     
   - nick: Phase
     
   - nick: Saturn
-    forecolor: ffff00
+    forecolor: 8
     title: Hostmaster
     
   - nick: Shizuka
-    forecolor: 990099
+    forecolor: 6
     title: Resident Miracle Worker
     location: Twin Cities, MN
     favpone: VioletVanilla
     favmovie: Twister
     
   - nick: Sumica
-    forecolor: ffffff
-    backcolor: 00ffff
+    forecolor: 0
+    backcolor: 11
     title: Streaming Guru
     location: Las Vegas, NV
     favpone: Applejack
@@ -93,31 +113,31 @@ staff:
   - nick: texasboykc09
     
   - nick: TheGreatAndPowerfulT
-    forecolor: 000099
-    backcolor: 00ffff
+    forecolor: 2
+    backcolor: 11
     
   - nick: ValtheJean
-    forecolor: 0099ff
-    backcolor: 333333
+    forecolor: 12
+    backcolor: 14
     location: In your mind
     favpone: Caramel
     favmovie: To Live
     
   - nick: VioletVanilla
-    forecolor: 990099 
+    forecolor: 6
     title: Queen of Wub
     location: Unknown
     favpone: Derpy Hooves
     favmovie: Midnight in Paris
     
   - nick: Vuxul
-    forecolor: 00ff00
+    forecolor: 9
     title: Logical Nordicpony
     location: Denmark
     favpone: Rainbow Dash
     
   - nick: Wrek
-    forecolor: 990000
+    forecolor: 5
     location: Umea, Sweden
     favpone: Twilight Sparkle
     favmovie: Sunshine

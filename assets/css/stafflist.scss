@@ -1,0 +1,28 @@
+---
+---
+/**
+ * Bronystate 3.0 - Staff List Styling
+ * Shizuka Kamishima - 2015-12-05
+ */
+
+@import 'globalstyles';
+
+.stafflist-wrap {
+  //background-color: $color-celestia-mane-paleblue;
+}
+
+ul.stafflist {
+  h3 {
+    color: $color-text;
+    display: inline-block;
+    padding: 3px 5px;
+  }
+  
+  /* STAFF COLORS */
+  {% for p in site.data.staff-list.staff %}
+  .{{p.nick}} {
+    {% unless p.forecolor == nil %}color: map-get($irc, {{p.forecolor}});{% endunless %}
+    {% unless p.backcolor == nil %}background-color: map-get($irc, {{p.backcolor}});{% endunless %}
+  }
+  {% endfor %}
+}
