@@ -49,7 +49,7 @@ weeks-in-advance: 2
 # List of timers
 timers:
   - title: Harry Potter 1+2
-    time: 2015-12-07 08:00 -0600
+    time: 2015-12-07 18:00 -0600
   - title: Harry Potter 3+4
     time: 2015-12-08 18:00 -0600
   - title: Harry Potter 5+6
