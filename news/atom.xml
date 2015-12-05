@@ -1,0 +1,22 @@
+---
+layout: raw
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://www.bronystate.net/</id>
+  <title>Bronystate</title>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <link rel="self" href="http://www.bronystate.net/news/atom.xml" />
+  {% for post in site.posts limit:10 %}
+  <entry>
+    <id>{{ site.url }}{{ post.url }}</id>
+    <title>{{ post.title }}</title>
+    <updated>{{ post.date | date_to_xmlschema }}</updated>
+    <author><name>{{ post.author }}</name></author>
+    <link href="{{ site.url }}{{ post.url }}" />
+    <content type="html">
+      {{ post.excerpt | xml_escape }} {% capture content_words %}{{ post.content | number_of_words }}{% endcapture %}{% capture excerpt_words %}{{ post.excerpt | number_of_words }}{% endcapture %}{% if excerpt_words != content_words %}&lt;a href=&quot;{{ site.url }}{{ post.url }}#read-more&quot;&gt;Read more...&lt;/a&gt;{% endif %}
+    </content>
+  </entry>
+  {% endfor %}
+</feed>
