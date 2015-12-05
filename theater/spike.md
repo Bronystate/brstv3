@@ -10,7 +10,7 @@ With the launch of Bronystate 3.0, the separate theater pages have been *removed
 In their place, we now have a [simpler home page](/) containing the stream and 
 chat embeds.
 
-**PLEASE UPDATE YOUR BOOKMARKS** to point to [http://www.bronystate.net/]
+**PLEASE UPDATE YOUR BOOKMARKS** to point to [http://www.bronystate.net/](/)
 
 * * * * *
 
