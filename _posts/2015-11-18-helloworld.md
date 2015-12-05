@@ -1,7 +1,7 @@
 ---
 title: Bronystate 3.0 is coming
 author: Shizuka
-date: 2015-11-18
+date: 2015-11-18 17:57 -0600
 tags: [brst3.0]
 ---
 
