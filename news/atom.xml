@@ -5,6 +5,7 @@ layout: raw
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://www.bronystate.net/</id>
   <title>Bronystate</title>
+  <subtitle>The #1 pony streaming site on the net</subtitle>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
   <link rel="self" href="http://www.bronystate.net/news/atom.xml" />
   {% for post in site.posts limit:10 %}
