@@ -7,11 +7,12 @@
 
 @import 'globalstyles';
 
-.stafflist-wrap {
-  //background-color: $color-celestia-mane-paleblue;
-}
-
 ul.stafflist {
+  list-style-type: none;
+  margin-left: 0;
+  margin-top: 1.5em;
+  padding-bottom: 0.5em;
+  
   h3 {
     color: $color-text;
     display: inline-block;
@@ -19,14 +20,13 @@ ul.stafflist {
     margin-bottom: 0;
   }
   
-  list-style-type: none;
-  
   & > li {
     background-color: fade-out($color-celestia-mane-paleblue, 0.85);
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px 0px rgba(0,0,0,.2);
     margin-left: 0;
     margin-bottom: 1em;
     padding: 1em;
-    border-radius: 10px;
     clear: both;
     
     ul {
