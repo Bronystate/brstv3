@@ -27,6 +27,16 @@ go live, and commit (*please write a commit message!*).
 
 * * * * *
 
+## staff-list.yml
+
+Details of current staff members, used to build the About Us page
+
+Should all be fairly easy to work out by looking at file and the final page
+
+Assumes the existence of `/assets/img/staff-list/nick.png` for all active nicks
+
+* * * * *
+
 ## timers.yml
 
 Countdown timers to display under the header (above embeds) and in the sidebar

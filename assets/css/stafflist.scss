@@ -1,0 +1,91 @@
+---
+---
+/**
+ * Bronystate 3.0 - Staff List Styling
+ * Shizuka Kamishima - 2015-12-05
+ */
+
+@import 'globalstyles';
+
+ul.stafflist {
+  list-style-type: none;
+  margin-left: 0;
+  margin-top: 1.5em;
+  padding-bottom: 0.5em;
+  
+  h3 {
+    color: $color-text;
+    display: inline-block;
+    padding: 3px 5px;
+    margin-bottom: 0;
+  }
+  
+  & > li {
+    background-color: fade-out($color-celestia-mane-paleblue, 0.85);
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px 0px rgba(0,0,0,.2);
+    margin-left: 0;
+    margin-bottom: 1em;
+    padding: 1em;
+    clear: both;
+    
+    ul {
+      margin-left: 1em;
+      list-style-type: disc;
+    }
+    
+    $imgsize: 100px;
+    img {
+      display: inline-block;
+      width: $imgsize;
+      height: $imgsize;
+      margin-right: 10px;
+      border: none;
+      float: left;
+    }
+    
+    .info {
+      display: inline-block;
+    }
+    
+    .title {
+      margin-left: 1em;
+      font-weight: bold;
+      color: $color-celestia-outline;
+    }
+    
+  }
+  
+  /* STAFF COLORS */
+  $irc: (
+     0: #ffffff, //fff white
+     1: #000000, //000 black
+     2: #3F76BE, //008 blue
+     3: #4E9A06, //080 green
+     4: #CD3030, //f00 bright red
+     5: #A83333, //800 red
+     6: #9E51B3, //808 purple
+     7: #CD6F23, //f80 orange (dark yellow)
+     8: #CCA700, //ff0 yellow
+     9: #73D216, //0f0 bright green
+    10: #11A879, //088 cyan (teal)
+    11: #31C4BC, //0ff bright cyan
+    12: #277BD7, //00f bright blue
+    13: #CC5581, //f0f bright purple (pink)
+    14: #444444, //888 grey
+    15: #BDBFB9  //ccc light grey
+  );
+  
+  {% for p in site.data.staff-list.staff %}
+  li.{{p.nick}} .nick {
+    {% unless p.forecolor == nil %}color: map-get($irc, {{p.forecolor}});{% endunless %}
+    {% unless p.backcolor == nil %}background-color: map-get($irc, {{p.backcolor}});{% endunless %}
+  }
+  {% endfor %}
+}
+
+ul.retiredlist {
+  list-style-type: circle;
+  padding-bottom: 0;
+  font-size: $size-text-big;
+}

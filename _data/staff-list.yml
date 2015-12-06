@@ -1,0 +1,170 @@
+#==================================================================
+# Bronystate 3.0 - Staff List
+#
+# Leave a parameter out of your block if you like
+#
+# MIRC COLORS
+#    0: white
+#    1: black
+#    2: blue
+#    3: green
+#    4: bright red
+#    5: dark red / brown
+#    6: purple
+#    7: orange / dark yellow
+#    8: yellow
+#    9: bright green
+#   10: dark cyan (teal)
+#   11: light cyan
+#   12: bright blue
+#   13: pink / bright purple
+#   14: grey
+#   15: light grey
+#
+#==================================================================
+
+staff:
+# - nick: [nick, will assume existence of /assets/img/staff-list/nick.png]
+#   forecolor: [MIRC COLOR]
+#   backcolor: [MIRC COLOR]
+#   title: [come up with one]
+#   location: [where you is]
+#   favpone: [obvious]
+#   favmovie: [also obvious]
+#
+  - nick: Buytoast
+    forecolor: 1
+    backcolor: 14
+    title: Officially "That Guy"
+    location: Chicago, IL
+    favmovie: Dredd
+    
+  - nick: Eulshy
+    
+  - nick: Fengor
+    forecolor: 1
+    backcolor: 3
+    
+  - nick: fluttercry
+    forecolor: 5
+    backcolor: 15
+    title: Great Salt Flat
+    location: Virginia, US
+    favpone: Fluttershy
+    favmovie: Back to the Future, Raiders of the Lost Ark
+    
+  - nick: GabeMoist
+    forecolor: 1
+    backcolor: 8
+    location: Jerseyland
+    favpone: Colgate
+    
+  - nick: konsoln
+    forecolor: 15 #should be 14, but 14 is too dark against background
+    location: Europe
+    favpone: Rarity
+    
+  - nick: Krazy
+    forecolor: 4
+    backcolor: 2
+    location: Australia
+    favpone: Spike
+    
+  - nick: Luna
+    forecolor: 7
+    title: Original Bronystate Mare
+    location: Europe Maneland
+    favpone: Princess Luna
+    
+  - nick: MirrorImage
+    forecolor: 1
+    backcolor: 10
+    title: Changeling in Training
+    location: Pennsylvania, USA
+    favpone: Applejack
+    
+  - nick: Phase
+    forecolor: 0
+    backcolor: 2
+    title: IRCOp
+    
+  - nick: Saturn
+    forecolor: 8
+    title: Hostmaster
+    
+  - nick: Shizuka
+    forecolor: 6
+    title: Resident Miracle Worker
+    location: Twin Cities, MN
+    favpone: VioletVanilla
+    favmovie: Twister
+    
+  - nick: Sumica
+    forecolor: 0
+    backcolor: 11
+    title: Streaming Guru
+    location: Las Vegas, NV
+    favpone: Applejack
+    favmovie: Spaceballs
+    
+  - nick: texasboykc09
+    title: Seasonal Intern
+    favpone: Flutterbat
+    favmovie: Smokey and the Bandit 2
+    
+  - nick: TheGreatAndPowerfulT
+    forecolor: 2
+    backcolor: 11
+    title: Powerful and Great
+    location: Mexico
+    favpone: Trixie
+    favmovie: Kiki's Delivery Service
+    
+  - nick: ValtheJean
+    forecolor: 2
+    backcolor: 14
+    title: Lord of the Trident
+    location: In your mind
+    favpone: Caramel
+    favmovie: To Live
+    
+  - nick: VioletVanilla
+    forecolor: 6
+    title: Queen of Wub
+    location: Missing, if found please return!
+    favpone: Derpy Hooves
+    favmovie: Midnight in Paris
+    
+  - nick: Vuxul
+    forecolor: 9
+    title: Logical Nordicpony
+    location: Denmark
+    favpone: Rainbow Dash
+    
+  - nick: Wrek
+    forecolor: 5
+    title: Artful Viking
+    location: Karlskrona, Sweden
+    favpone: Twilight Sparkle
+    favmovie: Sunshine
+
+former-staff:
+# - [nick]
+  - Diftraku
+  - Elsie
+  - Fluttershy`
+  - Ghosties
+  - Hipster-Pony
+  - kirzstryfe
+  - NewDCD
+  - Nittany_Discord
+  - Octavia
+  - Prince-Dari
+  - RainBroDash
+  - Robot_Pinkie
+  - SaxyPretender
+  - Scoot-Scootaloo
+  - Silverscreen
+  - SirSprinkles
+  - SlurryMoon
+  - SuperBrony64
