@@ -86,6 +86,7 @@ staff:
   - nick: Phase
     forecolor: 0
     backcolor: 2
+    title: IRCOp
     
   - nick: Saturn
     forecolor: 8
@@ -107,6 +108,7 @@ staff:
     favmovie: Spaceballs
     
   - nick: texasboykc09
+    title: Seasonal Intern
     
   - nick: TheGreatAndPowerfulT
     forecolor: 2
