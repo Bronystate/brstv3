@@ -57,6 +57,7 @@ By using Bronystate chat you agree to these guidelines:
 By breaking a rule you accept that you will be warned, kicked and/or banned from chat.
 
 * * * * *
+{% include meta_backtotop.html %}
 
 ## Ban Appeals
 
@@ -81,6 +82,7 @@ Bronystate Staff will evaluate your appeal and make a decision whether or not th
 You may continue to appeal a ban if your first attempt is rejected.
 
 * * * * *
+{% include meta_backtotop.html %}
 
 ## Brony Movie Night and the Lottery
 

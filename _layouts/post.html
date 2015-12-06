@@ -5,7 +5,7 @@
 <section class="article-wrap">
 <article>
 {% include meta_postinfo.html post=page skiplink=true %}
-{{ content | replace: '<!-- more -->', '<a id="read-more"></a>' }}
+{{ content | replace: '<!-- more -->', '<div class="anchor" id="read-more"></div>' }}
 </article>
 {% include meta_newsnav.html post=page %}
 </section>

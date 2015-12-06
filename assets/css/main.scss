@@ -186,6 +186,10 @@ a {
       margin: 0;
     }
   }
+  
+  &.anchor {
+    height: 0;
+  }
 }
 
 strong {
@@ -246,6 +250,32 @@ h1,h2,h3 {
   margin-bottom: 0.5em;
 }
 
+:target {
+  margin-bottom: -30px;
+  &:before {
+    display: inline-block;
+    position: relative;
+    left: -60px;
+    font-family: FontAwesome;
+    font-size: 20px;
+    content: "\f0a4"; //fa-hand-o-right
+    opacity: 0;
+    animation: 3s anchorfinger cubic-bezier(.45,.05,.55,.95);
+  }
+}
+
+@keyframes anchorfinger {
+  0%, 50%, 100% {
+    transform: translateX(3px);
+  }
+  25%, 75% {
+    transform: translateX(-3px);
+  }
+  50% { opacity: 1; }
+  100%{ opacity: 0; }
+  0%  { opacity: 1; }
+}
+
 img {
   padding: 1px;
   border: $border;
@@ -274,6 +304,13 @@ img {
 
 .right {
   text-align: right;
+}
+
+.backtotop {
+  float: right;
+  margin-left: -100%;
+  margin-top: -1.5em;
+  font-size: $size-text-small;
 }
 
 blockquote {

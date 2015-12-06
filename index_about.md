@@ -53,6 +53,7 @@ Who knows what 2016 will bring? Stay tuned to Bronystate, where the fun only
 doubles on days ending in Y!
 
 * * * * *
+{% include meta_backtotop.html %}
 
 <h2>Our Staff</h2>
 
@@ -75,6 +76,7 @@ doubles on days ending in Y!
 </ul>
 
 * * * * *
+{% include meta_backtotop.html %}
 
 <h2>Retired Staff</h2>
 

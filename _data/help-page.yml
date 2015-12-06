@@ -1,0 +1,90 @@
+#===============================================================================
+# Bronystate 3.0 - Help Page
+#
+# Contains questions and answers for the Help page
+#
+# Questions will be presented on page in the order they are defined here
+#
+# FORMAT
+# - i: slug
+#   q: Question?
+#   a: |
+#     Answer in Markdown
+#     < align here, remember empty lines for paragraphs
+#     
+#      - Lists work too, just remember blank line and to indent right
+#===============================================================================
+
+- i: backlog
+  q: What movies have been shown at Bronystate?
+  a: |
+    We maintain a long backlog of every movie we've ever shown, and it can be
+    easily found at: <http://bit.ly/bronystatebacklog>
+
+- i: howto-IRC
+  q: How can I connect to the chat?
+  a: |
+    Well you could use the Iris chat client embedded on the front page. Simply
+    click on one of the cutie marks to connect to that side channel as well as
+    the main **#bronystate** channel. Note that side channels are closed and
+    muted outside of live episode streams.
+    
+    You can also connect your own client to **irc.ponychat.net** if you have one.
+    
+    If you don't have a client, we recommend [Hexchat][hxc] for its ease of use.
+    
+    [hxc]: https://hexchat.github.io/
+
+- i: howto-lottery
+  q: Where do I go to vote for Movie Night?
+  a: |
+    Each week we put out a news post with the week's lottery winners, which will
+    appear underneath the stream embed on the front page, as well as in our main
+    news feeds.
+    
+    The link to the next lottery is included in that post. Note that only the
+    most recent lottery post will have a valid link; don't vote in an expired
+    lottery!
+
+- i: issue-reporting
+  q: How do I report an issue with the site or make a suggestion?
+  a: |
+    We maintain a public issue tracker at [our Github repository][gh]. If you
+    see a bug somewhere on the site, or have a suggestion, please open an issue,
+    and we will get back to you. Please note that you will require a Github
+    account in order to open issues.
+    
+    If you have a suggestion for an improvement to the site, and are comfortable
+    with code, try forking the repository and making the changes yourself in a
+    new branch, and pull request that branch back to us! We'd love to have your
+    input on new features.
+    
+    [gh]: https://github.com/Bronystate/brstv3/issues
+
+- i: nopones
+  q: Why aren't there ponies on the stream?
+  a: |
+    We don't always show *My Little Pony*, because too much of a good thing is,
+    well, too much of a good thing. We like to keep things varied at Bronystate,
+    and so show programming of all kinds. Today maybe it's gaming, tomorrow an
+    old show you didn't realize you missed, the next day maybe everyone's busy
+    and there's no stream at all.
+    
+    The only fixed events we hold are the Friday and Saturday Movie Nights, and
+    live new episodes of *My Little Pony* as they air.
+    
+    Stay tuned to Bronystate, you never know what will come up next!
+
+- i: kicked
+  q: Why was I kicked?
+  a: |
+    Your client will show you a message as you are kicked from channel telling
+    you why. Be sure to [read the Rules][r] to avoid getting kicked in the first
+    place!
+    
+    [r]: /rules
+
+- i: appeal
+  q: How do I appeal a ban?
+  a: |
+    See the [Ban Appeals](/rules#ban-appeals) section of the Rules.
