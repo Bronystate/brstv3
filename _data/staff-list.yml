@@ -24,7 +24,7 @@
 #==================================================================
 
 staff:
-# - nick: [nick, will assume existence of /assets/img/staff/nick.png]
+# - nick: [nick, will assume existence of /assets/img/staff-list/nick.png]
 #   forecolor: [MIRC COLOR]
 #   backcolor: [MIRC COLOR]
 #   title: [come up with one]
