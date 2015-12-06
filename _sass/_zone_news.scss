@@ -58,6 +58,14 @@ $boxcolor: royalblue;
         content: ",";
       }
     }
+    
+    a {
+      color: $color-link-alt;
+      
+      &:hover {
+        color: $color-link-alt-hover;
+      }
+    }
   }
 }
 

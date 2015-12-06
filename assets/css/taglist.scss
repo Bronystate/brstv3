@@ -1,0 +1,24 @@
+---
+---
+/**
+ * Bronystate 3.0 - Tag Index
+ * Shizuka Kamishima - 2015-12-06
+ */
+
+@import 'globalstyles';
+
+.tagindex {
+  h2 {
+    display: inline;
+  }
+  .tagdesc {
+    display: inline;
+    margin-left: 1em;
+    font-weight: bold;
+    font-size: $size-text-small;
+    color: $color-celestia-outline;
+  }
+  .postinfo {
+    margin-bottom: 0;
+  }
+}

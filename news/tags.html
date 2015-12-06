@@ -1,0 +1,45 @@
+---
+title: index by tags
+css:
+- /assets/css/taglist.css
+---
+{% capture tags %}{% for tag in site.tags %}{{ tag[0] }} {% endfor %}{% endcapture %}
+{% assign sortedtags = tags | split:' ' | sort %}
+<h1><a href="/news"><i class="fa fa-angle-left"></i> News Archive</a></h1>
+<h2 id="">Tag Index</h2>
+<ul>
+  <li><a href="#no-tag">general news</a></li>
+  {% for tag in sortedtags %}<li><a href="#{{ tag }}">{{ tag }}</a></li>{% endfor %}
+</ul>
+<hr>
+<div class="tagindex">
+  <div class="tagbox">
+    <div class="taginfo">
+      <h2 id="no-tag" class="tagname">general news</h2>
+      <p class="tagdesc">posts with no tags set</p>
+    </div>
+    <ul class="taglist">
+      {% for post in site.posts %}{% if post.tags != empty %}{% continue %}{% endif %}
+      <li>
+        {% include meta_postinfo.html post=post noheader=true %}
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% for tag in sortedtags %}
+  <div class="tagbox">
+    {% assign tagmeta = site.data.tags.[tag] %}
+    <div class="taginfo">
+      <h2 id="{{ tag }}" class="tagname">{{ tag }}</h2>
+      {% if tagmeta.desc %}<p class="tagdesc">{{ tagmeta.desc }}</p>{% endif %}
+    </div>
+    <ul class="taglist">
+      {% for post in site.tags[tag] %}
+      <li>
+        {% include meta_postinfo.html post=post noheader=true %}
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endfor %}
+</div>

@@ -1,0 +1,13 @@
+#===============================================================================
+# Bronystate 3.0 - Tag Info
+#
+# Metadata about news post tags
+#
+# FORMAT
+#
+# tagname:
+#   desc: some description text
+#===============================================================================
+
+lottery:
+  desc: the week's lottery winners
