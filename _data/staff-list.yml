@@ -60,7 +60,7 @@ staff:
     favpone: Colgate
     
   - nick: konsoln
-    forecolor: 15
+    forecolor: 15 #should be 14, but 14 is too dark against background
     location: Europe
     favpone: Rarity
     
