@@ -56,6 +56,25 @@ ul.stafflist {
   }
   
   /* STAFF COLORS */
+  $irc: (
+     0: #ffffff, //fff white
+     1: #000000, //000 black
+     2: #3F76BE, //008 blue
+     3: #4E9A06, //080 green
+     4: #CD3030, //f00 bright red
+     5: #A83333, //800 red
+     6: #9E51B3, //808 purple
+     7: #CD6F23, //f80 orange (dark yellow)
+     8: #CCA700, //ff0 yellow
+     9: #73D216, //0f0 bright green
+    10: #11A879, //088 cyan (teal)
+    11: #31C4BC, //0ff bright cyan
+    12: #277BD7, //00f bright blue
+    13: #CC5581, //f0f bright purple (pink)
+    14: #444444, //888 grey
+    15: #BDBFB9  //ccc light grey
+  );
+  
   {% for p in site.data.staff-list.staff %}
   li.{{p.nick}} .nick {
     {% unless p.forecolor == nil %}color: map-get($irc, {{p.forecolor}});{% endunless %}
