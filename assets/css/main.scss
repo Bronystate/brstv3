@@ -276,6 +276,13 @@ img {
   text-align: right;
 }
 
+.backtotop {
+  float: right;
+  margin-left: -100%;
+  margin-top: -1.5em;
+  font-size: $size-text-small;
+}
+
 blockquote {
   background-color: $color-bk-blockquote;
   padding: 1em 1.25em 0;

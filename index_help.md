@@ -18,7 +18,7 @@ Just click on a question:
 
 {% for e in site.data.help-page %}
 <hr>
-<div style="float: right; font-size: 10px; margin-top: -1.5em"><a href="#">top <i class="fa fa-angle-up"></i></a></div>
+<div class="backtotop"><a href="#">top <i class="fa fa-angle-up"></i></a></div>
 <h2>{{ e.q }}</h2>
 {{ e.a }}
 {% endfor %}
