@@ -20,7 +20,6 @@ Just click on a question:
 <hr>
 {% include meta_backtotop.html %}
 
-<div class="anchor" id="{{ e.i }}"></div>
-<h2>{{ e.q }}</h2>
+<h2 id="{{ e.i }}">{{ e.q }}</h2>
 {{ e.a }}
 {% endfor %}
