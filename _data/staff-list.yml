@@ -35,6 +35,9 @@ staff:
   - nick: Buytoast
     forecolor: 1
     backcolor: 14
+    title: Officially "That Guy"
+    location: Chicago, IL
+    favmovie: Dredd
     
   - nick: Eulshy
     
@@ -45,6 +48,7 @@ staff:
   - nick: fluttercry
     forecolor: 5
     backcolor: 15
+    title: Great Salt Flat
     location: Virginia, US
     favpone: Fluttershy
     favmovie: Back to the Future, Raiders of the Lost Ark
@@ -63,6 +67,8 @@ staff:
   - nick: Krazy
     forecolor: 4
     backcolor: 2
+    location: Australia
+    favpone: Spike
     
   - nick: Luna
     forecolor: 7
@@ -105,10 +111,12 @@ staff:
   - nick: TheGreatAndPowerfulT
     forecolor: 2
     backcolor: 11
+    title: Powerful and Great
     
   - nick: ValtheJean
     forecolor: 2
     backcolor: 14
+    title: NOOOOOOOOOOOO
     location: In your mind
     favpone: Caramel
     favmovie: To Live
@@ -116,7 +124,7 @@ staff:
   - nick: VioletVanilla
     forecolor: 6
     title: Queen of Wub
-    location: Unknown
+    location: Missing, if found please return!
     favpone: Derpy Hooves
     favmovie: Midnight in Paris
     
@@ -128,6 +136,7 @@ staff:
     
   - nick: Wrek
     forecolor: 5
+    title: Artful Viking
     location: Karlskrona, Sweden
     favpone: Twilight Sparkle
     favmovie: Sunshine
