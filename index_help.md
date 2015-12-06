@@ -19,6 +19,8 @@ Just click on a question:
 {% for e in site.data.help-page %}
 <hr>
 {% include meta_backtotop.html %}
+
+<div class="anchor" id="{{ e.i }}"></div>
 <h2>{{ e.q }}</h2>
 {{ e.a }}
 {% endfor %}
