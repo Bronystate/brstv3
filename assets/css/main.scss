@@ -333,4 +333,55 @@ footer {
   border-top: $border;
   font-size: $size-text-small;
   text-align: center;
+  cursor: default;
+  
+  $icon-size: 18px;
+  $box-width: 200px;
+  
+  .icon-wrap {
+    margin: auto;
+    padding-top: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .twit {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: $box-width;
+    i {
+      font-size: $icon-size;
+    }
+    span {
+      opacity: 0;
+      @include transition(opacity 0.2s cubic-bezier(.25,.46,.45,.94));
+    }
+    &:hover span {
+      opacity: 1;
+    }
+  }
+  
+  .sep {
+    display: inline-block;
+    width: 20px;
+  }
+  
+  .rss {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: $box-width;
+    i {
+      font-size: $icon-size;
+    }
+    span {
+      opacity: 0;
+      @include transition(opacity 0.2s cubic-bezier(.25,.46,.45,.94));
+    }
+    &:hover span {
+      opacity: 1;
+    }
+  }
 }
