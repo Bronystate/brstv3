@@ -37,6 +37,13 @@ Assumes the existence of `/assets/img/staff-list/nick.png` for all active nicks
 
 * * * * *
 
+## tags.yml
+
+Metadata for news post tags, optional. Add tag name and description to have it
+listed on the tag index page (reachable by clicking any tag on a post).
+
+* * * * *
+
 ## timers.yml
 
 Countdown timers to display under the header (above embeds) and in the sidebar
