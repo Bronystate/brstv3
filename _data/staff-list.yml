@@ -55,12 +55,6 @@ staff:
     location: Jerseyland
     favpone: Colgate
     
-  - nick: Ghosties
-    forecolor: 4
-    location: NC, USA
-    favpone: Vinyl Scratch
-    favmovie: Jacob's Ladder
-    
   - nick: konsoln
     forecolor: 14
     location: Europe
@@ -82,12 +76,6 @@ staff:
     title: Changeling in Training
     location: Pennsylvania, USA
     favpone: Applejack
-    
-  - nick: NewDCD
-    forecolor: 9
-    backcolor: 1
-    location: Panama City, Panama
-    favpone: Twilight Sparkle
     
   - nick: Phase
     
@@ -147,8 +135,10 @@ former-staff:
   - Diftraku
   - Elsie
   - fluttershy
+  - Ghosties
   - Hipster-Pony
   - kirzstryfe
+  - NewDCD
   - Nittany_Discord
   - Prince-Dari
   - SaxyPretender
