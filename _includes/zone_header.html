@@ -2,6 +2,7 @@
   <a href="/"><h1>[bronystate]</h1></a>
   <nav>
     <ul>
+      {% unless page.yahHome %}<li><a href='/'>home</a></li>{% endunless %}
       <li><a href='/about/'{% if page.yahAbt %}class='youarehere'{% endif %}>about</a></li>
       <li><a href='/news/'{% if page.yahNews %}class='youarehere'{% endif %}>news</a></li>
       <!--<li><a href='/help/'{% if page.yahHelp %}class='youarehere'{% endif %}>help</a></li>-->
