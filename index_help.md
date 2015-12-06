@@ -18,7 +18,7 @@ Just click on a question:
 
 {% for e in site.data.help-page %}
 <hr>
-<div class="backtotop"><a href="#">top <i class="fa fa-angle-up"></i></a></div>
+{% include meta_backtotop.html %}
 <h2>{{ e.q }}</h2>
 {{ e.a }}
 {% endfor %}
