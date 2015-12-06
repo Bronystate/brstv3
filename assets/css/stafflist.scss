@@ -31,6 +31,7 @@ ul.stafflist {
     
     ul {
       margin-left: 1em;
+      list-style-type: disc;
     }
     
     $imgsize: 100px;
@@ -50,7 +51,7 @@ ul.stafflist {
     .title {
       margin-left: 1em;
       font-weight: bold;
-      color: $color-celestia-mane-pink;
+      color: $color-celestia-outline;
     }
     
   }
