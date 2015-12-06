@@ -173,6 +173,8 @@ a {
   &[href^="http://"], &[href^="https://"] {
     &:after {
       font-family: FontAwesome;
+      font-size: $size-text-small;
+      font-weight: normal;
       content: '\f08e'; // fa-external-link
       margin: 0 0 0 3px;
     }
