@@ -83,3 +83,9 @@ ul.stafflist {
   }
   {% endfor %}
 }
+
+ul.retiredlist {
+  list-style-type: circle;
+  padding-bottom: 0;
+  font-size: $size-text-big;
+}

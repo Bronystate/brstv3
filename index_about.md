@@ -1,6 +1,6 @@
 ---
 titlecat: about
-date: 2015-11-18
+date: 2015-12-05
 yahAbt: true
 permalink: /about/
 css:
@@ -39,7 +39,7 @@ css:
 
 <h2>Retired Staff</h2>
 
-<ul>
+<ul class="retiredlist">
   {% for p in site.data.staff-list.former-staff %}
   <li>{{ p }}</li>
   {% endfor %}
