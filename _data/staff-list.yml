@@ -78,6 +78,8 @@ staff:
     favpone: Applejack
     
   - nick: Phase
+    forecolor: 0
+    backcolor: 2
     
   - nick: Saturn
     forecolor: 8
