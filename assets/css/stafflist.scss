@@ -15,12 +15,43 @@ ul.stafflist {
   h3 {
     color: $color-text;
     display: inline-block;
-    padding: 3px 5px;
+    padding: 3px 5px 0;
+    margin-bottom: 0;
+  }
+  
+  list-style-type: none;
+  
+  & > li {
+    background-color: fade-out($color-celestia-mane-paleblue, 0.85);
+    margin-left: 0;
+    margin-bottom: 1em;
+    padding: 1em;
+    border-radius: 10px;
+    clear: both;
+    
+    ul {
+      margin-left: 1em;
+    }
+    
+    $imgsize: 100px;
+    img {
+      display: inline-block;
+      width: $imgsize;
+      height: $imgsize;
+      margin-right: 10px;
+      border: none;
+      float: left;
+    }
+    
+    .info {
+      display: inline-block;
+    }
+    
   }
   
   /* STAFF COLORS */
   {% for p in site.data.staff-list.staff %}
-  .{{p.nick}} {
+  li.{{p.nick}} .nick {
     {% unless p.forecolor == nil %}color: map-get($irc, {{p.forecolor}});{% endunless %}
     {% unless p.backcolor == nil %}background-color: map-get($irc, {{p.backcolor}});{% endunless %}
   }
