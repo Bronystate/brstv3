@@ -15,7 +15,7 @@ ul.stafflist {
   h3 {
     color: $color-text;
     display: inline-block;
-    padding: 3px 5px 0;
+    padding: 3px 5px;
     margin-bottom: 0;
   }
   
@@ -45,6 +45,12 @@ ul.stafflist {
     
     .info {
       display: inline-block;
+    }
+    
+    .title {
+      margin-left: 1em;
+      font-weight: bold;
+      color: $color-celestia-mane-pink;
     }
     
   }
