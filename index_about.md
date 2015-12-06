@@ -34,3 +34,13 @@ css:
   {% endfor %}
   </ul>
 </div>
+
+* * * * *
+
+<h2>Retired Staff</h2>
+
+<ul>
+  {% for p in site.data.staff-list.former-staff %}
+  <li>{{ p }}</li>
+  {% endfor %}
+</ul>
