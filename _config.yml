@@ -36,6 +36,7 @@ defaults:
     values:
       layout: "post"
       yahNews: true
+      titlecat: "news"
   -
     scope:
       path: "assets"
