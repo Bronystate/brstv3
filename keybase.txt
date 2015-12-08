@@ -1,0 +1,74 @@
+==================================================================
+https://keybase.io/kamishizuka
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.bronystate.net
+  * I am kamishizuka (https://keybase.io/kamishizuka) on keybase.
+  * I have a public key with fingerprint 024C 6311 45DF 48F8 6191  6185 C229 C6F9 0A5B 8964
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01012443e2519e8eab37de8dd7c5303809c0cfaa5777fe2b2dfe70949a404def44d80a",
+            "fingerprint": "024c631145df48f861916185c229c6f90a5b8964",
+            "host": "keybase.io",
+            "key_id": "c229c6f90a5b8964",
+            "kid": "01012443e2519e8eab37de8dd7c5303809c0cfaa5777fe2b2dfe70949a404def44d80a",
+            "uid": "84be9c7827e280aa6fb3387166d7a119",
+            "username": "kamishizuka"
+        },
+        "service": {
+            "hostname": "www.bronystate.net",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1449563267,
+    "expire_in": 157680000,
+    "prev": "c6f00d618931d8b3e99c70995fed5fc87fc2e9414e9a18c96073d9d3735e9511",
+    "seqno": 9,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.49
+Comment: https://keybase.io/crypto
+
+yMNFAnicrVJrUFRlGGbjom5DgnYZbZI6LkMXFs79nG9xwD/QRUVAwuHWci7fWY7A
+nuXsYblnMwiEElHDlBMBBgxeSJIuZKON3FIKl5qp1LDWYFNjkgiLZiiEzmHsXz/7
+/nzzve/zPN/zPvOOhgYGmE3DT5xfNGc3iKbxoSMlARlSS00lwitiOWKrRArg6gUL
+RejW7AWyiNgQFEMxnCQJiFMYgCzkeIIRISuKjEARKMGiQEAFieMohmEkiPO4KEEG
+BSTgSJQUoUSSIotySDQiyU4HVF2q7NQMWZwUaALDSEqUSFZiaQxgNMZSAo4DgZYA
+ylE8C2hSJ+YrboOhm+M5N4yRFb2mP+yr9v4D/z/7LlmVY0keAoFhcQbiep2jJZ4g
+WAajaZHhMAwYQDdUnVwRNLxyRbI7X64oKeCQ6mhEb3hkARrZGsPcBZWWlsbwquIs
+d2ucBmOcUNNFXKqiKYJSqPfzNc3lthl8rdy1SoC8/a6UnZedoh6ozvBA1S0rTsSG
+6UhBkw1tjCQBRRM4zUQjsMwlq9AuGwiKoVlUP8Y/0GPER0soKurBAwITWZ6AQB8S
+BYCSoEhJAstIAg4BiZEQcBgrABplCBGIBENQEFAYhhjDFTsVxAZ0m5xDl3TLDien
+lagQqR4eygkKMJkDQoLvMRYtwLwu7N/1W3p//fK2w8M996vFW9RUr+sojM+st38k
++suSvIfCTx1frO6z5ARZLzgC6U4HH9ZYmX3p4pl3rOa1TRHOptcjG3edHn929sfm
+5ztO5U4OZL4Q3mXvOnjn+J/pdVzr9va5z1GrMpL2g/je9zlt56cf/eKO6UwiKH3K
+OpCwL7Wl84Cn9ttUeUtj799z/ZbMPfnq7Ey6KUXxl48kTXbWpYejnX0PNacV/PHZ
+cMRbrRWqbySHzCscs2zIEOSa/sVguYLI+GbdV4H7Hrj3zYQ1mw8Vh7ZFX1vo8/kX
+dzubE7JTbIx37naRNXr91UdC/wod3QTNkm9+xVdTu8IJfQcu2eOmkzPrZ0LceT3B
+cZtyvdStd7M+6Qpuz3bsYqc3PjwZ91xu/UUiCSDZY8zZeP70yamowaizQ/Me1nYj
+640I4fBEUuze7q2jrst83nLyzm3zvU9vz6vy7bB++NpGuSHOMt3U8ttlkv954bvG
+sRO5QZ6rUSvPTHRdYb8M9MdXv+JLdPV+LL88WBGSdu2YJeWl/f7IjgdvZZQN1gcu
+7ZcOtl4/ebTj3I2FhuvLsymYT/vJvnaw71z7nivC1OMTiclbj8H74jZPehO6LySG
+7Xzs9qu/lvyi2GL3DiyRPO2NvDk+k3Vkh9xWFZoueKv8U/Gm/pth3XOZWH1s8tcb
+ep5k635/u/bTNRWW8fkTuz948R+M3MTE
+=H9nv
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/kamishizuka
+
+==================================================================
