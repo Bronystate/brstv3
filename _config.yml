@@ -6,7 +6,6 @@ description: The best pony streaming site on the net!
 url: "http://www.bronystate.net"
 markdown: kramdown
 highlighter: pygments
-timezone: "America/New_York"
 
 exclude: ["vendor","deploy-key","*.enc","*.bat","*.ini","Gemfile","Gemfile.lock","README.md"]
 
