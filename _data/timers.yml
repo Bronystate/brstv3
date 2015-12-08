@@ -50,9 +50,16 @@ weeks-in-advance: 2
 timers:
   - title: Harry Potter 1+2
     time: 2015-12-07 18:00 -0600
+    url: /news/2015-12-04-hpweek.html
+    
   - title: Harry Potter 3+4
     time: 2015-12-08 18:00 -0600
+    url: /news/2015-12-04-hpweek.html
+    
   - title: Harry Potter 5+6
     time: 2015-12-09 18:00 -0600
+    url: /news/2015-12-04-hpweek.html
+    
   - title: Harry Potter 7 Pt1+2
     time: 2015-12-10 18:00 -0600
+    url: /news/2015-12-04-hpweek.html
