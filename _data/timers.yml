@@ -48,18 +48,26 @@ weeks-in-advance: 2
 
 # List of timers
 timers:
-  - title: Harry Potter 1+2
-    time: 2015-12-07 18:00 -0600
-    url: /news/2015-12-04-hpweek.html
+  - title: Disney Movies Night 1
+    time: 2015-12-14 18:00 -0600
+    url: /news/2015-12-12-Disney week.html
     
-  - title: Harry Potter 3+4
-    time: 2015-12-08 18:00 -0600
-    url: /news/2015-12-04-hpweek.html
+  - title: Disney Movies Night 2
+    time: 2015-12-15 18:00 -0600
+    url: /news/2015-12-12-Disney week.html
     
-  - title: Harry Potter 5+6
-    time: 2015-12-09 18:00 -0600
-    url: /news/2015-12-04-hpweek.html
+  - title: Disney Movies Night 3
+    time: 2015-12-16 18:00 -0600
+    url: /news/2015-12-12-Disney week.html
     
-  - title: Harry Potter 7 Pt1+2
-    time: 2015-12-10 18:00 -0600
-    url: /news/2015-12-04-hpweek.html
+  - title: Disney Movies Night 4
+    time: 2015-12-17 18:00 -0600
+    url: /news/2015-12-12-Disney week.html
+
+  - title: Disney Movies Night 5
+    time: 2015-12-18 18:00 -0600
+    url: /news/2015-12-12-Disney week.html
+    
+      - title: Disney Movies Night 6
+    time: 2015-12-19 13:00 -0600
+    url: /news/2015-12-12-Disney week.html
