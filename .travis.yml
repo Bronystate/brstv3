@@ -13,7 +13,7 @@ notifications:
   email: false
   irc:
     channels:
-    - irc.ponychat.net#cathedral
+    - irc.ponychat.net#bronystate
     template:
     - '%{repository_slug}#%{build_number} %{result} - @%{commit} by %{author} (%{commit_subject}) : %{compare_url}'
 
