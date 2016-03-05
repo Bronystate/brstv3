@@ -48,26 +48,5 @@ weeks-in-advance: 2
 
 # List of timers
 timers:
-  - title: Miyazaki Movie Night 1
-    time: 2016-1-4 18:00 -0600
-    url: /news/2015-12-12-Disney week.html
-    
-  - title: Miyazaki Movies Night 2
-    time: 2016-1-5 18:00 -0600
-    url: /news/2015-12-12-Disney week.html
-    
-  - title: Miyazaki Movies Night 3
-    time: 2016-1-6 18:00 -0600
-    url: /news/2015-12-12-Disney week.html
-    
-  - title: Miyazaki Movies Night 4
-    time: 2016-1-7 18:00 -0600
-    url: /news/2015-12-12-Disney week.html
-
-  - title: Disney Movies Night 5
-    time: 2015-12-18 18:00 -0600
-    url: /news/2015-12-12-Disney week.html
-    
-  - title: Disney Movies Night 6
-    time: 2015-12-19 13:00 -0600
-    url: /news/2015-12-12-Disney week.html
+  - title: MLP Season Premiere
+    time: 2016-03-26 11:00 -0400
