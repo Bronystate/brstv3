@@ -75,6 +75,20 @@
     
     Stay tuned to Bronystate, you never know what will come up next!
 
+- i: adblocking
+  q: Why are there ads on the stream?
+  a: |
+    Use an ad-blocking extension for your browser to prevent stream ads from
+    running. We recommend [uBlock Origin][uo] for it's active maintenance, low
+    CPU and memory footprint, and effectiveness across all platforms.
+    
+    Live airings of new *Friendship is Magic* episodes are captured directly
+    from a cable connection, so commercials are unavoidable. Bronystate re-airs
+    the new episode without commercials following our Saturday Movie Night
+    event.
+    
+    [uo]: https://github.com/gorhill/uBlock
+
 - i: kicked
   q: Why was I kicked?
   a: |
