@@ -108,6 +108,8 @@ staff:
     favmovie: Spaceballs
     
   - nick: texasboykc09
+    forecolor: 0
+    backcolor: 3
     title: Seasonal Intern
     favpone: Flutterbat
     favmovie: Smokey and the Bandit 2
