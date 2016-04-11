@@ -25,8 +25,16 @@ function loadTimers() {
 
 function genAdvanceMovies(amt) {
   for (var i = 0; i < amt; i++) {
-    var fri = { title: "Friday Movie Night", moment: moment.tz("America/New_York").hour(19).minute(0).second(0).millisecond(0).day(5 +(7*i)), url: "" };
-    var sat = { title: "Saturday Movie Night", moment: moment.tz("America/New_York").hour(14).minute(0).second(0).millisecond(0).day(6 +(7*i)), url: "" };
+    var fri = { title: "Friday Movie Night",
+                url: "",
+                moment: moment.tz("America/New_York")
+                 .hour(19).minute(0).second(0).millisecond(0).day(5 +(7*i))
+              };
+    var sat = { title: "Saturday Movie Night",
+                url: "",
+                moment: moment.tz("America/New_York")
+                 .hour(14).minute(0).second(0).millisecond(0).day(6 +(7*i))
+              };
     brst_timers.push(fri, sat);
   }
 }
