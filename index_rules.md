@@ -102,6 +102,7 @@ Then, alternating each week's Friday and Saturday, we randomly choose from the l
 on the following week's Movie Night. However, before we do so, the staff looks over the list to disqualify
 certain entries, by the following criteria:
 
+ - Movies are eligible for voting **one year** after their theatrical release
  - Movies must wait **six months** before being eligible for Movie Night again
  - Users must wait **four weeks** before they may win another movie or episode, whichever they won previously
  - Movies shown **three times** are entered into the Bronystate Vault, ineligible for airing except on special occasion
