@@ -44,7 +44,11 @@ staff:
   - nick: Fengor
     forecolor: 1
     backcolor: 3
-    
+    title: The Mighty Barbarian
+    location: An island of indeterminate location
+    favpone: Rarity
+    favmovie: The Godfather
+
   - nick: fluttercry
     forecolor: 5
     backcolor: 15
