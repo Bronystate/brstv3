@@ -18,11 +18,11 @@ These rules are subject to change at staff discretion with or without prior noti
 
 By using Bronystate chat you agree to these guidelines:
 
- 1. Use common sense -- don't act the way you wouldn't want someone else to.
- 2. We ask that you speak English in chat.
- 3. You must be 14 years of age or older to chat.
+ 1. Use common sense -- don't act the way you wouldn't want someone else to
+ 2. We ask that you speak English in chat
+ 3. You must be 14 years of age or older to chat
  4. Treat other users with respect. If a mod tells you to stop, **stop**.
- 5. Do not not post spoilers of any kind  
+ 5. Do not post spoilers of any kind  
     Subjects not to be spoiled include, but are not limited to:
     - Future *My Little Pony* media: episodes, movies, comics, etc.
     - Plot of the movies of Movie Night for those who haven't seen it
@@ -49,7 +49,6 @@ By using Bronystate chat you agree to these guidelines:
 10. Do not troll
 11. Bots or scripts of any kind not officially sanctioned by Bronystate are **not** permitted  
     Officially sanctioned bots and scripts consist of:
-    - Kestrel IRC Bot by Shizuka
     - BerryPunch by Phase
     - Staff client scripts
 12. Do not attempt to evade any ban given to you
