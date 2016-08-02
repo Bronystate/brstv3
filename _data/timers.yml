@@ -48,33 +48,16 @@ weeks-in-advance: 2
 
 # List of timers
 timers:
-  - title: MLP Season Premiere
-    time: 2016-03-26 11:00 -0400
-  - title: MLP 6x03 - The Gift of Maud Pie
-    time: 2016-04-02 11:30 -0400
-  - title: MLP 6x04 - On Your Marks
-    time: 2016-04-09 11:30 -0400
-  - title: MLP 6x05 - Gauntlet of Fire
-    time: 2016-04-16 11:30 -0400
-  - title: MLP 6x06 - No Second Prances
-    time: 2016-04-30 11:30 -0400
-  - title: MLP 6x07 - Newbie Dash
-    time: 2016-05-07 11:30 -0400
-  - title: MLP 6x08 - A Hearth's Warming Tail
-    time: 2016-05-14 11:30 -0400
-  - title: MLP 6x09 - Saddle Row and Rec
-    time: 2016-05-21 11:30 -0400
-  - title: MLP 6x10 - Applejack's Day Off
-    time: 2016-05-28 11:30 -0400
-  - title: MLP 6x11 - Flutter Brutter
-    time: 2016-06-04 11:30 -0400
-  - title: MLP 6x12 - Spice Up Your Life
-    time: 2016-06-11 11:30 -0400
-  - title: Summer Trilogys Night 1 Week 1 
-    time: 2016-06-13 16:00 -0700
-  - title: Summer Trilogys Night 2 Week 1
-    time: 2016-06-14 16:00 -0700
-  - title: Summer Trilogys Night 3 Week 1
-    time: 2016-06-15 16:00 -0700
-  - title: Summer Trilogys Night 4 Week 1
-    time: 2016-06-16 16:00 -0700
+  - title: MLP 6x14 - The Cart Before the Ponies
+    time: 2016-08-06 10:30 -0500
+  - title: MLP 6x15 - 28 Pranks Later
+    time: 2016-08-13 10:30 -0500
+  - title: MLP 6x16 - The Times They Are a Changeling
+    time: 2016-08-20 10:30 -0500
+  - title: MLP 6x17 - Dungeons & Discords
+    time: 2016-08-27 10:30 -0500
+  - title: MLP 6x18 - Buckball Season
+    time: 2016-09-03 10:30 -0500
+  - title: MLP 6x19 - The Fault in Our Cutie Marks
+    time: 2016-09-10 10:30 -0500
+  
