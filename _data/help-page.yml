@@ -74,7 +74,13 @@
     live new episodes of *My Little Pony* as they air.
     
     Stay tuned to Bronystate, you never know what will come up next!
-
+- i: novideo
+  q: Why is chat talking about a stream if it looks offline to me?
+  a: |
+    We have probably just swapped stream embeds, which can take up to an hour to
+    filter through our caching. Try visiting <http://www.bronystate.net/index.html>
+    directly, and flush your browser cache. This will bring you the most current
+    version of the front page, and you should see the stream again.
 - i: adblocking
   q: Why are there ads on the stream?
   a: |
