@@ -1,0 +1,16 @@
+---
+title: Lord of the Rings Summer Finale
+date: 2016-08-22
+author: Fengor
+tags: [lottery][summer trilogies]
+---
+
+Summer is ending, which means it's time for us to send it off with our traditional bang of **The Lord of the Rings** extended cut weekend. But wait, there's more! This year we can finally run the extended cut of **The Hobbit**! I think that clocks the whole experience in at nearly twenty-four hours of Middle Earth for your eyeholes all week long.
+
+We will still be streaming the new episode at its regularly scheduled time on Saturday, and the lotto will return September 2nd. **However**, our regular movie night that day will be moved 7pm EDT. Below you will find a simplified schedule of this week's events.
+
+ - Monday-Wednesday: **The Hobbit Trilogy Extended Cut** at 7pm EDT
+ - Thursday: **No Movies**
+ - Friday: **LoTR:Fellowship of the Ring** at 7pm EDT
+ - Saturday: **LoTR:The Two Towers** at 2pm EDT
+ - Sunday: **LoTR: The Return of the King** at 2pm EDT
