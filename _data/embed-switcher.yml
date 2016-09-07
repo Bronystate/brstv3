@@ -14,9 +14,9 @@ embeds:
   # MAIN STREAMS
   amethyst:   ""
   beryl:      ""
-  cookie:     "http://www.ustream.tv/embed/16198304?html5ui=1&htmlplayback=1&autoplay=true" # BRST20131018
-  diamond:    "http://www.ustream.tv/embed/16227134?html5ui=1&htmlplayback=1&autoplay=true" # BRST20131023
-  emerald:    "http://www.ustream.tv/embed/16296194?html5ui=1&htmlplayback=1&autoplay=true" # BRST20131106
+  cookie:     "http://www.ustream.tv/embed/16198304?html5ui=1" # BRST20131018
+  diamond:    "http://www.ustream.tv/embed/16227134?html5ui=1" # BRST20131023
+  emerald:    "http://www.ustream.tv/embed/16296194?html5ui=1" # BRST20131106
   feldspar:   ""
   garnet:     ""
   hematite:   ""
