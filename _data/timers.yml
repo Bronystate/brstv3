@@ -48,16 +48,17 @@ weeks-in-advance: 2
 
 # List of timers
 timers:
-  - title: MLP 6x14 - The Cart Before the Ponies
-    time: 2016-08-06 10:30 -0500
-  - title: MLP 6x15 - 28 Pranks Later
-    time: 2016-08-13 10:30 -0500
-  - title: MLP 6x16 - The Times They Are a Changeling
-    time: 2016-08-20 10:30 -0500
-  - title: MLP 6x17 - Dungeons & Discords
-    time: 2016-08-27 10:30 -0500
-  - title: MLP 6x18 - Buckball Season
-    time: 2016-09-03 10:30 -0500
-  - title: MLP 6x19 - The Fault in Our Cutie Marks
-    time: 2016-09-10 10:30 -0500
-  
+  - title: MLP 6x20 - Viva Las Pegasus
+    time: 2016-09-17 10:30 -0500
+  - title: MLP 6x21 - Every Little Thing She Does
+    time: 2016-09-24 10:30 -0500
+  - title: MLP 6x22 - P.P.O.V. (Pony Point of View)
+    time: 2016-10-01 10:30 -0500
+  - title: MLP 6x23 - Where the Apple Lies
+    time: 2016-10-08 10:30 -0500
+  - title: MLP 6x24 - Top Bolt
+    time: 2016-10-15 10:30 -0500
+  - title: MLP 6x25 - To Where and Back Again - Part 1
+    time: 2016-10-22 10:00 -0500
+  - title: MLP 6x26 - To Where and Back Again - Part 2
+    time: 2016-10-22 10:30 -0500
