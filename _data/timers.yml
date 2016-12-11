@@ -58,7 +58,7 @@ timers:
     time: 2016-12-21 18:00 -0500
   - title: Marvelmas Day 5
     time: 2016-12-22 18:00 -0500
-  - title: Marvelmas Day 6
-    time: 2016-12-23 18:00 -0500
+  #- title: Marvelmas Day 6
+   # time: 2016-12-23 18:00 -0500
   - title: Marvelmas Day 7
     time: 2016-12-24 18:00 -0500
