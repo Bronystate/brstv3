@@ -49,16 +49,14 @@ weeks-in-advance: 2
 # List of timers
 timers:
   - title: Marvelmas Day 1
-    time: 2016-12-18 18:00 -0500
+    time: 2016-12-18 19:00 -0500
   - title: Marvelmas Day 2
-    time: 2016-12-19 18:00 -0500
+    time: 2016-12-19 19:00 -0500
   - title: Marvelmas Day 3
-    time: 2016-12-20 18:00 -0500
+    time: 2016-12-20 19:00 -0500
   - title: Marvelmas Day 4
-    time: 2016-12-21 18:00 -0500
+    time: 2016-12-21 19:00 -0500
   - title: Marvelmas Day 5
-    time: 2016-12-22 18:00 -0500
-  #- title: Marvelmas Day 6
-   # time: 2016-12-23 18:00 -0500
+    time: 2016-12-22 19:00 -0500
   - title: Marvelmas Day 7
-    time: 2016-12-24 18:00 -0500
+    time: 2016-12-24 19:00 -0500
