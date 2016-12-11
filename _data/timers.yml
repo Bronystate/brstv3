@@ -48,19 +48,17 @@ weeks-in-advance: 2
 
 # List of timers
 timers:
-  - title: MLP 6x20 - Viva Las Pegasus
-    time: 2016-09-17 10:30 -0500
-  - title: MLP 6x21 - Every Little Thing She Does
-    time: 2016-09-24 10:30 -0500
-  - title: MLP 6x22 - P.P.O.V. (Pony Point of View)
-    time: 2016-10-01 10:30 -0500
-  - title: MLP 6x23 - Where the Apple Lies
-    time: 2016-10-08 10:30 -0500
-  - title: MLP 6x24 - Top Bolt
-    time: 2016-10-15 10:30 -0500
-  - title: MLP 6x25 - To Where and Back Again - Part 1
-    time: 2016-10-22 10:00 -0500
-  - title: MLP 6x26 - To Where and Back Again - Part 2
-    time: 2016-10-22 10:30 -0500
-  - title: Q&A With Karine Charlebois
-    time: 2016-10-26 19:00 -0500
+  - title: Marvelmas Day 1
+    time: 2016-12-18 18:00 -0500
+  - title: Marvelmas Day 2
+    time: 2016-12-19 18:00 -0500
+  - title: Marvelmas Day 3
+    time: 2016-12-20 18:00 -0500
+  - title: Marvelmas Day 4
+    time: 2016-12-21 18:00 -0500
+  - title: Marvelmas Day 5
+    time: 2016-12-22 18:00 -0500
+  - title: Marvelmas Day 6
+    time: 2016-12-23 18:00 -0500
+  - title: Marvelmas Day 7
+    time: 2016-12-24 18:00 -0500
