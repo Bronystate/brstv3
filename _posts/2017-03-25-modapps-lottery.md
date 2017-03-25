@@ -1,5 +1,5 @@
 ---
-title: Brony Movie Night 31st of March and April 1st
+title: Bronystate Wants You!
 date: 2017-03-25
 author: Fengor
 tags: [lottery, modapps]
