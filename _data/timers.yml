@@ -50,3 +50,14 @@ weeks-in-advance: 2
 timers:
   - title: MLP Season 7 Premiere
     time: 2017-04-15 10:30 -0500
+  - title: MLP Season 7 Episode 5
+    time: 2017-05-06 10:30 -0500
+  - title: MLP Season 7 Episode 6
+    time: 2017-05-13 10:30 -0500
+  - title: MLP Season 7 Episode 7
+    time: 2017-05-20 10:30 -0500
+  - title: MLP Season 7 Episode 8
+    time: 2017-05-27 10:30 -0500
+  - title: MLP Season 7 Episode 9
+    time: 2017-06-03 10:30 -0500
+
