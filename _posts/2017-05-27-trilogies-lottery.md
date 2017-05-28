@@ -1,5 +1,5 @@
 ---
-title: Brony Movie Night 26th/27th of May
+title: Brony Movie Night 2nd/3rd of June & Summer Trilogies Event
 date: 2017-05-27
 author: Fengor
 tags: [lottery, season07, summer_trilogies]
