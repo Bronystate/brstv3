@@ -8,7 +8,7 @@ This year's Summer Trilogies event begins in a galaxy far, far away. Come join u
 
 Movies begin each night at 7pm EDT. We look forward to seeing you there!
 
- - Monday    - **Episode I: The Phantom Menace** & **Episode II: The Clone Wars**
- - Tuesday   - **Episode III: Revenge of The Sith** & **Rogue One**
- - Wednesday - **Episode IV: A New Hope** & **Episode V: The Empire Strikes Back**
- - Thursday  - **Episode VI: Return of The Jedi** & **Episode VII: The Force Awakens**
+ - Monday: **Episode I: The Phantom Menace** & **Episode II: The Clone Wars**
+ - Tuesday:  **Episode III: Revenge of The Sith** & **Rogue One**
+ - Wednesday:  **Episode IV: A New Hope** & **Episode V: The Empire Strikes Back**
+ - Thursday:  **Episode VI: Return of The Jedi** & **Episode VII: The Force Awakens**
