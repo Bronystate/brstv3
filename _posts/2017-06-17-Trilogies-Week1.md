@@ -4,7 +4,7 @@ date: 2017-06-17
 author: Fengor
 tags: [summer_trilogies, events]
 ---
-This year's Summer Trilogies event begins in a galaxy far, far away. Come join us this week, Monday through Thursday, as we watch the original and prequel Star Wars trilogies. As a bonus, we're throwing in Episode 7 and Rogue One because why not.
+This year's Summer Trilogies event begins in a galaxy far, far away. Come join us this week, Monday through Thursday, as we watch the original and prequel Star Wars trilogies. As a bonus, we're throwing in Episode VII and Rogue One because why not.
 
 Movies begin each night at 7pm EDT. We look forward to seeing you there!
 
