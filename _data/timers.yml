@@ -48,25 +48,31 @@ weeks-in-advance: 2
 
 # List of timers
 timers:
-  - title: MLP Season 7 Premiere
-    time: 2017-04-15 10:30 -0500
-  - title: MLP Season 7 Episode 5
-    time: 2017-05-06 10:30 -0500
-  - title: MLP Season 7 Episode 6
-    time: 2017-05-13 10:30 -0500
-  - title: MLP Season 7 Episode 7
-    time: 2017-05-20 10:30 -0500
-  - title: MLP Season 7 Episode 8
-    time: 2017-05-27 10:30 -0500
-  - title: MLP Season 7 Episode 9
-    time: 2017-06-03 10:30 -0500
-  - title: MLP Season 7 Episode 10
-    time: 2017-06-10 10:30 -0500
-  - title: MLP Season 7 Episode 11
-    time: 2017-06-17 10:30 -0500
-  - title: "Equestria Girls Special:  Episode 1"
-    time: 2017-06-24 10:30 -0500
-  - title: "Equestria Girls Special: Episode 2"
-    time: 2017-07-01 10:30 -0500
-  - title: "Equestria Girls Special: Episode 3"
-    time: 2017-07-08 10:30 -0500
+  - title: MLP Season 7 Episode 12
+    time: 2017-08-05 10:30 -0500
+  - title: MLP Season 7 Episode 13
+    time: 2017-08-12 10:30 -0500
+  - title: MLP Season 7 Episode 14
+    time: 2017-08-19 10:30 -0500
+  - title: MLP Season 7 Episode 15
+    time: 2017-08-26 10:30 -0500
+  - title: MLP Season 7 Episode 16
+    time: 2017-09-02 10:30 -0500
+  - title: MLP Season 7 Episode 17
+    time: 2017-09-09 10:30 -0500
+  - title: MLP Season 7 Episode 18
+    time: 2017-09-16 10:30 -0500
+  - title: MLP Season 7 Episode 19
+    time: 2017-09-23 10:30 -0500
+  - title: MLP Season 7 Episode 20
+    time: 2017-09-30 10:30 -0500
+  - title: MLP Season 7 Episode 21
+    time: 2017-10-07 10:30 -0500
+  - title: MLP Season 7 Episode 22
+    time: 2017-10-14 10:30 -0500
+  - title: MLP Season 7 Episode 23
+    time: 2017-10-21 10:30 -0500
+  - title: MLP Season 7 Episode 24
+    time: 2017-10-28 10:30 -0500
+  - title: MLP Season 7 Finale
+    time: 2017-11-4 10:00 -0500
