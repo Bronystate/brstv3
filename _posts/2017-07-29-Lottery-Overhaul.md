@@ -12,7 +12,10 @@ Every month, a new list of 20 movies will be provided by the mods based around a
 
 **Why the Change?**
 We've had a lot of discussions on how to improve Movie Night for some time now.  We really like the variety of movies that have come out of movie night, but we've also run into some complications:
+
 1- Some movies are really....REALLY hard to find.  Like super hard to find.  It's nice when we get a link that can help us find a movie, but a lot of the time they're still unavailable for a variety of reasons.  We've had a lot of really scary Thursday nights where we're scrambling to find either the user who won or their movie because we're just not able to get it.  I'd like to take a moment for pointing out how much of a trooper Sumica is, because he really puts in 300% to making Bronystate work and he's given a lot of sweat and blood to make sure movie night is awesome for everyone.
+
+
 2- We're getting WMC's...a lot.  The worst movie clause was created to be a super rare, exceptional event where something is just so irredeemably awful the night is just miserable for everyone involved.  When Babes in Toyland was first streamed,  EVERYONE was suffering.  No one was having fun, and a lot of people who normally watch both nights wanted to skip the next day because they just didn't want to go through it again.  Unfortunately, this has created the "Imitator Serial Killer" connundrum.  A lot of people are probably familiar with this, movie picks were being thrown out there just so they could get WMC'd.  This really wasn't our intention with the clause, we just wanted to make sure the nights are a pleasant experience where we can all hang out and not have to put up with bullshit.
 Our hope is that with the Monthly Themes, we'll be able to find a balance between letting you, the viewers, determine what we watch every week, but also guarantee that movies will be available and watchable.  
 
