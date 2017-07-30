@@ -21,6 +21,7 @@ This is a topic that is still being very closely discussed among the team, and w
 
 **What about the current lotto winners?**
 These changes wont take effect until AFTER next movie night.  So don't worry, we're not getting rid of the winners.
+
 **What happens now?**
 We're going to start with a trial month.  Since we're still showing this week's winners, it will only be for the last three weeks, which means there will only be 15 choices to pick from this time.  Our theme for this month is going to be "Bronystate Classics," which will be a selection of movies that have a strong connection to our history (including movies originally locked in the vault!)
 
