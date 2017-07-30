@@ -1,6 +1,6 @@
 ---
 title: Upcoming Changes to Movie Nights and the Lottery
-date: 2017-07-29
+date: 2017-07-30
 author: ValtheJean
 tags: [lottery, movie night, important news]
 ---
