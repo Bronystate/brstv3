@@ -88,25 +88,23 @@ You may continue to appeal a ban if your first attempt is rejected.
 *[Eastern Time]: UTC-5, -4 during US Daylight Saving Time
 
 Movie Nights are held every Friday at 7pm Eastern Time and Saturday at 2pm Eastern Time, and consist of two
-movies and two episodes of *My Little Pony*, chosen by our users.
+movies chosen by our users and two episodes of *My Little Pony* (in sequential order).
 
-Each week, we send out a lottery form you can use to cast your vote. The form consists of your:
+Each month, near the end of the month, we send out two forms you can use to help decide the movies to be shown.
+The first form is a poll that allows you to vote on which films you'd like to see that month.  You can choose up
+to 8 films (ranked from 1st to 8th), but there are a lot of choices, so choose wisely!  You will have one week to
+make your selections for this poll, and voting will be closed at the start of Movie Night on Saturday.
+ 
+The second form allows you to suggest films for the following month according to a specific "theme" chosen by the
+Bronystate staff.  The staff looks over these suggestions and uses them to help create the list for the following
+month's vote.  You will have two weeks to provide your suggestions, and the form will be closed at the start of Movie
+Night on Saturday.
 
- - IRC nickname (so we can tell who won!)
- - One vote for a movie (make it a good one!)
- - A link to find the movie (if it's particularly obscure)
- - One vote for a pony episode (find your favorite!)
-
-Then, alternating each week's Friday and Saturday, we randomly choose from the list of votes what will be shown
-on the following week's Movie Night. However, before we do so, the staff looks over the list to disqualify
-certain entries, by the following criteria:
+Films may be disqualified by the following criteria:
 
  - Movies are eligible for voting **one year** after their theatrical release
  - Movies must wait **six months** before being eligible for Movie Night again
  - Users must wait **four weeks** before they may win another movie or episode, whichever they won previously
  - Movies shown **three times** are entered into the Bronystate Vault, ineligible for airing except on special occasion
  - Movies earning extraordinarily terrible chat reception may be classified **Worst Movie Clause**, ineligible to air ever again
- - Movies that do not meet the community's standards may be disqualified at staff discretion
-
-**NOTE:** In the event your movie is disqualified by staff, we will make an attempt to contact you via IRC for an alternate,
-within a reasonable period of time. If you cannot be reached, we will choose another winner, or potentially pick a movie ourselves.
+ - Movies that do not fit the theme or do not meet the community's standards may be disqualified at staff discretion 
