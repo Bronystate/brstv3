@@ -24,7 +24,7 @@
 - i: howto-IRC
   q: How can I connect to the chat?
   a: |
-    Well you could use the Iris chat client embedded on the front page. Simply
+    Well, you could use the Iris chat client embedded on the front page. Simply
     click on one of the cutie marks to connect to that side channel as well as
     the main **#bronystate** channel. Note that side channels are closed and
     muted outside of live episode streams.
@@ -38,13 +38,13 @@
 - i: howto-lottery
   q: Where do I go to vote for Movie Night?
   a: |
-    Each week we put out a news post with the week's lottery winners, which will
-    appear underneath the stream embed on the front page, as well as in our main
-    news feeds.
+    Each month we will put out a news post that provides you with two links.  The first link
+    allows you to vote on a list of films that may be shown for that month.  The second
+    link allows you to submit suggestions for the following month's vote, according to the
+    "theme" for that month.
     
-    The link to the next lottery is included in that post. Note that only the
-    most recent lottery post will have a valid link; don't vote in an expired
-    lottery!
+    Note that only the most recent post will have a valid link.  Don't try to vote in an
+    expired poll!
 
 - i: issue-reporting
   q: How do I report an issue with the site or make a suggestion?
