@@ -104,7 +104,5 @@ Films may be disqualified by the following criteria:
 
  - Movies are eligible for voting **one year** after their theatrical release
  - Movies must wait **six months** before being eligible for Movie Night again
- - Users must wait **four weeks** before they may win another movie or episode, whichever they won previously
- - Movies shown **three times** are entered into the Bronystate Vault, ineligible for airing except on special occasion
  - Movies earning extraordinarily terrible chat reception may be classified **Worst Movie Clause**, ineligible to air ever again
  - Movies that do not fit the theme or do not meet the community's standards may be disqualified at staff discretion 
