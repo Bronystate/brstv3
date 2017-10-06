@@ -37,7 +37,7 @@ conf = qwebirc.config.load({
     },
     "flash": {
         // SERVER: Hostname (or IP address) of IRC server to connect to.
-        "server": "irc.ipv4.ponychat.net",
+        "server": "irc.ponychat.net",
 
         // PORT: Port of IRC server to connect to.
         "port": 6667,
