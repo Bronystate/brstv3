@@ -18,7 +18,7 @@ params.styleURL                     = "css/black.css";
 
 params.nick                         = "pony_%";
 params.quitMessage                  = "";
-params.autojoin                     = "#bronystate";
+params.autojoin                     = window.location.search.substr(1);
 params.perform                      = "";
 
 params.rememberNickname             = true;
