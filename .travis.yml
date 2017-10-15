@@ -26,4 +26,6 @@ before_install:
 after_success:
 - chmod 600 deploy-key
 - mv deploy-key ~/.ssh/id_rsa
-- rsync -avhi --delete _site/ bronystate@192.81.222.77:/var/www/bronystate.net/www/
+- RSYNC_LOG=$(mktemp)
+- rsync -avhi --checksum --log-file=$RSYNC_LOG --log-file-format="%i %f" --delete _site/ bronystate@192.81.222.77:/var/www/bronystate.net/www/
+- awk -f ./gencurl.awk $RSYNC_LOG | ssh bronystate@192.81.222.77 curl -v --config -
