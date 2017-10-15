@@ -28,4 +28,4 @@ after_success:
 - mv deploy-key ~/.ssh/id_rsa
 - RSYNC_LOG=$(mktemp)
 - rsync -avhi --checksum --log-file=$RSYNC_LOG --log-file-format="%i %f" --delete _site/ bronystate@192.81.222.77:/var/www/bronystate.net/www/
-- awk -f ./gencurl.awk $RSYNC_LOG | ssh bronystate@192.81.222.77 curl -v --config -
+- awk -f ./gencurl.awk $RSYNC_LOG | ssh bronystate@192.81.222.77 curl -s -i --config -
