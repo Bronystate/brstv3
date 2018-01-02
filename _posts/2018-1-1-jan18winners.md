@@ -11,7 +11,7 @@ Don't forget, you can still submit films for selection in February's vote until 
 
 Brony Movie Night will be at its usual time: 7:00 EDT on Friday, and 2:00 PM EDT on Saturday.  Each week, we'll announce the next two films to be shown during intermission on Saturday.  As for the rest, we'll provide you with little "clues" to try and figure them out.  But don't worry: if you're not into that sort of thing or you can't make it on Saturday, we'll continue to update the front page with each week's films.  That way, you'll always know which films are coming next!
 
-The films and episodes for the month of January are.... 
+The films and episodes for the month of January are....
 
 Jan 5-6
 -	**[Jaws (1975)][m1]**
