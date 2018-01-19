@@ -20,14 +20,14 @@ Jan 5-6
 -	**[MLP FiM 2x18 - A Friend in Deed][p2]**
 
 Jan 12-13
--	**[MOVIE UNKNOWN - Click for a hint!][m3]**
--	**[MOVIE UNKNOWN - Click for a hint!][m4]**
+-	**[How to Train Your Dragon (2010)][m3]**
+-	**[Groundhog Day (1993)][m4]**
 -	**[MLP FiM 2x19 - Putting Your Hoof Down][p3]**
 -	**[MLP FiM 2x20 - It's About Time][p4]**
 
 Jan 19-20
--	**[MOVIE UNKNOWN - Click for a hint!][m5]**
--	**[MOVIE UNKNOWN - Click for a hint!][m6]**
+-	**[Titan A.E. (2000)][m5]**
+-	**[The Terminator (1984)][m6]**
 -	**[MLP FiM 2x21 - Dragon Quest][p5]**
 -	**[MLP FiM 2x22 - Hurricane Fluttershy][p6]**
 
@@ -39,10 +39,10 @@ Jan 26-27
 
 [m1]: http://www.imdb.com/title/tt0073195/
 [m2]: http://www.imdb.com/title/tt5311514/
-[m3]: https://cdn.shopify.com/s/files/1/0302/4437/products/gafas-sol-hawkers-onex-OX12-g.jpg
-[m4]: http://andys-backing-tracks.webs.com/sonny_and_cher.jpg
-[m5]: http://1.bp.blogspot.com/-zidDZ6BEv64/Tby7zEHovOI/AAAAAAAAAC0/e6_sWJumMao/s1600/DSC01262.JPG
-[m6]: http://pre13.deviantart.net/08d4/th/pre/i/2012/251/2/a/metal_skull_in_factory_wallpaper_version_by_sonicz0r-d5dzvuf.jpg
+[m3]: http://www.imdb.com/title/tt0892769/
+[m4]: http://www.imdb.com/title/tt0107048/
+[m5]: http://www.imdb.com/title/tt0120913/
+[m6]: http://www.imdb.com/title/tt0088247/
 [m7]: https://i.imgur.com/ApuFVic.png
 [m8]: https://i.imgur.com/w2aJqVp.jpg
 [p1]: http://www.imdb.com/title/tt2173455/
