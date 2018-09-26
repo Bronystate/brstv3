@@ -1,7 +1,7 @@
 ---
 title: July Films and Ponies
 date: 2018-07-09
-author: CriticKitten
+author: Kitten
 tags: [season08]
 ---
 
