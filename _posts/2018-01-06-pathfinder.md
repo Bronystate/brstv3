@@ -1,7 +1,7 @@
 ---
 title: Pathfinder
 date: 2018-1-6
-author: CriticKitten
+author: Kitten
 tags: [lottery, season07]
 ---
 
