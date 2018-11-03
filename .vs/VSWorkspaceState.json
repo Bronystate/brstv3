@@ -1,9 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\news",
     "\\_includes",
     "\\_layouts"
   ],
-  "SelectedNode": "\\_includes\\zone_embeds.html",
+  "SelectedNode": "\\_config.yml",
   "PreviewInSolutionExplorer": false
 }
