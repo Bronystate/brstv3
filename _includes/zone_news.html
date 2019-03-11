@@ -4,15 +4,18 @@
   
   {% for lotto in site.tags.lottery limit:1 %} <!-- get most recent lottery -->
     {% capture lottoDate %}{{ lotto.date | date: '%s' }}{% endcapture %}
-    {% unless lottoDate < cutoffDate %} <!-- unless lottery is older than two week cutoff... -->
+    {% unless lottoDate < cutoffDate %} <!-- unless lottery is older than two week cutoff -->
       {% assign latestlotto = lotto %} <!-- get most recent lottery post -->
     {% endunless %}
   {% endfor %}
   
   {% for post in site.posts %}
-    {% unless post.tags contains "lottery" %}
-      {% assign latestnews = post %} <!-- get the most recent non-lottery post -->
-      {% break %}
+    {% capture postDate %}{{ post.date | date: '%s' }}{% endcapture %}
+    {% unless postDate < cutoffDate %} <!-- unless post is older than two week cutoff -->
+      {% unless post.tags contains "lottery" %}
+        {% assign latestnews = post %} <!-- get the most recent non-lottery post -->
+        {% break %}
+      {% endunless %}
     {% endunless %}
   {% endfor %}
   
