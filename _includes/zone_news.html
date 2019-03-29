@@ -10,10 +10,11 @@
   {% endfor %}
   
   {% for post in site.posts %}
-      {% unless post.tags contains "lottery" %}
-        {% assign latestnews = post %} <!-- get the most recent non-lottery post -->
-        {% break %}
-      {% endunless %}
+    {% capture postDate %}{{ post.date | date: '%s' }}{% endcapture %}
+    {% unless postDate < cutoffDate && post.tags contains "lottery"%} <!-- unless post is older than two week cutoff -->
+      {% assign latestnews = post %} <!-- get the most recent non-lottery post -->
+      {% break %}
+    {% endunless %}
   {% endfor %}
   
 {% endcapture %}{% assign codeBlock = nil %}
