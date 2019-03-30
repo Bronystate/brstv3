@@ -63,6 +63,11 @@ staff:
     location: Jerseyland
     favpone: Colgate
     
+  - nick: Judeau
+  
+  - nick: Kitten
+    forecolor: 3
+    
   - nick: konsoln
     forecolor: 15 #should be 14, but 14 is too dark against background
     location: Europe
@@ -110,6 +115,8 @@ staff:
     location: Las Vegas, NV
     favpone: Applejack
     favmovie: Spaceballs
+    
+  - nick: swack16
     
   - nick: texasboykc09
     forecolor: 0
