@@ -15,26 +15,6 @@
 #      - Lists work too, just remember blank line and to indent right
 #===============================================================================
 
-- i: backlog
-  q: What movies have been shown at Bronystate?
-  a: |
-    We maintain a long backlog of every movie we've ever shown, and it can be
-    easily found at: <http://bit.ly/bronystatebacklog>
-
-- i: howto-IRC
-  q: How can I connect to the chat?
-  a: |
-    Well, you could use the Iris chat client embedded on the front page. Simply
-    click on one of the cutie marks to connect to that side channel as well as
-    the main **#bronystate** channel. Note that side channels are closed and
-    muted outside of live episode streams.
-    
-    You can also connect your own client to **irc.ponychat.net** if you have one.
-    
-    If you don't have a client, we recommend [Hexchat][hxc] for its ease of use.
-    
-    [hxc]: https://hexchat.github.io/
-
 - i: howto-lottery
   q: Where do I go to vote for Movie Night?
   a: |
@@ -43,8 +23,61 @@
     link allows you to submit suggestions for the following month's vote, according to the
     "theme" for that month.
     
-    Note that only the most recent post will have a valid link.  Don't try to vote in an
+    Note that only the most recent post will have a valid link.  You cannot vote in an
     expired poll!
+    
+- i: backlog
+  q: What movies have been shown at Bronystate?
+  a: |
+    We maintain a backlog of every movie we've ever shown under the new theme system.  It
+    can be found at: <https://bit.ly/2OB1EH6>
+     
+    The backlog for all movies shown prior to the introduction of the theme system can be
+    found at: <http://bit.ly/bronystatebacklog>
+    
+- i: howto-Discord
+  q: What happened to the chat?
+  a: |
+    As of November 2018, we have swapped over to Discord in place of our usual Ponychat embed.
+    We have provided an embedded web client for Discord on the site itself, or you can download
+    the Discord client and use this invite link to gain access to our server:
+    <https://discord.gg/cGFMYaa>
+
+- i: novideo
+  q: Why is chat talking about a stream if it looks offline to me?
+  a: |
+    We have probably just swapped stream embeds, which can take up to an hour to
+    filter through our caching. Try visiting <http://www.bronystate.net/index.html>
+    directly, and flush your browser cache. This will bring you the most current
+    version of the front page, and you should see the stream again.
+
+- i: adblocking
+  q: Why are there ads on the stream?
+  a: |
+    Use an ad-blocking extension for your browser to prevent stream ads from
+    running. We recommend [uBlock Origin][uo] for its active maintenance, low
+    CPU and memory footprint, and effectiveness across all platforms.
+    
+    Live airings of new *Friendship is Magic* episodes are captured directly
+    from a cable connection, so commercials are unavoidable. Bronystate re-airs
+    the new episode without commercials following our Saturday Movie Night
+    event.
+    
+    [uo]: https://github.com/gorhill/uBlock
+    
+- i: nopones
+  q: Why aren't there ponies on the stream?
+  a: |
+    We don't always show *My Little Pony*, because too much of a good thing is,
+    well, too much of a good thing. We like to keep things varied at Bronystate,
+    and so show programming of all kinds. Today maybe it's gaming, tomorrow an
+    old show you didn't realize you missed, the next day maybe everyone's busy
+    and there's no stream at all.
+    
+    The only fixed events we hold are the Friday and Saturday Movie Nights, and
+    live new episodes of *My Little Pony* as they air.
+    
+    Stay tuned to Bronystate, you never know what will come up next!
 
 - i: issue-reporting
   q: How do I report an issue with the site or make a suggestion?
@@ -60,49 +93,6 @@
     input on new features.
     
     [gh]: https://github.com/Bronystate/brstv3/issues
-
-- i: nopones
-  q: Why aren't there ponies on the stream?
-  a: |
-    We don't always show *My Little Pony*, because too much of a good thing is,
-    well, too much of a good thing. We like to keep things varied at Bronystate,
-    and so show programming of all kinds. Today maybe it's gaming, tomorrow an
-    old show you didn't realize you missed, the next day maybe everyone's busy
-    and there's no stream at all.
-    
-    The only fixed events we hold are the Friday and Saturday Movie Nights, and
-    live new episodes of *My Little Pony* as they air.
-    
-    Stay tuned to Bronystate, you never know what will come up next!
-- i: novideo
-  q: Why is chat talking about a stream if it looks offline to me?
-  a: |
-    We have probably just swapped stream embeds, which can take up to an hour to
-    filter through our caching. Try visiting <http://www.bronystate.net/index.html>
-    directly, and flush your browser cache. This will bring you the most current
-    version of the front page, and you should see the stream again.
-- i: adblocking
-  q: Why are there ads on the stream?
-  a: |
-    Use an ad-blocking extension for your browser to prevent stream ads from
-    running. We recommend [uBlock Origin][uo] for it's active maintenance, low
-    CPU and memory footprint, and effectiveness across all platforms.
-    
-    Live airings of new *Friendship is Magic* episodes are captured directly
-    from a cable connection, so commercials are unavoidable. Bronystate re-airs
-    the new episode without commercials following our Saturday Movie Night
-    event.
-    
-    [uo]: https://github.com/gorhill/uBlock
-
-- i: kicked
-  q: Why was I kicked?
-  a: |
-    Your client will show you a message as you are kicked from channel telling
-    you why. Be sure to [read the Rules][r] to avoid getting kicked in the first
-    place!
-    
-    [r]: /rules
 
 - i: appeal
   q: How do I appeal a ban?
