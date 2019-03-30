@@ -10,4 +10,7 @@
 #===============================================================================
 
 lottery:
-  desc: the week's lottery winners
+  desc: posts relating to the week's lottery
+
+news:
+  desc: special announcements or news
