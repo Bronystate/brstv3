@@ -14,7 +14,7 @@
     {% if postDate > cutoffDate && !(post.tags contains "lottery") %} <!-- unless post is older than two week cutoff -->
       {% assign latestnews = post %} <!-- get the most recent non-lottery post -->
       {% break %}
-    {% endunless %}
+    {% endif %}
   {% endfor %}
   
 {% endcapture %}{% assign codeBlock = nil %}
