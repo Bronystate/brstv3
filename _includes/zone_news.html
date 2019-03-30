@@ -28,9 +28,11 @@
 
 <hr>
 {% endif %}
+{% if latestnews %}
 <article class="recentnews">
 {% include meta_postinfo.html post=latestnews %}
 {% include meta_postexcerpt.html post=latestnews %}
+{% endif %}
 </article>
 </div>
 
