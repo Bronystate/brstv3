@@ -11,8 +11,8 @@
   
   {% for post in site.posts %}
     {% capture postDate %}{{ post.date | date: '%s' }}{% endcapture %}
-    {% if post.tags contains "news" && postDate > cutoffDate %} <!-- unless post is older than two week cutoff -->
-      {% assign latestnews = post %} <!-- get the most recent non-lottery post -->
+    {% if post.tags contains "news" and postDate > cutoffDate %} <!-- unless post is older than two week cutoff -->
+      {% assign latestnews = post %} <!-- get the most recent news post -->
       {% break %}
     {% endif %}
   {% endfor %}
