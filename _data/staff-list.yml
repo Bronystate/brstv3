@@ -22,7 +22,11 @@
 #==================================================================
 
 staff:
-# List all active staff members here.
+# List all active staff members here.  Any items listed will be shown on the main site.
+# 
+# Remember to upload an image for any newly added staff members to the appropriate directory.
+# Directory is currently: btstv3/assets/img/staff-list
+# Image name MUST match the staff member's nick, or it will not show.
 #
 # FORMAT:
 # - nick: [nick, will assume existence of /assets/img/staff-list/nick.png]
@@ -132,7 +136,7 @@ staff:
     favmovie: Sunshine
 
 former-staff:
-# List all retired or inactive staff members here.  Only nick and title will be displayed on the main site.
+# List all retired or inactive staff members here.  Only their nick and title will be displayed on the main site.
 #
 # FORMAT:
 # - nick: [nick, will assume existence of /assets/img/staff-list/nick.png]
