@@ -83,6 +83,6 @@ tuned to Bronystate, where the fun only doubles on days ending in Y!
 
 <ul class="retiredlist">
   {% for p in site.data.staff-list.former-staff %}
-    <li>{{ p.nick }} {% unless p.title == nil %}( {{ p.title }} ){% endunless %}</li>
+    <li>{{ p.nick }} {% unless p.title == nil %}({{ p.title }}){% endunless %}</li>
   {% endfor %}
 </ul>
