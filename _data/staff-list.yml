@@ -1,8 +1,6 @@
 #==================================================================
 # Bronystate 3.0 - Staff List
 #
-# Leave a parameter out of your block if you like
-#
 # COLORS
 #    0: white
 #    1: black
@@ -24,14 +22,17 @@
 #==================================================================
 
 staff:
-# - nick: [nick, will assume existence of /assets/img/staff-list/nick.png]
-#   forecolor: [color as listed above]
-#   backcolor: [color as listed above]
-#   title: [come up with one]
-#   location: [where you is]
-#   favpone: [obvious]
-#   favmovie: [also obvious]
+# List all active staff members here.
 #
+# FORMAT:
+# - nick: [nick, will assume existence of /assets/img/staff-list/nick.png]
+#   forecolor: [color as listed above] (optional)
+#   backcolor: [color as listed above] (optional)
+#   title: [come up with one] (optional)
+#   location: [where you is] (optional)
+#   favpone: [obvious] (optional)
+#   favmovie: [also obvious] (optional)
+
   - nick: Buytoast
     forecolor: 1
     backcolor: 14
@@ -131,7 +132,17 @@ staff:
     favmovie: Sunshine
 
 former-staff:
-# - [nick]
+# List all retired or inactive staff members here.  Only nick and title will be displayed on the main site.
+#
+# FORMAT:
+# - nick: [nick, will assume existence of /assets/img/staff-list/nick.png]
+#   forecolor: [color as listed above] (optional)
+#   backcolor: [color as listed above] (optional)
+#   title: [come up with one] (optional)
+#   location: [where you is] (optional)
+#   favpone: [obvious] (optional)
+#   favmovie: [also obvious] (optional)
+
   - nick: Diftraku
   
   - nick: Elsie
