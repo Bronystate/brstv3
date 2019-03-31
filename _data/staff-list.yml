@@ -78,8 +78,9 @@ staff:
   
   - nick: Kitten
     forecolor: 3
+    backcolor: 7
     location: Trapped in the Midwest
-    favmovie: Captain America Winter Soldier
+    favmovie: Captain America - The Winter Soldier
     
   - nick: konsoln
     forecolor: 15 #should be 14, but 14 is too dark against background
