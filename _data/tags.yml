@@ -14,3 +14,6 @@ lottery:
 
 news:
   desc: special announcements or news
+
+events:
+  desc: special event announcement
