@@ -82,8 +82,8 @@ staff:
     favmovie: The Empire Strikes Back
   
   - nick: Kitten
-    forecolor: 3
-    backcolor: 7
+    forecolor: 4
+    backcolor: 1
     location: Trapped in the Midwest
     favmovie: Captain America - The Winter Soldier
     
