@@ -25,9 +25,12 @@
 {% include meta_postinfo.html post=latestlotto skiptags=true %}
 {{ latestlotto.content }}
 </article>
+{% endif %}
 
+{% if latestlotto and latestnews %}
 <hr>
 {% endif %}
+
 {% if latestnews %}
 <article class="recentnews">
 {% include meta_postinfo.html post=latestnews %}

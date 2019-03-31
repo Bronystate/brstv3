@@ -3,7 +3,7 @@
 #
 # Leave a parameter out of your block if you like
 #
-# MIRC COLORS
+# COLORS
 #    0: white
 #    1: black
 #    2: blue
@@ -25,8 +25,8 @@
 
 staff:
 # - nick: [nick, will assume existence of /assets/img/staff-list/nick.png]
-#   forecolor: [MIRC COLOR]
-#   backcolor: [MIRC COLOR]
+#   forecolor: [color as listed above]
+#   backcolor: [color as listed above]
 #   title: [come up with one]
 #   location: [where you is]
 #   favpone: [obvious]
@@ -49,13 +49,13 @@ staff:
     favpone: Rarity
     favmovie: The Godfather
 
-  - nick: fluttercry
+  - nick: Flutts
     forecolor: 5
     backcolor: 15
     title: Great Salt Flat
     location: Virginia, US
     favpone: Octavia
-    favmovie: Back to the Future, Raiders of the Lost Ark
+    favmovie: Saving Private Ryan
     
   - nick: GabeMoist
     forecolor: 1
@@ -63,45 +63,33 @@ staff:
     location: Jerseyland
     favpone: Colgate
     
+  - nick: Iwa
+    forecolor: 0
+    backcolor: 7
+    title: The Algorithmic Dutchman
+    location: The Netherlands
+    favpone: Rainbow Dash
+    favmovie: The Return of the King
+    
+  - nick: Judeau
+    location: Georgia
+    favpone: Aloe and Lotus
+    favmovie: The Empire Strikes Back
+  
+  - nick: Kitten
+    forecolor: 3
+    location: Trapped in the Midwest
+    favmovie: Captain America: Winter Soldier
+    
   - nick: konsoln
     forecolor: 15 #should be 14, but 14 is too dark against background
     location: Europe
     favpone: Rarity
     
-  - nick: Krazy
-    forecolor: 4
-    backcolor: 2
-    location: Australia
-    favpone: Spike
-    
-  - nick: Luna
-    forecolor: 7
-    title: Original Bronystate Mare
-    location: Europe Maneland
-    favpone: Princess Luna
-    
-  - nick: MirrorImage
-    forecolor: 1
-    backcolor: 10
-    title: Changeling in Training
-    location: Pennsylvania, USA
-    favpone: Applejack
-    
   - nick: Phase
     forecolor: 0
     backcolor: 2
     title: IRCOp
-    
-  - nick: Saturn
-    forecolor: 8
-    title: Hostmaster
-    
-  - nick: Shizuka
-    forecolor: 6
-    title: Techie Emeritus
-    location: greener pastures
-    favpone: VioletVanilla
-    favmovie: Twister
     
   - nick: Sumica
     forecolor: 0
@@ -111,21 +99,15 @@ staff:
     favpone: Applejack
     favmovie: Spaceballs
     
+  - nick: swack16
+    
   - nick: texasboykc09
     forecolor: 0
     backcolor: 3
     title: Seasonal Intern
     favpone: Flutterbat
     favmovie: Smokey and the Bandit 2
-    
-  - nick: TheGreatAndPowerfulT
-    forecolor: 2
-    backcolor: 11
-    title: Powerful and Great
-    location: Mexico
-    favpone: Trixie
-    favmovie: Kiki's Delivery Service
-    
+      
   - nick: ValtheJean
     forecolor: 2
     backcolor: 14
@@ -133,13 +115,6 @@ staff:
     location: In your mind
     favpone: Caramel
     favmovie: To Live
-    
-  - nick: VioletVanilla
-    forecolor: 6
-    title: Queen of Wub
-    location: Missing, reward if found
-    favpone: Derpy Hooves
-    favmovie: Midnight in Paris
     
   - nick: Vuxul
     forecolor: 9
@@ -156,21 +131,84 @@ staff:
 
 former-staff:
 # - [nick]
-  - Diftraku
-  - Elsie
-  - Fluttershy`
-  - Ghosties
-  - Hipster-Pony
-  - kirzstryfe
-  - NewDCD
-  - Nittany_Discord
-  - Octavia
-  - Prince-Dari
-  - RainBroDash
-  - Robot_Pinkie
-  - SaxyPretender
-  - Scoot-Scootaloo
-  - Silverscreen
-  - SirSprinkles
-  - SlurryMoon
-  - SuperBrony64
+  - nick: Diftraku
+  
+  - nick: Elsie
+  
+  - nick: Fluttershy`
+  
+  - nick: Ghosties
+  
+  - nick: Hipster-Pony
+  
+  - nick: kirzstryfe
+  
+  - nick: Krazy
+    forecolor: 4
+    backcolor: 2
+    location: Australia
+    favpone: Spike 
+    
+  - nick: Luna
+    forecolor: 7
+    title: Original Bronystate Mare
+    location: Europe Maneland
+    favpone: Princess Luna
+    
+  - nick: MirrorImage
+    forecolor: 1
+    backcolor: 10
+    title: Changeling in Training
+    location: Pennsylvania, USA
+    favpone: Applejack
+    
+  - nick: NewDCD
+  
+  - nick: Nittany_Discord
+  
+  - nick: Octavia
+  
+  - nick: Prince-Dari
+  
+  - nick: RainBroDash
+  
+  - nick: Robot_Pinkie
+  
+  - nick: SaxyPretender
+  
+  - nick: Scoot-Scootaloo
+  
+  - nick: Shizuka
+    forecolor: 6
+    title: Techie Emeritus
+    location: greener pastures
+    favpone: VioletVanilla
+    favmovie: Twister
+  
+  - nick: Silverscreen
+  
+  - nick: SirSprinkles
+  
+  - nick: SlurryMoon
+  
+  - nick: Saturn
+    forecolor: 8
+    title: Hostmaster
+  
+  - nick: SuperBrony64
+
+  - nick: TheGreatAndPowerfulT
+    forecolor: 2
+    backcolor: 11
+    title: Powerful and Great
+    location: Mexico
+    favpone: Trixie
+    favmovie: Kiki's Delivery Service
+    
+  - nick: VioletVanilla
+    forecolor: 6
+    title: Queen of Wub
+    location: Missing, reward if found
+    favpone: Derpy Hooves
+    favmovie: Midnight in Paris
+    

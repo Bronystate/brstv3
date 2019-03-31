@@ -8,14 +8,14 @@ css:
 <h1><a href="/news"><i class="fa fa-angle-left"></i> News Archive</a></h1>
 <h2 id="">Tag Index</h2>
 <ul>
-  <li><a href="#no-tag">general news</a></li>
+  <li><a href="#no-tag">general</a></li>
   {% for tag in sortedtags %}<li><a href="#{{ tag }}">{{ tag }}</a></li>{% endfor %}
 </ul>
 <hr>
 <div class="tagindex">
   <div class="tagbox">
     <div class="taginfo">
-      <h2 id="no-tag" class="tagname">general news</h2>
+      <h2 id="no-tag" class="tagname">general</h2>
       <p class="tagdesc">posts with no tags set</p>
     </div>
     <ul class="taglist">
