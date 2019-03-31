@@ -49,8 +49,9 @@ Naturally, season five of *My Little Pony* was just ending, so traffic was low.
 Development continued for weeks, with new features and improvements to old
 features coming online every week.
 
-Who knows what the future will bring? Stay tuned to Bronystate, where the fun only
-doubles on days ending in Y!
+Since then, Bronystate has continued to provide top quality pony entertainment, as
+well as variety streams of all kinds.  Who knows what the future will bring? Stay
+tuned to Bronystate, where the fun only doubles on days ending in Y!
 
 * * * * *
 {% include meta_backtotop.html %}
@@ -58,21 +59,21 @@ doubles on days ending in Y!
 <h2>Our Staff</h2>
 
 <ul class="stafflist">
-{% for p in site.data.staff-list.staff %}
-<li class="{{ p.nick }}">
-  <img class="icon" src="/assets/img/staff-list/{{ p.nick}}.png" />
-  <div class="info">
-    <h3 class="nick">{{ p.nick }}</h3>
-    {% unless p.title == nil %}<span class="title">{{ p.title }}</span>{% endunless %}
-    <ul>
-      {% unless p.location == nil %}<li class="location"><strong>Location:</strong> {{ p.location }}</li>{% endunless %}
-      {% unless p.favpone == nil %}<li class="favpone"><strong>Favorite Pony:</strong> {{ p.favpone }}</li>{% endunless %}
-      {% unless p.favmovie == nil %}<li class="favmovie"><strong>Favorite Movie:</strong> {{ p.favmovie }}</li>{% endunless %}
-    </ul>
-  </div>
-  <div style="clear:both"></div>
-</li>
-{% endfor %}
+  {% for p in site.data.staff-list.staff %}
+    <li class="{{ p.nick }}">
+      <img class="icon" src="/assets/img/staff-list/{{ p.nick }}.png" />
+      <div class="info">
+        <h3 class="nick">{{ p.nick }}</h3>
+        {% unless p.title == nil %}<span class="title">{{ p.title }}</span>{% endunless %}
+        <ul>
+          {% unless p.location == nil %}<li class="location"><strong>Location:</strong> {{ p.location }}</li>{% endunless %}
+          {% unless p.favpone == nil %}<li class="favpone"><strong>Favorite Pony:</strong> {{ p.favpone }}</li>{% endunless %}
+          {% unless p.favmovie == nil %}<li class="favmovie"><strong>Favorite Movie:</strong> {{ p.favmovie }}</li>{% endunless %}
+        </ul>
+      </div>
+      <div style="clear:both"></div>
+    </li>
+  {% endfor %}
 </ul>
 
 * * * * *
@@ -82,6 +83,6 @@ doubles on days ending in Y!
 
 <ul class="retiredlist">
   {% for p in site.data.staff-list.former-staff %}
-  <li>{{ p }}</li>
+    <li>{{ p.nick }} {% unless p.title == nil %}({{ p.title }}){% endunless %}</li>
   {% endfor %}
 </ul>
