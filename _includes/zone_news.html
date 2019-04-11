@@ -1,40 +1,52 @@
+<!-- This section contains all of the capture code that makes the news section of the front page work. -->
+<!-- Do not tamper with this section unless you know *exactly* what you're doing! -->
+
 {% capture codeBlock %}
   
+  <!-- Sets a default cutoff date for any post which lacks one.  The default cutoff is 2 weeks after the current date. -->
   {% capture cutoffDate %}{{ 'now' | date: '%s' | minus: 1209600 }}{% endcapture %}
   
-  {% for lotto in site.tags.lottery limit:1 %} <!-- get most recent lottery -->
+  <!-- Retrieves the most recent lottery post.  This is limited to only the most recent post. -->
+  {% for lotto in site.tags.lottery limit:1 %}
     {% capture lottoDate %}{{ lotto.date | date: '%s' }}{% endcapture %}
-    {% unless lottoDate < cutoffDate %} <!-- unless lottery is older than two week cutoff -->
-      {% assign latestlotto = lotto %} <!-- get most recent lottery post -->
+    {% unless lottoDate < cutoffDate %} <!-- Checks if the post is within the cutoff date. -->
+      {% assign latestlotto = lotto %} <!-- Assigns the post. -->
     {% endunless %}
   {% endfor %}
   
+  <!-- Retrieves the most recent news post.  This is limited to only the most recent post. -->
   {% for post in site.posts %}
     {% capture postDate %}{{ post.date | date: '%s' }}{% endcapture %}
-    {% if post.tags contains "news" and postDate > cutoffDate %} <!-- unless post is older than two week cutoff -->
-      {% assign latestnews = post %} <!-- get the most recent news post -->
+    {% if post.tags contains "news" and postDate > cutoffDate %} <!-- Checks if the post is within the cutoff date. -->
+      {% assign latestnews = post %} <!-- Assigns the post. -->
       {% break %}
     {% endif %}
   {% endfor %}
   
 {% endcapture %}{% assign codeBlock = nil %}
+
 <section id="zone_news">
 <div class="article-wrap">
+
+<!-- Determines the newest lotto post, if one exists. -->
 {% if latestlotto %}
 <article class="recentlottery">
-{% include meta_postinfo.html post=latestlotto skiptags=true %}
-{{ latestlotto.content }}
+{% include meta_postinfo.html post=latestlotto skiptags=true %} <!-- Confirms that tags will not be shown on this post. -->
+{{ latestlotto.content }} <!-- Shows the entire content section of the lotto post. -->
 </article>
 {% endif %}
 
+<!-- Creates a line division that separates the news and lotto posts. -->
+<!-- Only happens if both a news and lotto post are on the front page. -->
 {% if latestlotto and latestnews %}
 <hr>
 {% endif %}
 
+<!-- Determines the newest news post, if one exists. -->
 {% if latestnews %}
 <article class="recentnews">
-{% include meta_postinfo.html post=latestnews %}
-{% include meta_postexcerpt.html post=latestnews %}
+{% include meta_postinfo.html post=latestnews %} <!-- Confirms that tags WILL be shown on this post. -->
+{% include meta_postexcerpt.html post=latestnews %} <!-- Only shows an excerpt from the post on the front page. -->
 </article>
 {% endif %}
 </div>
