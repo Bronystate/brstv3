@@ -16,14 +16,14 @@ June 14-15
 -	**[MLP FiM 8x22 - What Lies Beneath][p2]**
 
 June 21-22
--	**[Modern Times (1936)][m3]**
--	**[How to Succeed in Business Without Really Trying (1967)][m4]**
+-	**[Trading Places (1983)][m5]**
+-	**[Super Troopers (2001)][m6]**
 -	**[MLP FiM 8x23 - Sounds of Silence][p3]**
 -	**[MLP FiM 8x24 - Father Knows Best][p4]**
 
 June 28-29
--	**[Trading Places (1983)][m5]**
--	**[Super Troopers (2001)][m6]**
+-	**[Modern Times (1936)][m3]**
+-	**[One Hour Photo (2002)][m4]**
 -	**[MLP FiM 8x25 - School Raze - Part 1][p5]**
 -	**[MLP FiM 8x26 - School Raze - Part 2][p6]**
 
@@ -31,7 +31,7 @@ June 28-29
 [m1]: https://www.imdb.com/title/tt0151804/
 [m2]: https://www.imdb.com/title/tt0993846/
 [m3]: https://www.imdb.com/title/tt0027977/
-[m4]: https://www.imdb.com/title/tt0061791/
+[m4]: https://www.imdb.com/title/tt0265459/
 [m5]: https://www.imdb.com/title/tt0086465/
 [m6]: https://www.imdb.com/title/tt0247745/
 [p1]: https://www.imdb.com/title/tt8074572/
