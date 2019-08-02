@@ -7,7 +7,7 @@ tags: [lottery, season09]
 
 We have determined your winners for the month of July!
 
-Brony Movie Night will be at its usual time: 7:00 EDT on Friday, and 2:00 PM EDT on Saturday.  The films and episodes for the month of June are....
+Brony Movie Night will be at its usual time: 7:00 EDT on Friday, and 2:00 PM EDT on Saturday.  The films and episodes for the month of July are....
 
 July 12-13
 -	**[Braveheart (1995)][m1]**
