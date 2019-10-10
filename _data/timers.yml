@@ -48,8 +48,5 @@ weeks-in-advance: 2
 
 # List of timers
 timers:
-  - title: Halloween Movie Night Special
-    time: 2018-10-31 4:00 -0500
-    
-  - title: Premiere of MLP Season 9
-    time: 2019-04-06 11:30 -0400
+  - title: MLP: Series Finale
+    time: 2019-10-12 19:00 -0500
