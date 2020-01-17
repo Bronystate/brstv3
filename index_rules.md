@@ -57,7 +57,6 @@ Appeals should be sent to **bronystate@gmail.com** with the subject **Ban Appeal
  - Approximate date you were banned
  - Reason why we should unban you
 
-Appeals will be **posted publicly** on the site.  
 Bronystate Staff will evaluate your appeal and make a decision whether or not the ban will be lifted.  
 You may continue to appeal a ban if your first attempt is rejected.
 
