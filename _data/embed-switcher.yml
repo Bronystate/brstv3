@@ -31,7 +31,8 @@ embeds:
   sapphire:   ""
   topaz:      ""
   ValTwitch:  "http://player.twitch.tv/?channel=valthejean" # Val's Twitch
-  Vaughn:     "https://vaughn.live/embed/video/cclicker?viewers=true&autoplay=true" 
+  Vaughn:     "https://vaughn.live/embed/video/cclicker?viewers=true&autoplay=true"
+  okru:       "https://ok.ru/videoembed/2498150735389?nochat=1"
   # YOUTUBE LOOPS
   # /embed/VIDEO_ID?copyeverythingelse
   fireplace: "http://www.youtube.com/embed/e_BL5EKwSqE?&autoplay=1&rel=0&loop=1&modestbranding=1&showinfo=0&iv_load_policy=3"
