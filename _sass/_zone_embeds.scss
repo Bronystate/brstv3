@@ -1,7 +1,19 @@
 // Bronystate 3.0 - Embed Boxes
 // Shizuka Kamishima - 2015-11-15
+// Iwa - 2020-06-09
 
 $btn-padding: 8px;// 16px;
+
+.tabcontent {
+	display: none;
+	&#mainstream {
+		display: inline;
+	}
+}
+
+.streamlinks.active {
+	background-color: #43547D;
+}
 
 #embedsection {
   margin: -1.75em -2em 1em -2em;
