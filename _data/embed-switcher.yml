@@ -1,13 +1,15 @@
 # Bronystate 3.0 - Embed Switcher
 # Shizuka Kamishima - 2015-11-23
+# Iwa - 2020-06-XX
 
 ###########################################################
 #!!! DO NOT UNDER ANY CIRCUMSTANCES COMMIT STREAM KEYS !!!#
 ###########################################################
 
-# Name of the embed to put on page - don't misspell it!
+# Name of the embeds to put on page - don't misspell it!
 # Ex. "diamond", "emerald", "ponies-in-boxes"
 live: "Vaughn"
+alt: "okru"
 
 # List of embed src, what goes in the "" will go into iframe
 embeds:
