@@ -12,7 +12,7 @@ $btn-padding: 8px;// 16px;
 }
 
 .streamlinks.active {
-	background-color: #43547D;
+	background-color: $color-celestia-mane-green;
 }
 
 #embedsection {
@@ -224,6 +224,22 @@ iframe {
     &:hover {
       background: $color-flutt-coat url('/assets/img/fluttershy-hover.png') 0 0 no-repeat;
       color: darken($color-flutt-outline, 25%);
+    }
+  }
+	
+  &.mainstreamtab {
+    background: $color-btn-blue url('/assets/img/OneCircle.png') 0 0 no-repeat;
+    color: $color-text;
+    &:hover {
+      background: lighten($color-btn-blue, 10%) url('/assets/img/OneCircle.png') 0 0 no-repeat;
+    }
+  }
+
+  &.secondstreamtab {
+    background: $color-btn-blue url('/assets/img/TwoCircle.png') 0 0 no-repeat;
+    color: $color-text;
+    &:hover {
+      background: lighten($color-btn-blue, 10%) url('/assets/img/TwoCircle.png') 0 0 no-repeat;
     }
   }
 }
