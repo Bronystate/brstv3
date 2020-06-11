@@ -1,3 +1,7 @@
+<!-- zone embeds -->
+
+
+
 {% capture codeBlock %}
   {% assign embed = site.data.embed-switcher.embeds[site.data.embed-switcher.live] %}
   {% if embed == "" or embed == nil %}{% assign embed = site.data.embed-switcher.failsafe %}{% endif %}
@@ -7,26 +11,26 @@
 <section id='embedsection'>
 	<div>
 		<div class="tab">
-			<button class="streamlinks btn mainstreamtab" onclick="openStream(event, 'mainstream')">Main Stream Source</button>
-			<button class="streamlinks btn secondstreamtab" onclick="openStream(event, 'secondarystream')">Secondary Stream</button>
+			<button class="streamlinks btn mainstreamtab" onclick="openStream(event, 'mainstream', {{ embed }})">Main Stream Source</button>
+			<button class="streamlinks btn secondstreamtab" onclick="openStream(event, 'secondarystream', {{ altembed }})">Secondary Stream</button>
 		</div>
 		<div id="mainstream" class="streamtab">
 			<div id="streambox">
-				<iframe id="if_stream" name="if_stream" width="640" height="392" frameborder="0" style="border:0;outline:0" scrolling="no" src="{{ embed }}"></iframe>
+				<iframe class="streamframe" id="mainstreamframe" name="mainstreamframe" width="640" height="392" frameborder="0" style="border:0;outline:0" scrolling="no" src="{{ embed }}"></iframe>
 				<div class="embedui">
-				  <a class="btn refresh noext" href="{{ embed }}" target="if_stream"><span class="caption">Refresh Stream</span></a>
+				  <a class="btn refresh noext" href="{{ embed }}" target="mainstreamframe"><span class="caption">Refresh Stream</span></a>
 				  <a class="btn popout" href="javascript:popoutStream({{ embed }})"><span class="caption">Popout Stream</span></a>
-				  <a class="btn chatbox" href="javascript:toggleChatbox()"><span class="caption">Show/Hide Chat</span></a>
+				  <a class="btn chatbox" href="javascript:toggleChatbox(mainstreamframe)"><span class="caption">Show/Hide Chat</span></a>
 				</div>
 			 </div>
 		</div>
 		<div id="secondarystream" class="streamtab">
 			<div id="secondstreambox">
-				<iframe id="if_stream" name="if_stream" width="640" height="392" frameborder="0" style="border:0;outline:0" scrolling="no" src="{{ altembed }}"></iframe>
+				<iframe class="streamframe" id="secondarystreamframe" name="secondarystreamframe" width="640" height="392" frameborder="0" style="border:0;outline:0" scrolling="no" src=about:blank ></iframe>
 				<div class="embedui">
-				  <a class="btn refresh noext" href="{{ altembed }}" target="if_stream"><span class="caption">Refresh Stream</span></a>
+				  <a class="btn refresh noext" href="{{ altembed }}" target="secondarystreamframe"><span class="caption">Refresh Stream</span></a>
 				  <a class="btn popout" href="javascript:popoutStream({{ altembed }})"><span class="caption">Popout Stream</span></a>
-				  <a class="btn chatbox" href="javascript:toggleChatbox()"><span class="caption">Show/Hide Chat</span></a>
+				  <a class="btn chatbox" href="javascript:toggleChatbox(secondarystreamframe)"><span class="caption">Show/Hide Chat</span></a>
 				</div>
 			</div>
 		</div>
@@ -53,24 +57,28 @@
     window.open(streamsource, "streamout", "location=0,resizable=1,status=0,toolbar=0,menubar=0,directories=0,scrollbars=0,width=720,height=480");
     if_stream.src = "";
   }
-  function toggleChatbox() {
+  function toggleChatbox(streamid) {
+    var if_stream = document.getElementById(streamid);
     if_chat.src = "/onboard.html";
     chatbox.classList.toggle('fade');
     streambox.classList.toggle('expand');
     if_stream.classList.toggle('expand');
   }
-  function openStream(evt, streamName) {
-  var i, streamtab, streamlinks;
-  streamtab = document.getElementsByClassName("streamtab");
-  for (i = 0; i < streamtab.length; i++) {
-    streamtab[i].style.display = "none";
-  }
-  streamlinks = document.getElementsByClassName("streamlinks");
-  for (i = 0; i < streamlinks.length; i++) {
-    streamlinks[i].className = streamlinks[i].className.replace(" active", "");
-  }
-  document.getElementById(streamName).style.display = "inline";
-  evt.currentTarget.className += " active";
+  function openStream(evt, streamName, embed) {
+	  var i, streamtab, streamlinks;
+	  var streamframes = document.getElementsByClassName("streamframe");
+	  streamtab = document.getElementsByClassName("streamtab");
+	  for (i = 0; i < streamtab.length; i++) {
+		streamtab[i].style.display = "none";
+		streamframes[i].src = "";
+	  }
+	  streamlinks = document.getElementsByClassName("streamlinks");
+	  for (i = 0; i < streamlinks.length; i++) {
+		streamlinks[i].className = streamlinks[i].className.replace(" active", "");
+	  }
+	  document.getElementById(streamName).style.display = "inline";
+	  document.getElementById(streamName+'frame').src = embed;
+	  evt.currentTarget.className += " active";
   }
   window.addEventListener('load', function() {
     var stream = UstreamEmbed(if_stream);
