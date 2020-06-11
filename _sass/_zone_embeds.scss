@@ -21,7 +21,7 @@ $btn-padding: 8px;// 16px;
   text-align: center;
 }
 
-#streambox {
+[id$="streambox"] {
   float: left;
   overflow: hidden;
   width: 640px;
@@ -33,7 +33,7 @@ $btn-padding: 8px;// 16px;
   }
 }
 
-#if_stream {
+.streamframe {
   width: 640px;
   height: 392px;
   @include transition(width 2s ease-out 0s, height 2s ease-out 0s);
