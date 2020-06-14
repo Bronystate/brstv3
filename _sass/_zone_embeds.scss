@@ -1,7 +1,19 @@
 // Bronystate 3.0 - Embed Boxes
 // Shizuka Kamishima - 2015-11-15
+// Iwa - 2020-06-13
 
 $btn-padding: 8px;// 16px;
+
+.streamtab {
+	display: none;
+	&#mainstream {
+		display: inline;
+	}
+}
+
+.streamlinks.active {
+	background-color: $color-celestia-mane-green;
+}
 
 #embedsection {
   margin: -1.75em -2em 1em -2em;
@@ -9,7 +21,7 @@ $btn-padding: 8px;// 16px;
   text-align: center;
 }
 
-#streambox {
+[id$="streambox"] {
   float: left;
   overflow: hidden;
   width: 640px;
@@ -21,7 +33,7 @@ $btn-padding: 8px;// 16px;
   }
 }
 
-#if_stream {
+.streamframe {
   width: 640px;
   height: 392px;
   @include transition(width 2s ease-out 0s, height 2s ease-out 0s);
@@ -212,6 +224,22 @@ iframe {
     &:hover {
       background: $color-flutt-coat url('/assets/img/fluttershy-hover.png') 0 0 no-repeat;
       color: darken($color-flutt-outline, 25%);
+    }
+  }
+	
+  &.mainstreamtab {
+    background: $color-btn-blue url('/assets/img/OneCircle.png') 0 0 no-repeat;
+    color: $color-text;
+    &:hover {
+      background: lighten($color-btn-blue, 10%) url('/assets/img/OneCircle.png') 0 0 no-repeat;
+    }
+  }
+
+  &.secondstreamtab {
+    background: $color-btn-blue url('/assets/img/TwoCircle.png') 0 0 no-repeat;
+    color: $color-text;
+    &:hover {
+      background: lighten($color-btn-blue, 10%) url('/assets/img/TwoCircle.png') 0 0 no-repeat;
     }
   }
 }
