@@ -4,6 +4,21 @@
 
 $btn-padding: 8px;// 16px;
 
+//Stream switcher button tab
+.tab {
+    text-align: left;
+    padding: 0px 0px 5px 5px;
+    .streamlinks.btn {
+		font-weight: bold;
+	}
+	.caption {
+		font-size: initial;
+		font-weight: bold;
+	}
+	
+}
+
+//div containing stream iframes as child
 .streamtab {
 	display: none;
 	&#mainstream {
@@ -11,6 +26,7 @@ $btn-padding: 8px;// 16px;
 	}
 }
 
+//The streamswitcher button(s)
 .streamlinks.active {
 	background-color: $color-celestia-mane-green;
 }
