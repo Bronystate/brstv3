@@ -9,7 +9,6 @@ Alright, it's time to continue the trilogy season with the list of July's films!
 
 The films and episodes for this month are....
 
-<div style="border: 1px solid black;">
 | Date | First Movie | Second Movie | Pony Episode |
 | :----------: | :---------------: | :---------------: | :---------------: | 
 | July 2nd | [Pirates of the Caribbean: The Curse of the Black Pearl (2003)][m1] | [Madagascar (2005)][m16] | [MLP FiM 4x10 - Rainbow Falls][p1] |
@@ -27,7 +26,6 @@ The films and episodes for this month are....
 | July 30th | [The Lord of the Rings: The Fellowship of the Ring (2001)][m13] | [The Naked Gun: From the Files of Police Squad! (1988)][m28] | [MLP FiM 4x22 - Trade Ya][p13] |
 | July 31st | [The Lord of the Rings: The Two Towers (2002)][m14] | [The Naked Gun 2 1/2: The Smell of Fear (1991)][m29] | [MLP FiM 4x23 - Inspiration Manifestation][p14] |
 | August 1st | [The Lord of the Rings: The Return of the King (2003)][m15] | [Naked Gun 33 1/3: The Final Insult (1994)][m30] | [MLP FiM 4x24 - Equestria Games][p15] |
-</div>
 
 
 For these trilogy films, we'll be using the following times:
