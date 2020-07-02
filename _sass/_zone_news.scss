@@ -13,13 +13,15 @@ $boxcolor: royalblue;
   margin-bottom: 1.5em;
   
   article {
-    table {
-      margin-bottom: 3.0em;
-      border: 1px solid black;
-    }
+    .content {
+      table {
+        margin-bottom: 3.0em;
+        border: 1px solid black;
+      }
   
-    td, th {
-      border: 1px solid black;
+      td, th {
+        border: 1px solid black;
+      }
     }
   }
 }
