@@ -22,7 +22,7 @@ The films and episodes for this month are....
 | July 18th | [Back to the Future Part III (1990)][m9] | [The Matrix Revolutions (2003)][m24] | [MLP FiM 4x18 - Maud Pie][p9] |
 | July 23rd | [The Hobbit: An Unexpected Journey (2012)][m10] | [Shrek (2001)][m25] | [MLP FiM 4x19 - For Whom the Sweetie Belle Toils][p10] |
 | July 24th | [The Hobbit: The Desolation of Smaug (2013)][m11] | [Shrek 2 (2004)][m26] | [MLP FiM 4x20 - Leap of Faith][p11] |
-| July 25th | [The Hobbit: The Battle of the Five Armies (2014)][m12] | [Shrek the Third (2007)][m27] | [MLP FiM 4x21 - Testing, Testing, 1, 2, 3][p12] |
+| July 25th | [The Hobbit: The Battle of the Five Armies (2014)][m12] | [Shrek Forever After (2010)][m27] | [MLP FiM 4x21 - Testing, Testing, 1, 2, 3][p12] |
 | July 30th | [The Lord of the Rings: The Fellowship of the Ring (2001)][m13] | [The Naked Gun: From the Files of Police Squad! (1988)][m28] | [MLP FiM 4x22 - Trade Ya][p13] |
 | July 31st | [The Lord of the Rings: The Two Towers (2002)][m14] | [The Naked Gun 2 1/2: The Smell of Fear (1991)][m29] | [MLP FiM 4x23 - Inspiration Manifestation][p14] |
 | August 1st | [The Lord of the Rings: The Return of the King (2003)][m15] | [Naked Gun 33 1/3: The Final Insult (1994)][m30] | [MLP FiM 4x24 - Equestria Games][p15] |
@@ -60,7 +60,7 @@ For these trilogy films, we'll be using the following times:
 [m24]: https://www.imdb.com/title/tt0242653/
 [m25]: https://www.imdb.com/title/tt0126029/
 [m26]: https://www.imdb.com/title/tt0298148/
-[m27]: https://www.imdb.com/title/tt0413267/
+[m27]: https://www.imdb.com/title/tt0892791/
 [m28]: https://www.imdb.com/title/tt0095705/
 [m29]: https://www.imdb.com/title/tt0102510/
 [m30]: https://www.imdb.com/title/tt0110622/
