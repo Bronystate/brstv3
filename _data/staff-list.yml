@@ -44,8 +44,6 @@ staff:
     location: Chicago, IL
     favmovie: Dredd
     
-  - nick: Eulshy
-    
   - nick: Fengor
     forecolor: 1
     backcolor: 3
@@ -75,11 +73,6 @@ staff:
     location: The Netherlands
     favpone: Rainbow Dash
     favmovie: The Return of the King
-    
-  - nick: Judeau
-    location: Georgia
-    favpone: Aloe and Lotus
-    favmovie: The Empire Strikes Back
   
   - nick: Kitten
     forecolor: 4
@@ -91,11 +84,6 @@ staff:
     forecolor: 15 #should be 14, but 14 is too dark against background
     location: Europe
     favpone: Rarity
-    
-  - nick: Phase
-    forecolor: 0
-    backcolor: 2
-    title: IRCOp
     
   - nick: Sumica
     forecolor: 0
@@ -151,11 +139,18 @@ former-staff:
   
   - nick: Elsie
   
+  - nick: Eulshy
+  
   - nick: Fluttershy`
   
   - nick: Ghosties
   
   - nick: Hipster-Pony
+  
+  - nick: Judeau
+    location: Georgia
+    favpone: Aloe and Lotus
+    favmovie: The Empire Strikes Back
   
   - nick: kirzstryfe
   
@@ -183,6 +178,11 @@ former-staff:
   - nick: Nittany_Discord
   
   - nick: Octavia
+  
+  - nick: Phase
+    forecolor: 0
+    backcolor: 2
+    title: IRCOp
   
   - nick: Prince-Dari
   
