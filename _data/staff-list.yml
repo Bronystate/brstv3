@@ -36,14 +36,7 @@ staff:
 #   location: [where you is] (optional)
 #   favpone: [obvious] (optional)
 #   favmovie: [also obvious] (optional)
-
-  - nick: Buytoast
-    forecolor: 1
-    backcolor: 14
-    title: Officially "That Guy"
-    location: Chicago, IL
-    favmovie: Dredd
-    
+  
   - nick: Fengor
     forecolor: 1
     backcolor: 3
@@ -101,14 +94,6 @@ staff:
     title: Seasonal Intern
     favpone: Flutterbat
     favmovie: Smokey and the Bandit 2
-      
-  - nick: ValtheJean
-    forecolor: 2
-    backcolor: 14
-    title: Lord of the Trident
-    location: In your mind
-    favpone: Caramel
-    favmovie: To Live
     
   - nick: Vuxul
     forecolor: 9
@@ -134,6 +119,13 @@ former-staff:
 #   location: [where you is] (optional)
 #   favpone: [obvious] (optional)
 #   favmovie: [also obvious] (optional)
+
+  - nick: Buytoast
+    forecolor: 1
+    backcolor: 14
+    title: Officially "That Guy"
+    location: Chicago, IL
+    favmovie: Dredd
 
   - nick: Diftraku
   
@@ -221,6 +213,14 @@ former-staff:
     favpone: Trixie
     favmovie: Kiki's Delivery Service
     
+  - nick: ValtheJean
+    forecolor: 2
+    backcolor: 14
+    title: Lord of the Trident
+    location: In your mind
+    favpone: Caramel
+    favmovie: To Live
+  
   - nick: VioletVanilla
     forecolor: 6
     title: Queen of Wub
