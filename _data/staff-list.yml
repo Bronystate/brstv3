@@ -44,20 +44,6 @@ staff:
     location: An island of indeterminate location
     favpone: Rarity
     favmovie: The Godfather
-
-  - nick: Flutts
-    forecolor: 5
-    backcolor: 15
-    title: Great Salt Flat
-    location: Virginia, US
-    favpone: Octavia
-    favmovie: Saving Private Ryan
-    
-  - nick: GabeMoist
-    forecolor: 1
-    backcolor: 8
-    location: Jerseyland
-    favpone: Colgate
     
   - nick: Iwa
     forecolor: 0
@@ -66,12 +52,6 @@ staff:
     location: The Netherlands
     favpone: Rainbow Dash
     favmovie: The Return of the King
-  
-  - nick: Kitten
-    forecolor: 4
-    backcolor: 1
-    location: Trapped in the Midwest
-    favmovie: Captain America - The Winter Soldier
     
   - nick: konsoln
     forecolor: 15 #should be 14, but 14 is too dark against background
@@ -95,18 +75,6 @@ staff:
     favpone: Flutterbat
     favmovie: Smokey and the Bandit 2
     
-  - nick: Vuxul
-    forecolor: 9
-    title: Logical Nordicpony
-    location: Denmark
-    favpone: Rainbow Dash
-    
-  - nick: Wrek
-    forecolor: 5
-    title: Artful Viking
-    location: Karlskrona, Sweden
-    favpone: Twilight Sparkle
-    favmovie: Sunshine
 
 former-staff:
 # List all retired or inactive staff members here.  Only their nick and title will be displayed on the main site.
@@ -121,13 +89,15 @@ former-staff:
 #   favmovie: [also obvious] (optional)
 
   - nick: Diftraku
-  
-  - nick: Elsie
-  
-  - nick: Eulshy
-  
+
   - nick: Fluttershy`
   
+  - nick: GabeMoist
+    forecolor: 1
+    backcolor: 8
+    location: Jerseyland
+    favpone: Colgate
+    
   - nick: Ghosties
   
   - nick: Hipster-Pony
@@ -136,6 +106,12 @@ former-staff:
     location: Georgia
     favpone: Aloe and Lotus
     favmovie: The Empire Strikes Back
+    
+  - nick: Kitten
+    forecolor: 4
+    backcolor: 1
+    location: Trapped in the Midwest
+    favmovie: Captain America - The Winter Soldier
   
   - nick: kirzstryfe
   
@@ -189,6 +165,8 @@ former-staff:
   - nick: Silverscreen
   
   - nick: SirSprinkles
+    
+  - nick: Slueshy
   
   - nick: SlurryMoon
   
@@ -221,3 +199,15 @@ former-staff:
     favpone: Derpy Hooves
     favmovie: Midnight in Paris
     
+  - nick: Vuxul
+    forecolor: 9
+    title: Logical Nordicpony
+    location: Denmark
+    favpone: Rainbow Dash
+    
+  - nick: Wrek
+    forecolor: 5
+    title: Artful Viking
+    location: Karlskrona, Sweden
+    favpone: Twilight Sparkle
+    favmovie: Sunshine
