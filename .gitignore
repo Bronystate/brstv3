@@ -1,5 +1,11 @@
-#Gemfile.lock
 _site/*
 .sass-cache/*
 *.ini
 .bundle
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
