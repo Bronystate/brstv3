@@ -58,6 +58,14 @@ staff:
     location: Europe
     favpone: Rarity
     
+  - nick: Saturn
+    forecolor: 0
+    backcolor: 8
+    title: Webmistress
+    location: Finland
+    favpone: Pinkie Pie
+    favmovie: Metropolis
+
   - nick: Sumica
     forecolor: 0
     backcolor: 11
@@ -169,10 +177,6 @@ former-staff:
   - nick: Slueshy
   
   - nick: SlurryMoon
-  
-  - nick: Saturn
-    forecolor: 8
-    title: Hostmaster
   
   - nick: SuperBrony64
 
