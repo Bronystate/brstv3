@@ -28,7 +28,7 @@ css:
   </div>
   {% for tag in sortedtags %}
   <div class="tagbox">
-    {% assign tagmeta = site.data.tags.[tag] %}
+    {% assign tagmeta = site.data.tags.tag %}
     <div class="taginfo">
       <h2 id="{{ tag }}" class="tagname">{{ tag }}</h2>
       {% if tagmeta.desc %}<p class="tagdesc">{{ tagmeta.desc }}</p>{% endif %}
